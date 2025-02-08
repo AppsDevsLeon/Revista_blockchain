@@ -50,7 +50,7 @@ Chainlink is the most popular and powerful decentralized oracle network and is g
 
 - Hybrid smart contracts combine on-chain and off-chain computations.
 
-**Blockchain and smart contract features**
+## **Blockchain and smart contract features**
 
 **Decentralized**
 
@@ -92,6 +92,6 @@ Smart contracts allow us to engage in trustless and trust-minimizing agreements.
 
 - Smart contracts are typically paired with some type of oracle to get information about the real world. When they're paired with an oracle, they're called `Hybrid Smart Contracts`.
 
-**DAOs**
+## **DAOs**
 
 DAOS are organizations that live online and live in smart contracts. They're similar to regular organizations in the traditional world, but they have people who may hold governance tokens to make voting decisions or they may do all the governance on-chain on this decentralized settlement layer, giving us the freedom to engage with each other as we please.
