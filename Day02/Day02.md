@@ -4,7 +4,14 @@ The first thing that we're going to need is an "ethereum wallet`.So go to `Metam
 
 **Wallet Creation**
 
+
+
+
+
 ![Metamask](Images/a1.png)
+
+
+
 
 We're going to create a brand new wallet, so go ahead and hit "create a wallet." If you already have a wallet, you can import it via seed phrase.
 
