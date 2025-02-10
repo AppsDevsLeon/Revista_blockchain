@@ -7,8 +7,7 @@ The first thing that we're going to need is an "ethereum wallet`.So go to `Metam
 
 
 
-
-![Metamask](Images/a1.png)
+##(Images/a1.png)
 
 
 
