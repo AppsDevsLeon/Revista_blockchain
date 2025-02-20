@@ -6,6 +6,7 @@ Bitcoin was one of the first protocols to use this revolutionary technology call
 
 **Ethereum**
 
+
 Some people saw this technology and thought that they could do even more. A few years later, a man named Vitalik Buterin released a white paper describing a new protocol called Ethereum, which used the same blockchain infrastructure but with an additional feature. In 2015, they released this project called Ethereum. He and several other co-founders took this blockchain technology and applied it in ways that allowed people to make entirely decentralized applications, decentralized organizations, build smart contracts, and engage in agreements without a third-party intermediary or centralized governing force. Their idea was to take the same pieces that made bitcoin great and add smart contracts to them. Technically, this was not even a new idea. Back in 1994, a man named Nick Zabo proposed a technology called Smart Contracts.
 
 **Smart Contracts**
