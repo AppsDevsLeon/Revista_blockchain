@@ -94,5 +94,4 @@ Smart contracts allow us to engage in trustless and trust-minimizing agreements.
 
 ## **DAOs**
 
-DAOS are organizations that live online and live in smart contracts. They're similar to regular organizations in the traditional world, but they have people who may hold governance tokens to make voting decisions or they may do all the governance on-chain on this decentralized settlement layer, giving us the freedom to engage with each other as we please. mi madown compoene no serive para eso  // MarkdownProcessor.jsx
-import React, { useEffect } from 'react';
+DAOS are organizations that live online and live in smart contracts. They're similar to regular organizations in the traditional world, but they have people who may hold governance tokens to make voting decisions or they may do all the governance on-chain on this decentralized settlement layer, giving us the freedom to engage with each other as we please.
