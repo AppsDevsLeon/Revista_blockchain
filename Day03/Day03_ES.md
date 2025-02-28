@@ -1,4 +1,4 @@
-# Escalabilidad en la Blockchain 
+## Escalabilidad en la Blockchain 
 
 La **escalabilidad** en la tecnología blockchain se refiere a la capacidad de una red para procesar y validar un número creciente de transacciones sin que se vea comprometido su rendimiento, su seguridad o la experiencia del usuario. A medida que más personas y organizaciones adoptan las cadenas de bloques para diversos fines —financieros, logísticos, gubernamentales, educativos, entre otros—, la demanda de transacciones puede aumentar de forma exponencial. Sin embargo, la naturaleza descentralizada y la necesidad de consenso distribuyen la carga de trabajo entre múltiples nodos, lo que a su vez introduce limitaciones técnicas y económicas que dificultan el escalado de la red.
 
