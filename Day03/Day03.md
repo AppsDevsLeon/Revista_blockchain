@@ -1,4 +1,4 @@
-# Scalability in Blockchain
+## Scalability in Blockchain
 
 **Scalability** in blockchain technology refers to a network’s ability to process and validate an increasing number of transactions without compromising its performance, security, or user experience. As more people and organizations adopt blockchains for various purposes—financial, logistical, governmental, educational, among others—the demand for transactions can grow exponentially. However, the decentralized nature and the need for distributed consensus distribute the workload among multiple nodes, which introduces technical and economic constraints that make network scaling challenging.
 
