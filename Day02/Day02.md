@@ -1,278 +1,412 @@
-## **A Live Ethereum Transaction**
+# Blockchain Glossary 
 
-The first thing that we're going to need is an "ethereum wallet`.So go to `Metamask` because it's one of the most popular wallets and one of the easiest to use. Download the wallet, and it's going to be a little extension in the top right corner of your browser. This way, we can easily see at any time what we have in our wallet. Go ahead and install Metamask.
 
-**Wallet Creation**
+## **A**
 
+1. **Airdrop**  
+   A free distribution of tokens or cryptocurrencies to users who meet certain criteria, often as part of marketing strategies or to encourage adoption of a project.
 
+2. **Consensus Algorithm**  
+   A set of rules and processes that allow the nodes of a blockchain network to agree on the current state of the chain (e.g., Proof of Work or Proof of Stake).
 
+3. **Cold Storage**  
+   A method of storing cryptocurrencies offline (in devices disconnected from the internet) to protect them from hacks or digital theft.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a1.png)
+4. **Altcoin**  
+   Any cryptocurrency other than Bitcoin, such as Ethereum, Litecoin, or Ripple.
 
+---
 
+## **B**
 
+5. **Wallet**  
+   Software or a physical device where private and public keys for cryptocurrencies are stored. It can be online, desktop, mobile, or hardware-based.
 
-We're going to create a brand new wallet, so go ahead and hit "create a wallet." If you already have a wallet, you can import it via seed phrase.
+6. **Block**  
+   A unit of data containing verified transactions, a timestamp, and a cryptographic link to the previous block, forming the blockchain.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a2.png)
+7. **Blockchain**  
+   A distributed, immutable ledger that links blocks of information chronologically and in a decentralized manner, eliminating the need for intermediaries.
 
-Now we'll create our password and make sure it is secure. If you want to use an account and put real Ethereum and real money into it, you need to back it up.
+8. **BSC (Binance Smart Chain)**  
+   A blockchain developed by Binance offering compatibility with Ethereum-based applications and low transaction fees.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a3.png)
+---
 
-This is just a demo, but if you show this secret phrase to anybody else, they will have access to all your funds. So for everything that we're going to do, we're going to use fake money.
+## **C**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a4.png)
+9. **Sidechain**  
+   An independent blockchain connected to a main chain to extend functionalities, improve scalability, or test new features.
 
-Hit confirm and it gives a couple of tips. Remember to take the tips seriously, especially if you're going to use the account for real money.
+10. **Time Lock**  
+   A mechanism that prevents spending of funds until a certain time or condition is met, enhancing transaction security.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a5.png)
+11. **CBDC (Central Bank Digital Currency)**  
+   A digital currency issued and backed by a central bank, aiming to combine the efficiency of cryptocurrencies with government regulation.
 
-We can see the user interface of this wallet, and if you look in your extensions, you can pin it in your browser, and you can even just click it to get the same interface.
+12. **Private Key**  
+   A cryptographic string that allows signing transactions and accessing funds tied to a specific address. It must never be shared.
 
-Our mnemonic phrase for that secret phrase that we got has given us access to a new account.
+---
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a6.png)
+## **D**
 
-**Etherscan**
+13. **DAO (Decentralized Autonomous Organization)**  
+   An organizational structure managed by smart contracts and governed by its members, without intermediaries or central hierarchies.
 
-For the address of our account, we can use a tool like `Etherscan`.
+14. **DApps (Decentralized Applications)**  
+   Programs running on a blockchain, leveraging its security and transparency properties to operate without a central server.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a7.png)
+15. **DEX (Decentralized Exchange)**  
+   A cryptocurrency trading platform based on smart contracts, allowing users to trade directly from their wallets without a central authority.
 
-So if we look at this address that we just created, we can see that no transactions have happened. It's empty. It has zero ether. It has zero dollars' worth of value. The address above is the unique address that represents exclusively the single account that we just created.
+16. **DeFi (Decentralized Finance)**  
+   A suite of financial applications running on blockchains, offering services like lending, savings, and exchanges without traditional intermediaries.
 
-**Multiple Accounts**
+---
 
-We can even click the circle and create more accounts and give them a different account name.
+## **E**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a8.png)
+17. **EIP (Ethereum Improvement Proposal)**  
+   A formal document describing standards and proposals for enhancing the Ethereum network, including protocol changes and technical specifications.
 
-Account 2 will have a different account address.
+18. **ERC-20**  
+   A token standard on Ethereum defining how fungible tokens should behave within smart contracts.
 
-**Public and private keys, as well as mnemonics**
+19. **ERC-721**  
+   A standard for non-fungible tokens (NFTs) on Ethereum, enabling the representation of unique, indivisible digital assets such as collectibles or digital art.
 
-The mnemonic that we've been given gives us access to create multiple accounts with the same mnemonic. So having that mnemonic will give us access to every single account that's ever been created with that mnemonic. This is why securing your mnemonic is so crucial, especially if you create multiple different accounts. Each account has a unique identifier associated with it as well. The account address is the public address. However, there's also a private key to work with this account, a secret key. We can view it by clicking three dots, going to account details, and exporting the private key.
+20. **Scalability**  
+   A blockchain network’s ability to handle a growing number of transactions without degrading performance or significantly increasing costs.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a9.png)
+---
 
-This is a single password associated with this account. If you give somebody access to this private key, they'll have access to account 2. They won't have access to my account 1 because the private key of account 2 is only associated with account 2. The mnemonic, however, is associated with all accounts.
+## **F**
 
-**Mnemonic vs Private vs Public keys**
+21. **Faucet**  
+   A service that gives away small amounts of cryptocurrency, often on testnets, to let users experiment with transactions and smart contracts.
 
-This is why when people say "store your keys in a safe place," they're referring to both private keys and mnemonics. If you lose your private key, you'll lose access to that account. If you lose your mnemonic, you lose access to all your accounts.
+22. **Fiat**  
+   Government-issued currency (like the US dollar or the euro), not backed by a physical commodity but by trust in the issuing authority.
 
-**Mainnet & Testnets**
+23. **Fork**  
+   A split in the blockchain when changes to the consensus rules or software are introduced. It can result in two separate chains (hard fork) or a backward-compatible update (soft fork).
 
-What else is going on in Metamask? We can see this section here that says `Ethereum Mainnet`.If we click it, we can see a bunch of other networks here.
+24. **Full Node**  
+   A node that stores a complete copy of the blockchain and validates transactions and blocks according to the protocol’s rules.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a10.png)
+---
 
-When you buy ETH and work with ETH, you're working on the Ethereum mainnet. When you interact with smart contracts or DEFI, you're going to be working on the mainnet with real value. However, since we're engineers, oftentimes we're going to want to test our applications, do some type of integration tests, or just make sure our code works. So there are also test nets. These are networks that resemble Ethereum and work the same way Ethereum does. However, they're not with real money and it's just for testing applications. We can even go to `Rinkeby Etherscan` and see the `Rinkeby Testnet Explorer`. We looked up our address and it's the exact same information here.
+## **G**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a11.png)
+25. **Gas**  
+   A measure of the computational cost of executing transactions or smart contracts on networks like Ethereum. It is paid as a fee to miners or validators.
 
-Later on, we're going to show you how to work with other EVM-compatible chains. Don't worry about EVM-compatible means for now, but we can work with Avalanche, Polygon, and other applications through network interfaces as well.
+26. **Genesis Block**  
+   The first block of a blockchain, from which the entire network is built. It contains initial parameters and defines the protocol’s base configuration.
 
-**Initiating our first transaction**
+27. **On-Chain Governance**  
+   A decision-making mechanism in a blockchain protocol where rule changes or improvements are determined by participant voting or consensus.
 
-We're going to make our first transaction on the Rinkeby Testnet, and this will simulate exactly what it's like to make the transaction on the Ethereum Mainnet.
+28. **GPU Mining**  
+   Cryptocurrency mining using Graphics Processing Units, which are more efficient than CPUs for computationally intensive cryptographic tasks.
 
-We're going to go to this application called the `Rinkeby Faucet`.This is where we're going to make our first transaction. Rinkeby is going to be one of the two testnets that we're going to work with. The other testnet that we're going to work with is going to be `Kovan`.It's important to know how to switch between testnets and EVM-compatible chains, which is why we're going to be working with both. For now, we're just working with Rinkeby.
+---
 
-`Faucet` is a testnet application that gives us free test Ethereum. Hence, it has no value because anybody can get it for free from one of these faucets. So to get testnet Ethereum with faucet.rinkeby.io, we have to post a tweet or a Facebook post with the tweet.
+## **H**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a12.png)
+29. **Halving**  
+   An event that halves the block reward for mining, as happens in Bitcoin approximately every four years, controlling the issuance of new coins.
 
-Now after the tweet, we're going to copy the link to the tweet and place it in the Rinkeby Faucet and hit "Give me ether" (18.75 ether/3 days).
+30. **Hash**  
+   The result of a cryptographic function that produces a unique, immutable digital fingerprint for any set of data.
 
-If we take the account address and go over to Rinkeby Etherscan, we now see the balance is 18.75.
+31. **Hash Rate**  
+   The speed at which a device can compute hash operations per second, indicating its mining power in a proof-of-work network.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a13.png)
+32. **HODL**  
+   A popular term in the crypto community meaning “hold” or “not sell” assets, even amid price fluctuations.
 
-But if we look at `Ethereum Mainnet` we've nothing there. We've just completed our first transaction. And if we refresh the page, we can also see that this is our first transaction that was made. Some accounts sent us 18.75 ether. We can even look at the details of the transaction.
+---
 
-**Transaction details**
+## **I**
 
-Etherscan is what's known as `Block Explorer`. Block Explorer is an application that allows us to see the details of things that happen on a blockchain easily. We can see the transaction details of the transaction that we made, and whenever we work with `Smart Contract` we'll also see them in a transaction similar to what we'll see in the transaction details.
+33. **ICO (Initial Coin Offering)**  
+   A fundraising process where a blockchain project sells its tokens to the public before launching its platform or product.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a14.png)
+34. **Decentralized Identity**  
+   A method enabling users to control and manage their own identification information without relying on a central authority.
 
-We can see the information above. We see a unique `transaction hash`.This hash or unique identifier uniquely identifies this transaction as the key of what this transaction is.
+35. **NFT Illustration**  
+   A digital representation of an artwork or image that is uniquely tokenized as an NFT, certifying its authenticity and ownership.
 
-We can see the block number, which we can see in a little bit.
+36. **Interoperability**  
+   The ability of different blockchains and systems to communicate and exchange information without barriers, enabling broader collaboration and adoption.
 
-We can see this unique account, which is the faucet account.
+---
 
-**Gas fees, Transaction fees, Gas limit, Gas price**
+## **J**
 
-"Gas refers to the fee paid to node operators for successfully including a transaction in a blockchain. Now, exactly how this works is going to change pretty soon, but the concept is that anytime you want to change the state of the blockchain, whether this is sending some Ethereum or making any type of transaction, you have to pay a little bit of Ethereum or a little bit of that native blockchain token to execute that transaction. Whenever we do something on the blockchain, it costs gas, and if we do something that would take a lot of energy for the blockchain to do, it will cost more gas. So if I send a single transaction, that's going to cost 21,000 gas. However, if I were to send a transaction that called the smart contract function and did a whole bunch of other stuff, it'd cost more gas. We see here that whoever sent us ETH also paid the blockchain miners or blockchain validators a little bit of Ethereum to include our transaction. We get to pick how much of a fee we want to send with our transactions.
+37. **JSON-RPC**  
+   A remote procedure call (RPC) protocol using JSON as a data format, commonly employed to interact with Ethereum nodes and other networks.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a15.png)
+38. **Just-In-Time Mining**  
+   A strategy where miners dynamically adjust their participation based on profitability at any given moment, taking advantage of difficulty or price fluctuations.
 
-**Gas vs Gas price vs Gas Limit vs Transaction fee**
+---
 
-Why would we ever want to pay more for gas? Why do I even have the option to pay more?
+## **K**
 
-A blockchain can only process so many transactions at a time, and nodes and blockchain nodes can only process so many at a time. So when I make a transaction, a node has to decide why they want to include my transaction in the block. If there are a ton of people looking to make these transactions, then the nodes are going to be highly incentivized to pick the transactions that are going to give them a high price that is going to give them a lot of money for including that transaction.
+39. **KYC (Know Your Customer)**  
+   A regulatory practice requiring businesses to verify their customers’ identities to prevent money laundering and other illicit activities.
 
-**Gas estimator**
+40. **Keylogger Attack**  
+   A type of cyberattack that records every keystroke, potentially exposing private keys and passwords if malware is installed on a system.
 
-We were able to obtain the blockchain gas estimator from ethgasstation.info.
+---
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a16.png)
+## **L**
 
-It currently says that if you want to get your transaction in right away, it's going to cost you 81 wei to do so. If you want to get it in less than 5 minutes, it's going to take you about 62 wei.
+41. **Layer 1**  
+   The main or base blockchain on which transactions and smart contracts are executed (e.g., Bitcoin, Ethereum).
 
-So the gas price of Ethereum fluctuates with how much people use it, and the gas prices of all these blockchains fluctuate with how much people use it.
+42. **Layer 2**  
+   A solution built on top of a main network to improve speed and reduce costs (e.g., Lightning Network for Bitcoin, Arbitrum for Ethereum).
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a17.png)
+43. **Ledger**  
+   The record or database where network transactions are logged. It can refer to a distributed database or a hardware device (Ledger Nano).
 
-So typically, when you're setting your gas price in a transaction, you can take a look-see at your gas station to see the price based on your needs, but it all depends on how many people are looking to work with this blockchain at the same time.
+44. **Lightning Network**  
+   A layer 2 solution for Bitcoin that processes transactions off-chain, boosting speed and cutting costs.
 
-The reason that these gas prices exist is that nodes can only put so many transactions into a block, so they're highly incentivized to input the transactions that are going to give them a higher fee. So, when there are a lot of people looking to use a blockchain, prices will be very high; when there aren't a lot of people looking to use a blockchain, prices will be very low.
+---
 
-With just this little bit of information, you now know how to interact with blockchains and how to interact with the Ethereum protocol. So if you don't want to learn how to code anything, you can go and you can start interacting with Ethereum and interacting with protocols with just this information.
+## **M**
 
-Let's look under the hood of Ethereum and see what is going on with these transactions, with this gas, and with these blockchains. Let's learn all the fundamentals of blockchain technology.
+45. **Mainnet**  
+   The primary network of a blockchain where transactions carry real value, as opposed to testnets used for development and testing.
 
-## **How Blockchain Works/What Happens Inside Blockchain**
+46. **Masternode**  
+   A node with advanced features (such as transaction validation or governance) that often requires locking a certain amount of coins as collateral.
 
-**Hash or Hashing or SHA256**
+47. **Merkle Tree**  
+   A data structure allowing efficient verification of the integrity and consistency of a set of transactions in a block.
 
-Before we get started, we need to take a look at this thing that we call the SHA256 hash. A hash looks like a bunch of random numbers and it's a fingerprint of some digital data.
+48. **Mining**  
+   The process of validating and grouping transactions into blocks in exchange for rewards. In proof-of-work, it involves solving complex cryptographic puzzles.
 
-The hash below starts with `e3b0` which is the hash of nothing.
+---
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a18.png)
+## **N**
 
-It just so happens it's a fingerprint of whatever I type in this box. If I type the text 'blockchain' into this box, you can see the hash has changed.
+49. **NFT (Non-Fungible Token)**  
+   A unique digital asset representing ownership of an indivisible item, such as art, collectibles, or virtual goods in games.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a19.png)
+50. **Node**  
+   A computer or device that maintains a copy of the blockchain and participates in transaction verification and broadcast.
 
-This is the hash of the text 'blockchain' in all lowercase, which starts with 5318. If I delete the text and type the same text again, it'll have the same hash. It's the `digital fingerprint` of the text 'blockchain'.
+51. **Nonce**  
+   A number used once in proof-of-work mining, iterated until a hash meeting the difficulty requirements is found.
 
-You could type tons and tons of text and you'd get a hash, and the interesting thing is that if there's a tiny amount of information, no information, or an entire library of congress, you're always going to get a hash that is this long as shown above. You're not going to be able to guess what it is. You'd always get the same hash regardless of how many times you put the same information in.
+52. **Decentralized Cloud**  
+   A system of distributed storage or computing built on blockchain, free from centralized servers (e.g., Storj, Sia).
 
-**Block**
+---
 
-Let's extend the idea of a hash into something that we're going to call a block.
+## **O**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a20.png)
+53. **Off-Chain**  
+   Transactions or processes happening outside the main blockchain to reduce costs and congestion, recorded later or partially on-chain.
 
-This is a block, and it's exactly like the hash. It's just the data section that has been broken out into three sections: one called "block," which is just some kind of number or block number, a "nonce," which is just another number, and just some more data, very similar to the way that we had it before. However, the hash of this block includes all of the information shown in the above figure, which begins with four zeros. It's a relatively unusual hash, and most of them are not going to start with four zeros like the above hash. This one happens to, and because it is arbitrary, we can say the block is signed.
+54. **Oracle**  
+   A service providing external data to smart contracts, enabling them to interact with real-world information (e.g., asset prices, weather data).
 
-So what would happen if I were to change anyone's information in the above block?
+55. **Buy/Sell Order**  
+   An instruction in an exchange (centralized or decentralized) to acquire or sell cryptocurrencies at a specified price or at market.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a21.png)
+56. **Hybrid Organization**  
+   A structure combining elements of decentralized and centralized governance, using blockchain for some functions and traditional systems for others.
 
-The above hash doesn't start with four zeros, and the big background has turned red. Now we know this block with this information in it is not a valid or signed block, and that's where `Nonce` comes in. This number is just a number that you can set to try to find a number that fits so that the above hash starts with four zeros again.
+---
 
-Above you can see the `mine` button. When I click the mine button, it's going to run through all the numbers from 1 up to try to find one where the hash starts with four zeros, and this process is called mining.
+## **P**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a22.png)
+57. **Peer-to-Peer (P2P)**  
+   A network model where participants communicate directly with each other without central intermediaries, exchanging data or assets.
 
-It stopped at 64,658 and that one just happens to hash out to something that starts with four zeros, so it satisfies the little definition of what a `signed block` is.
+58. **Proof of Stake (PoS)**  
+   A consensus algorithm where validators must “stake” their coins to validate transactions, consuming less energy than proof-of-work.
 
-**Blockchain**
+59. **Proof of Work (PoW)**  
+   A consensus algorithm requiring computational power to solve cryptographic problems, securing the network at the cost of high energy usage.
 
-A blockchain is just the chain of these blocks. How do you put them together? Let's do that.
+60. **Proof of Authority (PoA)**  
+   A consensus algorithm in which a limited number of authorized nodes validate transactions, offering high speed but reduced decentralization.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a23.png)
+---
 
-Just like before, block number 1 has none. There's some data area too, but then it has this `Prev` which is a bunch of zeros in the first block.
+## **Q**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a24.png)
+61. **Quantum Computing Attack**  
+   A potential threat where very powerful quantum computers could break current cryptography, jeopardizing blockchain security.
 
-The `prev` is block 2, which starts with '0000ae', which is the hash of the previous block (block 4). Each block points backward to the one before it. You remember that in the first block, there is no previous, so its prev is just a bunch of zeros. It's just a fake number.
+62. **Validation Quorum**  
+   The minimum number of nodes or participants required to approve or reject a governance proposal or network change.
 
-Just like we did before, what happens if I change some information in block 5?
+63. **On-Chain Dispute**  
+   A conflict resolved directly on the blockchain through smart contracts, eliminating the need for traditional legal intermediaries.
 
-It's going to change the hash of this block, and it's going to invalidate it.
+64. **Token Burn**  
+   The permanent removal of a certain amount of tokens from circulation to reduce supply and potentially increase value.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a25.png)
+---
 
-What would happen if I changed something in block 4?
+## **R**
 
-It's going to change the hash, but that hash will get copied to the previous hash section of block 5, which changes block 5 too. So it should break both blocks.
+65. **Block Reward**  
+   The payment miners or validators receive when they successfully create or validate a block. It may consist of newly minted coins and/or transaction fees.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a26.png)
+66. **Testnet**  
+   An experimental version of a blockchain where transactions carry no real value, used for development, testing, and debugging before mainnet deployment.
 
-We can go back as far as we want to some point in the past and break that block, and it'll break all the blocks since then. Everything before was green.
+67. **ROI (Return on Investment)**  
+   A metric that measures the gain or loss of an investment relative to its cost, used to assess the profitability of mining or staking.
 
-If I wanted to change something in the blockchain, I could go over to block number 5 and change it. Then we could re-mine it and pick a different nonce. We could essentially alter the change.
+68. **Rollups**  
+   Layer 2 scalability solutions that bundle multiple off-chain transactions and post only summarized data on the blockchain to reduce costs.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a27.png)
+---
 
-What if I go back in time and break block 3?
+## **S**
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a28.png)
+69. **Satoshi**  
+   The smallest unit of Bitcoin, equivalent to 0.00000001 BTC, named after Bitcoin’s creator, Satoshi Nakamoto.
 
-Now I need to mine block 3, which picks a nonce that makes the hash out to four zeros, but blocks 4 and 5 will still be broken. Although block 3 starts with four zeros, adding the four zeros with different stuff in the prev section of block 4 still makes block 4 hash out incorrectly. So I also need to mine blocks 4 and 5, respectively.
+70. **Sharding**  
+   A scalability technique dividing the network into shards, enabling parallel transaction processing and higher throughput.
 
-What I wanted to say is that if I go and change the last block, all I've got to do is re-mine that last block. If I go way back in time to one of the blocks and make a change, I need to mine from that block. So the more blocks I go by in the past, it's harder and harder to make a change. That's how a blockchain is going to resist mutation and change.
+71. **Sidechain**  
+   A secondary blockchain linked to a main chain, handling specific transactions and functionalities, reducing the load on the main network.
 
-`How do I know that my blockchain has been re-mined ?`
+72. **Smart Contract**  
+   A self-executing program that runs when predefined conditions are met, cutting out intermediaries and expediting commercial or legal processes.
 
-**Decentralized/Distributed Blockchain**
+73. **Staking**  
+   Locking cryptocurrencies to participate in transaction validation in proof-of-stake networks, earning rewards in return.
 
-Let's take a look at `Distributed Blockchain`.
+74. **Supply**  
+   The total amount of tokens or coins in circulation, influencing an asset’s valuation and market dynamics.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a29.png)
+---
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a30.png)
+## **T**
 
-It looks exactly like the last blockchain but has a different peer for the blockchain. You can see that peer B has the same blockchain structure as peer A. The list could go on forever. There are many, many peers out there on the internet, and they all have a complete copy of the blockchain.
+75. **Transaction Fee**  
+   The commission a user pays to miners or validators for processing their transaction and including it in a block.
 
-If I look at the hash of Peer A block 5, it starts with '0000e4', and if I go down to PeerB block 5, it also has a hash that starts with '0000e4'. They must be identical.
+76. **Token**  
+   A digital representation of an asset or utility within a blockchain ecosystem. It may grant voting rights, access to services, or serve as a medium of exchange.
 
-If I type something on Peer B block 4, and re-mine block 4 and block 5,
+77. **Tokenization**  
+   Converting real-world assets (properties, artworks, etc.) into digital tokens on the blockchain, facilitating transferability and fractional ownership.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a31.png)
+78. **TPS (Transactions per Second)**  
+   A metric indicating how many operations a blockchain network can handle concurrently. A low TPS may cause bottlenecks and higher fees.
 
-All the blocks in Peer B are green. However, the Peer A chain says that the last hash starts with '0000e4', Peer C says '0000e4', but the middle one says '00004c'. So just by glancing at Peer B's hash, something is wrong with that Peer B, even though all of the hash starts with four zeros. Essentially, it's two against one. Peer A argues it's' 000e4 ', Peer B argues it's' 00004c ', and Peer C argues it's' 000e4 '. So '0000e4' wins. So that's how a completely distributed copy works. Having a copy on many different computers can all very quickly see if all of the blocks are identical. Blockchains can have 400,000–500,000 blocks very easily, so rather than checking through all of them, all you have to do is to look at the hash of the most recent one and you can see if anything in the past was altered. You can tell by looking at the last block in the chain.
+---
 
-**Tokens/Transaction History**
+## **U**
 
-That's the entire thing. There's nothing more to it than that, but it's kind of not useful because we don't have anything in this data area that means anything. I keep typing text that's sort of irrelevant information. So what we want is a `token`.Let's do a token on our blockchain.
+79. **UID (Unique Identifier)**  
+   A unique code identifying a user or resource in a blockchain system, ensuring it cannot be duplicated.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a32.png)
+80. **UPnP (Universal Plug and Play)**  
+   A networking protocol that automatically configures ports and devices, potentially affecting node connectivity in P2P networks.
 
-The above tokens are arbitrary, which means 25 dollars from 'Darcy' to 'Bingle'. 4.27 from 'Elizabeth' to 'Jane'. It's basically all the transactions that are happening. They replaced the data with these transactions, and just like we saw before, there are multiple blocks. It doesn't matter how many transactions there are. If we go down to other peers, we notice we have all these other copies of the same block. Now here's where immutability is important. If I change something in Peer A's block 4, the hash of the last block will be totally different from the other peers' last block hash. If I were to go back in time and change some values, we would notice. That's the whole point of using the blockchain to resist any kind of modification that has happened in the past.
+81. **Network Uplift**  
+   An increase in blockchain usage, value, or adoption after protocol updates or improvements, reflected in node participation and token prices.
 
-We're not listing 'Darcy' has 100 dollars and she's 25 dollars to 'Bingle'. The only thing we're saying is that 'Darcy' gives 25 to 'Bingle'. We're not remembering a bank account balance, only remembering money movements. So this begs the question, `"Does Darcy have 25 dollars?"
+82. **UTXO (Unspent Transaction Output)**  
+   A model used by Bitcoin and other chains where each transaction consumes unspent outputs and generates new outputs for future spending.
 
-We've got a problem in this version of the blockchain: we don't know if Darcy has 25 dollars. So let's look at a `Coinbase` transaction.
+---
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a33.png)
+## **V**
 
-Coinbase is going to add a coinbase transaction to our blocks. This is saying that we're going to invest 100 dollars out of thin air and give it to 'Anders' and there's no transaction in the block because nobody had any money prior to this.
+83. **Validators**  
+   Participants in a proof-of-stake or other consensus algorithms who confirm block and transaction validity, earning rewards in return.
 
-In the next block, another 100 dollars comes out of nowhere and goes to 'Anders'. Now we've got transactions and they're all from 'Anders' because 'Anders' is the only one who has any money at this point. 'Anders' is sending 10 of his dollars to 'Sophie'. `Does 'Anders' have 10 dollars?` Yes, he does because the coinbase transaction has given him the 100 dollars. Add all the transactions 'Anders' is sending and they don't go over 100, and it follows sort of a basic rule of a currency that you can't invent it out of thin air, you can't create money out of thin air. Its dispersion is controlled.
+84. **Vanity Address**  
+   A customized blockchain address containing a specific pattern (e.g., “1ABC…”), generated through additional cryptographic processes.
 
-![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a34.png)
+85. **Volatility**  
+   The degree of price variation of an asset over a given time. Cryptocurrencies typically exhibit higher volatility compared to fiat currencies.
 
-If we look at this blockchain that we've created and zip forward in time, we notice that 'Jackson' is giving 'Alexa' 2 dollars. Does Jackson have two dollars? We go back a block before and see that 'Emily' had gotten 10 dollars from 'Andres' and gave 10 to 'Jackson'.So 'Jackson' does have the money. That's one of the benefits of having a past in the block. It's easy to go backward.
+86. **Voting Power**  
+   The influence a participant holds in governance mechanisms, often determined by the amount of staked tokens.
 
-**Summary**
+---
 
-- Ethereum runs on Keccak256.
+## **W**
 
-- A hash is a unique fixed-length string to identify a piece of data.
+87. **Wallet**  
+   A tool to store and manage private and public keys for cryptocurrencies. It can be an online service, desktop software, or a physical device (hardware wallet).
 
-- A hash algorithm is a function that computes data into a unique hash.
+88. **Web3**  
+   A vision of a decentralized internet where users control their data and connect to services via open protocols and blockchains.
 
-- Mining is the process of finding a "solution" to the blockchain's "problem".
+89. **White Paper**  
+   A technical document describing a blockchain project’s proposal, technology, and development plans, including objectives and use cases.
 
-- Nodes get paid for mining blocks.
+90. **Wrapped Token**  
+   A tokenized version of an asset running on another chain, enabling greater interoperability (e.g., WBTC, a tokenized version of Bitcoin on Ethereum).
 
-- A block is a list of transactions mined together.
+---
 
-- Blockchains are decentralized and distributed because many independent users are going to run this blockchain software, and they'll check and compare against each other to see which blockchains are acting honestly and which ones are acting maliciously.
+## **X**
 
-- Nonce is a "number used once" to find the "solution" to the blockchain problem.
+91. **XOR (Exclusive OR)**  
+   A logical operation that returns true only if one of the input bits is true, but not both. Used in cryptography and data encoding.
 
-- Nonce is also used to define the transaction number for an account or address.
+92. **X-Chain**  
+   A swappable chain in some platforms (like Avalanche) focused on fast asset transfers, separate from the smart contract chain.
 
+93. **XRP (Ripple)**  
+   A cryptocurrency developed by Ripple for cross-border payments, emphasizing speed and low fees.
+
+94. **xDai**  
+   An Ethereum-based blockchain using DAI as its native token, reducing transaction costs and speeding up block confirmations.
+
+---
+
+## **Y**
+
+95. **Yield Farming**  
+   A DeFi investment strategy where users deposit their cryptocurrencies into smart contracts to earn rewards in the form of additional tokens or interest.
+
+96. **YAML**  
+   A data serialization format sometimes used to configure blockchain applications or define testnet parameters.
+
+97. **Yubikey**  
+   A physical device generating unique authentication keys, providing an extra layer of security for crypto wallets.
+
+98. **Digital Yuan**  
+   A CBDC issued by the People’s Bank of China, one of the first large-scale experiments in a state-backed digital currency.
+
+---
+
+## **Z**
+
+99. **Zero-Knowledge Proof**  
+   A cryptographic technique enabling one party to prove a statement’s truth without revealing the underlying information.
+
+100. **Zk-Rollup**  
+   A rollup variant using zero-knowledge proofs to validate multiple off-chain transactions, enhancing scalability without compromising privacy.
+
+101. **Zcash**  
+   A privacy-focused cryptocurrency that uses zero-knowledge proofs to hide transaction details from public view.
+
+102. **Zilliqa**  
+   A blockchain platform implementing sharding to achieve high transaction throughput, aimed at enterprise applications and scalability.
 
 
