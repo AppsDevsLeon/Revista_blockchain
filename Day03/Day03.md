@@ -4,7 +4,7 @@
 
 The **importance of scalability** lies in the fact that if a blockchain cannot handle growing demand, it leads to negative effects such as network congestion, increased fees, and slower transaction confirmations. This scenario can discourage user participation and projects, limiting adoption potential and undermining trust in the technology. Conversely, a highly scalable network can offer a higher throughput (transactions per second, TPS), lower fees, and a smoother user experience, facilitating large-scale decentralized applications (DApps) and new business models.
 
----
+
 
 ## **Fundamental Scalability Challenges**
 
