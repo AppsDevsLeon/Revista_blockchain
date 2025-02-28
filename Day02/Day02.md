@@ -7,18 +7,18 @@ The first thing that we're going to need is an "ethereum wallet`.So go to `Metam
 
 
 
-![Metamask](Images/a1.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a1.png)
 
 
 
 
 We're going to create a brand new wallet, so go ahead and hit "create a wallet." If you already have a wallet, you can import it via seed phrase.
 
-![Metamask](Images/a2.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a2.png)
 
 Now we'll create our password and make sure it is secure. If you want to use an account and put real Ethereum and real money into it, you need to back it up.
 
-![Metamask](Images/a3.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a3.png)
 
 This is just a demo, but if you show this secret phrase to anybody else, they will have access to all your funds. So for everything that we're going to do, we're going to use fake money.
 
