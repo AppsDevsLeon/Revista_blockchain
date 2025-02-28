@@ -1,10 +1,5 @@
 ## **Descentralización y Mecanismos de Consenso en Blockchain**
 
-Este documento ofrece una visión ultra detallada y ampliada sobre las diferentes redes blockchain que han existido y existen hasta el momento. Se analiza su grado de descentralización versus centralización, la variedad y tipología de nodos que las componen (full nodes, light nodes, archival nodes, master nodes, entre otros) y los diversos protocolos de consenso que emplean. Además, se incluyen consideraciones sobre gobernanza, seguridad y tendencias futuras en el ecosistema blockchain.
-
----
-
-## **Introducción**
 
 Desde la aparición de Bitcoin, la primera red blockchain, el ecosistema ha experimentado una rápida evolución y diversificación. Cada red ha adoptado características y modelos de funcionamiento particulares para responder a desafíos específicos, tales como la escalabilidad, el consumo energético, la seguridad y la eficiencia en la validación de transacciones. La evolución de las redes blockchain se refleja en la amplia gama de protocolos de consenso, desde los basados en Proof of Work hasta los más modernos Proof of Stake, Delegated Proof of Stake y algoritmos híbridos. Este README pretende ofrecer un panorama completo que permita entender cómo cada red se posiciona en términos de descentralización, infraestructura de nodos y mecanismos de consenso.
 
@@ -132,7 +127,4 @@ Desde la aparición de Bitcoin, la primera red blockchain, el ecosistema ha expe
 - **Mecanismo de Consenso:** Istanbul BFT + PoA
 - **Características:** Blockchain empresarial con alto rendimiento.
 
----
-
-Este documento continuará evolucionando conforme nuevas redes y tecnologías surjan en el ecosistema blockchain.
 
