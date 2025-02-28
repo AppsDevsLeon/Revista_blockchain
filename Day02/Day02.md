@@ -178,11 +178,11 @@ It stopped at 64,658 and that one just happens to hash out to something that sta
 
 A blockchain is just the chain of these blocks. How do you put them together? Let's do that.
 
-![Metamask](Images/a23.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a23.png)
 
 Just like before, block number 1 has none. There's some data area too, but then it has this `Prev` which is a bunch of zeros in the first block.
 
-![Metamask](Images/a24.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a24.png)
 
 The `prev` is block 2, which starts with '0000ae', which is the hash of the previous block (block 4). Each block points backward to the one before it. You remember that in the first block, there is no previous, so its prev is just a bunch of zeros. It's just a fake number.
 
@@ -190,23 +190,23 @@ Just like we did before, what happens if I change some information in block 5?
 
 It's going to change the hash of this block, and it's going to invalidate it.
 
-![Metamask](Images/a25.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a25.png)
 
 What would happen if I changed something in block 4?
 
 It's going to change the hash, but that hash will get copied to the previous hash section of block 5, which changes block 5 too. So it should break both blocks.
 
-![Metamask](Images/a26.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a26.png)
 
 We can go back as far as we want to some point in the past and break that block, and it'll break all the blocks since then. Everything before was green.
 
 If I wanted to change something in the blockchain, I could go over to block number 5 and change it. Then we could re-mine it and pick a different nonce. We could essentially alter the change.
 
-![Metamask](Images/a27.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a27.png)
 
 What if I go back in time and break block 3?
 
-![Metamask](Images/a28.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a28.png)
 
 Now I need to mine block 3, which picks a nonce that makes the hash out to four zeros, but blocks 4 and 5 will still be broken. Although block 3 starts with four zeros, adding the four zeros with different stuff in the prev section of block 4 still makes block 4 hash out incorrectly. So I also need to mine blocks 4 and 5, respectively.
 
@@ -218,9 +218,9 @@ What I wanted to say is that if I go and change the last block, all I've got to 
 
 Let's take a look at `Distributed Blockchain`.
 
-![Metamask](Images/a29.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a29.png)
 
-![Metamask](Images/a30.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a30.png)
 
 It looks exactly like the last blockchain but has a different peer for the blockchain. You can see that peer B has the same blockchain structure as peer A. The list could go on forever. There are many, many peers out there on the internet, and they all have a complete copy of the blockchain.
 
@@ -228,7 +228,7 @@ If I look at the hash of Peer A block 5, it starts with '0000e4', and if I go do
 
 If I type something on Peer B block 4, and re-mine block 4 and block 5,
 
-![Metamask](Images/a31.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a31.png)
 
 All the blocks in Peer B are green. However, the Peer A chain says that the last hash starts with '0000e4', Peer C says '0000e4', but the middle one says '00004c'. So just by glancing at Peer B's hash, something is wrong with that Peer B, even though all of the hash starts with four zeros. Essentially, it's two against one. Peer A argues it's' 000e4 ', Peer B argues it's' 00004c ', and Peer C argues it's' 000e4 '. So '0000e4' wins. So that's how a completely distributed copy works. Having a copy on many different computers can all very quickly see if all of the blocks are identical. Blockchains can have 400,000–500,000 blocks very easily, so rather than checking through all of them, all you have to do is to look at the hash of the most recent one and you can see if anything in the past was altered. You can tell by looking at the last block in the chain.
 
@@ -236,7 +236,7 @@ All the blocks in Peer B are green. However, the Peer A chain says that the last
 
 That's the entire thing. There's nothing more to it than that, but it's kind of not useful because we don't have anything in this data area that means anything. I keep typing text that's sort of irrelevant information. So what we want is a `token`.Let's do a token on our blockchain.
 
-![Metamask](Images/a32.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a32.png)
 
 The above tokens are arbitrary, which means 25 dollars from 'Darcy' to 'Bingle'. 4.27 from 'Elizabeth' to 'Jane'. It's basically all the transactions that are happening. They replaced the data with these transactions, and just like we saw before, there are multiple blocks. It doesn't matter how many transactions there are. If we go down to other peers, we notice we have all these other copies of the same block. Now here's where immutability is important. If I change something in Peer A's block 4, the hash of the last block will be totally different from the other peers' last block hash. If I were to go back in time and change some values, we would notice. That's the whole point of using the blockchain to resist any kind of modification that has happened in the past.
 
@@ -244,13 +244,13 @@ We're not listing 'Darcy' has 100 dollars and she's 25 dollars to 'Bingle'. The 
 
 We've got a problem in this version of the blockchain: we don't know if Darcy has 25 dollars. So let's look at a `Coinbase` transaction.
 
-![Metamask](Images/a33.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a33.png)
 
 Coinbase is going to add a coinbase transaction to our blocks. This is saying that we're going to invest 100 dollars out of thin air and give it to 'Anders' and there's no transaction in the block because nobody had any money prior to this.
 
 In the next block, another 100 dollars comes out of nowhere and goes to 'Anders'. Now we've got transactions and they're all from 'Anders' because 'Anders' is the only one who has any money at this point. 'Anders' is sending 10 of his dollars to 'Sophie'. `Does 'Anders' have 10 dollars?` Yes, he does because the coinbase transaction has given him the 100 dollars. Add all the transactions 'Anders' is sending and they don't go over 100, and it follows sort of a basic rule of a currency that you can't invent it out of thin air, you can't create money out of thin air. Its dispersion is controlled.
 
-![Metamask](Images/a34.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a34.png)
 
 If we look at this blockchain that we've created and zip forward in time, we notice that 'Jackson' is giving 'Alexa' 2 dollars. Does Jackson have two dollars? We go back a block before and see that 'Emily' had gotten 10 dollars from 'Andres' and gave 10 to 'Jackson'.So 'Jackson' does have the money. That's one of the benefits of having a past in the block. It's easy to go backward.
 
