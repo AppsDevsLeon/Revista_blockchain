@@ -22,23 +22,23 @@ Now we'll create our password and make sure it is secure. If you want to use an 
 
 This is just a demo, but if you show this secret phrase to anybody else, they will have access to all your funds. So for everything that we're going to do, we're going to use fake money.
 
-![Metamask](Images/a4.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a4.png)
 
 Hit confirm and it gives a couple of tips. Remember to take the tips seriously, especially if you're going to use the account for real money.
 
-![Metamask](Images/a5.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a5.png)
 
 We can see the user interface of this wallet, and if you look in your extensions, you can pin it in your browser, and you can even just click it to get the same interface.
 
 Our mnemonic phrase for that secret phrase that we got has given us access to a new account.
 
-![Metamask](Images/a6.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a6.png)
 
 **Etherscan**
 
 For the address of our account, we can use a tool like `Etherscan`.
 
-![Metamask](Images/a7.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a7.png)
 
 So if we look at this address that we just created, we can see that no transactions have happened. It's empty. It has zero ether. It has zero dollars' worth of value. The address above is the unique address that represents exclusively the single account that we just created.
 
@@ -46,7 +46,7 @@ So if we look at this address that we just created, we can see that no transacti
 
 We can even click the circle and create more accounts and give them a different account name.
 
-![Metamask](Images/a8.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a8.png)
 
 Account 2 will have a different account address.
 
@@ -54,7 +54,7 @@ Account 2 will have a different account address.
 
 The mnemonic that we've been given gives us access to create multiple accounts with the same mnemonic. So having that mnemonic will give us access to every single account that's ever been created with that mnemonic. This is why securing your mnemonic is so crucial, especially if you create multiple different accounts. Each account has a unique identifier associated with it as well. The account address is the public address. However, there's also a private key to work with this account, a secret key. We can view it by clicking three dots, going to account details, and exporting the private key.
 
-![Metamask](Images/a9.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a9.png)
 
 This is a single password associated with this account. If you give somebody access to this private key, they'll have access to account 2. They won't have access to my account 1 because the private key of account 2 is only associated with account 2. The mnemonic, however, is associated with all accounts.
 
@@ -66,11 +66,11 @@ This is why when people say "store your keys in a safe place," they're referring
 
 What else is going on in Metamask? We can see this section here that says `Ethereum Mainnet`.If we click it, we can see a bunch of other networks here.
 
-![Metamask](Images/a10.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a10.png)
 
 When you buy ETH and work with ETH, you're working on the Ethereum mainnet. When you interact with smart contracts or DEFI, you're going to be working on the mainnet with real value. However, since we're engineers, oftentimes we're going to want to test our applications, do some type of integration tests, or just make sure our code works. So there are also test nets. These are networks that resemble Ethereum and work the same way Ethereum does. However, they're not with real money and it's just for testing applications. We can even go to `Rinkeby Etherscan` and see the `Rinkeby Testnet Explorer`. We looked up our address and it's the exact same information here.
 
-![Metamask](Images/a11.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a11.png)
 
 Later on, we're going to show you how to work with other EVM-compatible chains. Don't worry about EVM-compatible means for now, but we can work with Avalanche, Polygon, and other applications through network interfaces as well.
 
@@ -82,13 +82,13 @@ We're going to go to this application called the `Rinkeby Faucet`.This is where 
 
 `Faucet` is a testnet application that gives us free test Ethereum. Hence, it has no value because anybody can get it for free from one of these faucets. So to get testnet Ethereum with faucet.rinkeby.io, we have to post a tweet or a Facebook post with the tweet.
 
-![Metamask](Images/a12.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a12.png)
 
 Now after the tweet, we're going to copy the link to the tweet and place it in the Rinkeby Faucet and hit "Give me ether" (18.75 ether/3 days).
 
 If we take the account address and go over to Rinkeby Etherscan, we now see the balance is 18.75.
 
-![Metamask](Images/a13.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a13.png)
 
 But if we look at `Ethereum Mainnet` we've nothing there. We've just completed our first transaction. And if we refresh the page, we can also see that this is our first transaction that was made. Some accounts sent us 18.75 ether. We can even look at the details of the transaction.
 
@@ -96,7 +96,7 @@ But if we look at `Ethereum Mainnet` we've nothing there. We've just completed o
 
 Etherscan is what's known as `Block Explorer`. Block Explorer is an application that allows us to see the details of things that happen on a blockchain easily. We can see the transaction details of the transaction that we made, and whenever we work with `Smart Contract` we'll also see them in a transaction similar to what we'll see in the transaction details.
 
-![Metamask](Images/a14.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a14.png)
 
 We can see the information above. We see a unique `transaction hash`.This hash or unique identifier uniquely identifies this transaction as the key of what this transaction is.
 
@@ -108,7 +108,7 @@ We can see this unique account, which is the faucet account.
 
 "Gas refers to the fee paid to node operators for successfully including a transaction in a blockchain. Now, exactly how this works is going to change pretty soon, but the concept is that anytime you want to change the state of the blockchain, whether this is sending some Ethereum or making any type of transaction, you have to pay a little bit of Ethereum or a little bit of that native blockchain token to execute that transaction. Whenever we do something on the blockchain, it costs gas, and if we do something that would take a lot of energy for the blockchain to do, it will cost more gas. So if I send a single transaction, that's going to cost 21,000 gas. However, if I were to send a transaction that called the smart contract function and did a whole bunch of other stuff, it'd cost more gas. We see here that whoever sent us ETH also paid the blockchain miners or blockchain validators a little bit of Ethereum to include our transaction. We get to pick how much of a fee we want to send with our transactions.
 
-![Metamask](Images/a15.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a15.png)
 
 **Gas vs Gas price vs Gas Limit vs Transaction fee**
 
@@ -120,13 +120,13 @@ A blockchain can only process so many transactions at a time, and nodes and bloc
 
 We were able to obtain the blockchain gas estimator from ethgasstation.info.
 
-![Metamask](Images/a16.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a16.png)
 
 It currently says that if you want to get your transaction in right away, it's going to cost you 81 wei to do so. If you want to get it in less than 5 minutes, it's going to take you about 62 wei.
 
 So the gas price of Ethereum fluctuates with how much people use it, and the gas prices of all these blockchains fluctuate with how much people use it.
 
-![Metamask](Images/a17.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a17.png)
 
 So typically, when you're setting your gas price in a transaction, you can take a look-see at your gas station to see the price based on your needs, but it all depends on how many people are looking to work with this blockchain at the same time.
 
@@ -144,11 +144,11 @@ Before we get started, we need to take a look at this thing that we call the SHA
 
 The hash below starts with `e3b0` which is the hash of nothing.
 
-![Metamask](Images/a18.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a18.png)
 
 It just so happens it's a fingerprint of whatever I type in this box. If I type the text 'blockchain' into this box, you can see the hash has changed.
 
-![Metamask](Images/a19.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a19.png)
 
 This is the hash of the text 'blockchain' in all lowercase, which starts with 5318. If I delete the text and type the same text again, it'll have the same hash. It's the `digital fingerprint` of the text 'blockchain'.
 
@@ -158,19 +158,19 @@ You could type tons and tons of text and you'd get a hash, and the interesting t
 
 Let's extend the idea of a hash into something that we're going to call a block.
 
-![Metamask](Images/a20.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a20.png)
 
 This is a block, and it's exactly like the hash. It's just the data section that has been broken out into three sections: one called "block," which is just some kind of number or block number, a "nonce," which is just another number, and just some more data, very similar to the way that we had it before. However, the hash of this block includes all of the information shown in the above figure, which begins with four zeros. It's a relatively unusual hash, and most of them are not going to start with four zeros like the above hash. This one happens to, and because it is arbitrary, we can say the block is signed.
 
 So what would happen if I were to change anyone's information in the above block?
 
-![Metamask](Images/a21.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a21.png)
 
 The above hash doesn't start with four zeros, and the big background has turned red. Now we know this block with this information in it is not a valid or signed block, and that's where `Nonce` comes in. This number is just a number that you can set to try to find a number that fits so that the above hash starts with four zeros again.
 
 Above you can see the `mine` button. When I click the mine button, it's going to run through all the numbers from 1 up to try to find one where the hash starts with four zeros, and this process is called mining.
 
-![Metamask](Images/a22.png)
+![Metamask](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a22.png)
 
 It stopped at 64,658 and that one just happens to hash out to something that starts with four zeros, so it satisfies the little definition of what a `signed block` is.
 
