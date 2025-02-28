@@ -1,4 +1,4 @@
-# Bloque Génesis: Detalles, Hashes, Errores y Consecuencias
+## Bloque Génesis: Detalles, Hashes, Errores y Consecuencias
 
 El **bloque génesis** es el primer bloque de cualquier blockchain. Es el punto de partida inmutable sobre el cual se construye toda la cadena de bloques. Debido a su importancia, la configuración y parámetros definidos en el bloque génesis determinan, en gran medida, el comportamiento y las características de toda la red.
 
