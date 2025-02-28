@@ -2,13 +2,13 @@
 
 We're going to talk about signing the transactions, private keys, and some other cryptography because in the blockchain below we see fantastic transactions, but how do we know that it was Darcy who was the one to send 25 dollars to Bingley? How do we know that it actually happened? This is where all those pieces that we just learned about in our test net in our Metamask account are going to come to life.
 
-![Transaction](Images/b1.png)
+![Transaction](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day03/Images/b1.png)
 
 **Public & Private Keys**
 
 Here we have an example of public and private keys.
 
-![Public_Private_Key](Images/b2.png)
+![Public_Private_Key](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day03/Images/b2.png)
 
 Private key: only known to the key holder, it's used to "sign" transactions.
 
@@ -28,13 +28,13 @@ If we go to the signatures tab and let's say we have this message that we want, 
 
 What's going to happen is the private key that we created, which we can use to sign this data (hi world). We're using a digital signature algorithm to create this message signature.
 
-![Message_Signature](Images/b3.png)
+![Message_Signature](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day03/Images/b3.png)
 
 What's powerful about how this algorithm works is that you can create this message signature with your private key, but somebody else can't derive your private key from the message signature. This is what makes this really, really powerful.
 
 However, if we go to verify using our public key, anybody can verify that the signature is yours.
 
-![Message_Verification](Images/b4.png)
+![Message_Verification](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day03/Images/b4.png)
 
 **Transactions**
 
@@ -42,7 +42,7 @@ If somebody tries to fake a transaction, they need to verify their signature aga
 
 We can take that into transactions in the exact same way.
 
-![Transaction_verification](Images/b5.png)
+![Transaction_verification](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day03/Images/b5.png)
 
 If I wanted to send 20 dollars from my account to another account using my private key, I could sign that transaction and anybody else in the world could verify the transaction. This is why people say to protect your keys.
 
