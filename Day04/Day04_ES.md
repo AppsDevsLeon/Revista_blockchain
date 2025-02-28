@@ -66,6 +66,3 @@ Para estudiar más a fondo sobre el bloque génesis, sus implicaciones y detalle
 
 [¿Qué es el bloque génesis?](https://academy.bit2me.com/que-es-bloque-genesis/)
 
----
-
-Este documento te ofrece una visión completa sobre el bloque génesis, mostrando ejemplos de hashes en diferentes redes, posibles errores y sus consecuencias, y un enlace para ampliar tus conocimientos.
