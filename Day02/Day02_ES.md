@@ -1,4 +1,4 @@
-#  Glosario de Blockchain 
+##  Glosario de Blockchain 
 
 ---
 
