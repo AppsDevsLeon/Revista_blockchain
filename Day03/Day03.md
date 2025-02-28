@@ -1,4 +1,4 @@
-## Scalability in Blockchain
+## **Scalability in Blockchain**
 
 **Scalability** in blockchain technology refers to a network’s ability to process and validate an increasing number of transactions without compromising its performance, security, or user experience. As more people and organizations adopt blockchains for various purposes—financial, logistical, governmental, educational, among others—the demand for transactions can grow exponentially. However, the decentralized nature and the need for distributed consensus distribute the workload among multiple nodes, which introduces technical and economic constraints that make network scaling challenging.
 
@@ -6,7 +6,7 @@ The **importance of scalability** lies in the fact that if a blockchain cannot h
 
 ---
 
-## Fundamental Scalability Challenges
+## **Fundamental Scalability Challenges**
 
 1. **Consensus Limitations**  
    Consensus algorithms like Proof of Work (PoW) or Proof of Stake (PoS) impose restrictions on how fast blocks can be created or validated. In PoW, resource-intensive mining ensures security but can sacrifice confirmation speed and increase energy consumption. In PoS, while energy use is reduced, the speed and decentralization can also be affected depending on the design and number of validators.
@@ -22,7 +22,7 @@ The **importance of scalability** lies in the fact that if a blockchain cannot h
 
 ---
 
-## Layer 2 and Off-Chain Solutions
+## **Layer 2 and Off-Chain Solutions**
 
 To alleviate the load on the main layer, **layer 2 solutions** have emerged to process transactions off the main blockchain, recording only essential information or cryptographic summaries. Some notable approaches include:
 
@@ -34,7 +34,7 @@ To alleviate the load on the main layer, **layer 2 solutions** have emerged to p
 
 ---
 
-## Sharding and Chain Fragmentation
+## **Sharding and Chain Fragmentation**
 
 **Sharding** addresses scalability by dividing the network into fragments (shards), each responsible for processing a subset of transactions and maintaining a local state. The idea is that nodes don’t need to store or validate every transaction in the network, only those in their assigned shard. This parallel processing can significantly increase the network’s capacity.
 
@@ -42,7 +42,7 @@ However, sharding introduces complications in coordinating and communicating bet
 
 ---
 
-## Optimizing Consensus Protocols
+## **Optimizing Consensus Protocols**
 
 Beyond PoW and PoS, other schemes are being explored to improve scalability:
 
@@ -54,7 +54,7 @@ Beyond PoW and PoS, other schemes are being explored to improve scalability:
 
 ---
 
-## Interoperability and Collective Scalability
+## **Interoperability and Collective Scalability**
 
 **Interoperability** allows different blockchains to work together, sharing resources and processing transactions complementarily. When each network specializes in a particular function (e.g., storage, computation, smart contracts), it reduces the strain on each individual blockchain, leading to a more scalable and efficient ecosystem.
 
@@ -62,7 +62,7 @@ Initiatives like **Polkadot** or **Cosmos** aim to create networks of interopera
 
 ---
 
-## Scalability and Energy Sustainability
+## **Scalability and Energy Sustainability**
 
 Concerns about energy consumption and carbon footprint are another crucial aspect of scalability. If a blockchain requires enormous energy expenditure to increase capacity, its long-term sustainability is called into question. Thus:
 
@@ -72,7 +72,7 @@ Concerns about energy consumption and carbon footprint are another crucial aspec
 
 ---
 
-## Benefits and Risks of Scalability Solutions
+## **Benefits and Risks of Scalability Solutions**
 
 **Benefits:**
 - **Lower Fees**: By reducing congestion, users pay less in transaction costs.  
@@ -88,7 +88,7 @@ Concerns about energy consumption and carbon footprint are another crucial aspec
 
 ---
 
-## Future of Scalability and Outlook
+## **Future of Scalability and Outlook**
 
 Blockchain scalability is a field of ongoing research and experimentation. As layer 2 solutions mature, PoS adoption expands, and new architectures like sharding take shape, we can expect a significant rise in transaction capacity for major networks. Additionally, collaboration among projects for interoperability will foster specialization within each chain, enabling the ecosystem as a whole to grow organically.
 
@@ -100,7 +100,7 @@ In the medium term, technology could evolve toward:
 
 ---
 
-## General Conclusion
+## **Conclusion**
 
 Scalability is essential for blockchain to potentially replace or complement traditional technological infrastructures in areas like finance, logistics, or government systems. Layer 2 solutions, sharding, optimized consensus protocols, and interoperability aim to overcome current limitations. However, each solution entails challenges in security, technical complexity, and community governance.
 
