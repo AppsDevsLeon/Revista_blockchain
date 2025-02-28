@@ -3,7 +3,7 @@
 ## **Introducción a las Confirmaciones en Blockchain**
 Las **confirmaciones** en una blockchain indican cuántos bloques han sido minados o validados después de que una transacción se incluye en la red. Cuantas más confirmaciones tenga una transacción, más segura es.
 
----
+
 
 ## **Cómo Funcionan las Confirmaciones**
 Cuando una transacción se envía en una blockchain, sigue estos pasos:
@@ -20,7 +20,7 @@ Cuando una transacción se envía en una blockchain, sigue estos pasos:
    - Cada bloque nuevo que se agrega a la blockchain después del bloque que contiene la transacción cuenta como una **nueva confirmación**.
    - Más confirmaciones significan más seguridad.
 
----
+
 
 ## **Importancia de las Confirmaciones**
 Las confirmaciones protegen la red y garantizan la seguridad de las transacciones al evitar:
@@ -29,7 +29,7 @@ Las confirmaciones protegen la red y garantizan la seguridad de las transaccione
 - **Reorganizaciones de bloques:** Cuantos más bloques pasan, más difícil es que una transacción sea revertida.
 - **Fraude en pagos cripto:** Muchos exchanges y negocios esperan confirmaciones antes de aceptar pagos.
 
----
+
 
 ## **Doble Gasto: Concepto y Ataques**
 
@@ -61,7 +61,7 @@ El **doble gasto** es un ataque en el que un usuario gasta las mismas criptomone
    - Puede reorganizar bloques y revertir transacciones confirmadas, permitiendo el doble gasto en grande escala.
    - Ha ocurrido en redes como **Ethereum Classic y Bitcoin Gold**.
 
----
+
 
 ## **Cómo Previenen las Blockchains el Doble Gasto**
 Las blockchains utilizan varios mecanismos para evitar este problema:
