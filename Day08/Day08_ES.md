@@ -165,7 +165,5 @@ El consenso es el mecanismo que permite a las redes blockchain llegar a un acuer
   Muchas redes emergentes combinan elementos de PoW, PoS, y otros mecanismos para equilibrar seguridad, velocidad y descentralización. Ejemplos son el algoritmo Ouroboros en Cardano y el uso de Proof of History (PoH) en Solana.
 
 
-
 El futuro del ecosistema blockchain dependerá en gran medida de la capacidad de las redes para innovar en gobernanza, optimización de recursos y soluciones de interoperabilidad, permitiendo que la tecnología soporte un mayor número de usuarios y transacciones sin comprometer sus principios fundamentales.
 
-Este documento extenso pretende ser una fuente de consulta para comprender la evolución, las diferencias y las similitudes entre las diversas redes blockchain, así como los desafíos y oportunidades que enfrentan en la actualidad y en el futuro.
