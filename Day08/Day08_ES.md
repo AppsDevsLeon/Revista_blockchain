@@ -1,11 +1,11 @@
-#** Panorama Extendido de Redes Blockchain, Tipología de Nodos y Protocolos de Consenso**
+## ** Panorama Extendido de Redes Blockchain, Tipología de Nodos y Protocolos de Consenso**
 
 
 Desde la aparición de Bitcoin, la primera red blockchain, el ecosistema ha experimentado una rápida evolución y diversificación. Cada red ha adoptado características y modelos de funcionamiento particulares para responder a desafíos específicos, tales como la escalabilidad, el consumo energético, la seguridad y la eficiencia en la validación de transacciones. La evolución de las redes blockchain se refleja en la amplia gama de protocolos de consenso, desde los basados en Proof of Work hasta los más modernos Proof of Stake, Delegated Proof of Stake y algoritmos híbridos. Este README pretende ofrecer un panorama completo que permita entender cómo cada red se posiciona en términos de descentralización, infraestructura de nodos y mecanismos de consenso.
 
 
 
-## Redes Blockchain: Clasificación y Características
+## **Redes Blockchain: Clasificación y Características**
 
 ### Bitcoin
 - **Centralización/Descentralización:**  
@@ -119,7 +119,7 @@ Desde la aparición de Bitcoin, la primera red blockchain, el ecosistema ha expe
 
 ---
 
-## Tipología de Nodos y Gobernanza
+## **Tipología de Nodos y Gobernanza**
 
 La estructura de nodos en una red blockchain define cómo se distribuye la validación y el almacenamiento de datos. Algunos ejemplos clave incluyen:
 
@@ -142,7 +142,7 @@ La gobernanza en blockchain puede ser on-chain, donde los cambios se realizan me
 
 ---
 
-## Protocolos de Consenso: Diversidad y Evolución
+## **Protocolos de Consenso: Diversidad y Evolución**
 
 El consenso es el mecanismo que permite a las redes blockchain llegar a un acuerdo sobre el estado de la cadena. Entre los protocolos más comunes y emergentes se incluyen:
 
@@ -164,11 +164,7 @@ El consenso es el mecanismo que permite a las redes blockchain llegar a un acuer
 - **Algoritmos Híbridos:**  
   Muchas redes emergentes combinan elementos de PoW, PoS, y otros mecanismos para equilibrar seguridad, velocidad y descentralización. Ejemplos son el algoritmo Ouroboros en Cardano y el uso de Proof of History (PoH) en Solana.
 
----
 
-## Conclusión General
-
-El panorama de las redes blockchain es vasto y diverso. Desde la descentralización total de Bitcoin y Ethereum, pasando por modelos híbridos y soluciones centralizadas como Ripple, hasta innovadoras redes interoperables como Polkadot y Cosmos, cada red adopta un conjunto único de nodos y protocolos de consenso para enfrentar desafíos específicos. La evolución constante en la tipología de nodos y en los mecanismos de consenso refleja el esfuerzo por alcanzar el equilibrio perfecto entre seguridad, escalabilidad y descentralización.
 
 El futuro del ecosistema blockchain dependerá en gran medida de la capacidad de las redes para innovar en gobernanza, optimización de recursos y soluciones de interoperabilidad, permitiendo que la tecnología soporte un mayor número de usuarios y transacciones sin comprometer sus principios fundamentales.
 
