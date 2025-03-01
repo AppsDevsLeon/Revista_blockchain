@@ -1,4 +1,4 @@
-## ** Panorama Extendido de Redes Blockchain, Tipología de Nodos y Protocolos de Consenso**
+## ** Redes Blockchain, Tipología de Nodos y Protocolos de Consenso**
 
 
 Desde la aparición de Bitcoin, la primera red blockchain, el ecosistema ha experimentado una rápida evolución y diversificación. Cada red ha adoptado características y modelos de funcionamiento particulares para responder a desafíos específicos, tales como la escalabilidad, el consumo energético, la seguridad y la eficiencia en la validación de transacciones. La evolución de las redes blockchain se refleja en la amplia gama de protocolos de consenso, desde los basados en Proof of Work hasta los más modernos Proof of Stake, Delegated Proof of Stake y algoritmos híbridos. Este README pretende ofrecer un panorama completo que permita entender cómo cada red se posiciona en términos de descentralización, infraestructura de nodos y mecanismos de consenso.
