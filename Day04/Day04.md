@@ -1,6 +1,6 @@
 ## **Decentralization and Consensus Mechanisms in Blockchain**
 
-Since the emergence of Bitcoin, the first blockchain network, the ecosystem has undergone rapid evolution and diversification. Each network has adopted specific characteristics and operational models to address particular challenges such as scalability, energy consumption, security, and transaction validation efficiency. The evolution of blockchain networks is reflected in the wide range of consensus protocols, from Proof of Work-based systems to more modern Proof of Stake, Delegated Proof of Stake, and hybrid algorithms. This README aims to provide a comprehensive overview to understand how each network positions itself in terms of decentralization, node infrastructure, and consensus mechanisms.
+Since the emergence of Bitcoin, the first blockchain network, the ecosystem has undergone rapid evolution and diversification. Each network has adopted specific characteristics and operational models to address particular challenges such as scalability, energy consumption, security, and transaction validation efficiency. The evolution of blockchain networks is reflected in the wide range of consensus protocols, from Proof of Work-based systems to more modern Proof of Stake, Delegated Proof of Stake, and hybrid algorithms. 
 
 ## **Blockchain Networks: Classification and Characteristics**
 
