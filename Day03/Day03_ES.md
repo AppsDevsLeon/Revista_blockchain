@@ -55,19 +55,6 @@ Imagina que seguimos con el ejemplo de la compañía eléctrica:
 
 
 
-## **Sugerencias para Profundizar**
-
-- **Análisis de Seguridad:**  
-  Reflexiona sobre cómo la estructura de bloques contribuye a la seguridad del sistema y evita fraudes.
-  
-- **Discusión sobre Ventajas y Desafíos:**  
-  Considera cómo la verificación distribuida y la inmutabilidad ayudan a generar confianza en la red, pero también discute los posibles desafíos, como la escalabilidad o la gestión de grandes volúmenes de datos.
-
-- **Ejercicio Práctico:**  
-  Aunque sin visualización, puedes proponer que cada estudiante redacte un ejemplo de bloque usando texto, detallando cada uno de sus componentes (datos, HASH, HASH del bloque anterior y marca de tiempo) y explique cómo se interconectan.
-
-
-
 ## **Resumen**
 
 - Cada bloque se compone de datos de transacción, un código HASH único, el HASH del bloque anterior y una marca de tiempo.
