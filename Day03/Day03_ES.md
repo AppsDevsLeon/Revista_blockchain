@@ -1,9 +1,5 @@
 ## **Profundizando en la Estructura de Blockchain**
 
-Este documento complementa la introducción al blockchain, enfocándose en comprender en detalle cómo se compone cada bloque y la forma en que estos se enlazan para crear una cadena segura e inalterable.
-
-
-
 ##  **Desglose de la Estructura de un Bloque**
 
 Cada bloque en la blockchain contiene varios componentes esenciales:
