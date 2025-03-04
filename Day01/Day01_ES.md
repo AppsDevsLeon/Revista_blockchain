@@ -1,5 +1,5 @@
 
-## **Introducción a Blockchain **
+## **Introducción a Blockchain**
 
 Blockchain es una tecnología que permite almacenar información de forma segura, transparente y sin depender de una única autoridad central. Es como un registro digital compartido por muchas computadoras en todo el mundo.
 
