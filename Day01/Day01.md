@@ -1,4 +1,4 @@
-## **Introduction to Blockchain for Beginners**
+## **Introduction to Blockchain **
 
 Blockchain is a revolutionary technology that enables information to be stored securely, transparently, and without relying on a central authority. Essentially, it is a distributed ledger maintained by a network of computers worldwide.
 
