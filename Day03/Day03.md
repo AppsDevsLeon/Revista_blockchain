@@ -1,9 +1,5 @@
 # **Deep Dive into Blockchain Structure**
 
-This document complements the introduction to blockchain by focusing on understanding in detail how each block is composed and how these blocks are linked together to create a **secure** and **immutable** chain.
-
----
-
 ## **Breakdown of a Block's Structure**
 
 Each block in the blockchain contains several essential components:
@@ -32,7 +28,7 @@ Each block in the blockchain contains several essential components:
 - **Utility:**  
   It helps **organize transactions in chronological order** and establishes a clear, verifiable timeline.
 
----
+
 
 ## **Operation and Verification**
 
@@ -54,7 +50,7 @@ Each block in the blockchain contains several essential components:
 - **Reliability:**  
   This mechanism ensures that the data remains **immutable** and that any attempt at fraud is **immediately detected**.
 
----
+
 
 ## **Practical Example: Energy Consumption Record**
 
@@ -77,7 +73,7 @@ Imagine we continue with the example of the electric company:
   4. **Immutability:**  
      Once the block is added, the customer can review their bill and compare it with the recorded data. If any data is altered, the **HASH link would break**, clearly revealing the manipulation.
 
----
+
 
 ## **Suggestions for Further Exploration**
 
@@ -90,7 +86,7 @@ Imagine we continue with the example of the electric company:
 - **Practical Exercise:**  
   Even without visual aids, you can ask each student to write an example of a block using text, detailing each of its components (**transaction data**, **HASH**, **previous block’s HASH**, and **timestamp**) and explaining how they interconnect.
 
----
+
 
 ## **Summary**
 
