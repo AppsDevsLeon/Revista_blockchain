@@ -75,7 +75,6 @@ Imagine we continue with the example of the electric company:
 
 
 
-
 ## **Summary**
 
 - Each block is composed of **transaction data**, a **unique HASH code**, the **previous block's HASH**, and a **timestamp**.
