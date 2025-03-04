@@ -1,11 +1,11 @@
 
-# Introducción a Blockchain para Principiantes
+## **Introducción a Blockchain para Principiantes**
 
 Blockchain es una tecnología que permite almacenar información de forma segura, transparente y sin depender de una única autoridad central. Es como un registro digital compartido por muchas computadoras en todo el mundo.
 
 
 
-## ¿Qué es Blockchain?
+## **¿Qué es Blockchain?**
 
 - **Registro Descentralizado:**  
   En lugar de guardar la información en un solo servidor o en una base de datos central, se distribuye en muchos dispositivos (nodos). Esto hace que no haya un punto único de fallo y que la información sea accesible para todos los participantes.
@@ -18,7 +18,7 @@ Blockchain es una tecnología que permite almacenar información de forma segura
 
 
 
-## ¿Cómo Funciona Blockchain?
+## **¿Cómo Funciona Blockchain?**
 
 1. **Registro de Transacciones:**  
    Cada vez que ocurre una transacción (como un pago, la firma de un contrato o el registro de un documento), se agrupa en un bloque.
@@ -35,7 +35,7 @@ Blockchain es una tecnología que permite almacenar información de forma segura
 
 
 
-## Ejemplo Práctico: Registro de Consumo Energético
+## **Ejemplo Práctico: Registro de Consumo Energético**
 
 Imagina una compañía eléctrica que registra el consumo de energía de cada hogar:
 
@@ -49,7 +49,7 @@ Imagina una compañía eléctrica que registra el consumo de energía de cada ho
 
 
 
-## Caso de Uso Destacado: Bitcoin
+## **Caso de Uso Destacado: Bitcoin**
 
 Bitcoin es el ejemplo más conocido de cómo se utiliza blockchain:
 
@@ -64,7 +64,7 @@ Bitcoin es el ejemplo más conocido de cómo se utiliza blockchain:
 
 
 
-## Resumen
+## **Resumen**
 
 - **Blockchain** es una tecnología que permite almacenar y compartir información de forma descentralizada y segura.
 - **Estructura de Bloques:**  
