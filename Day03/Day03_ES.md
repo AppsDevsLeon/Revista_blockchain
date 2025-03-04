@@ -53,7 +53,6 @@ Imagina que seguimos con el ejemplo de la compañía eléctrica:
   3. **Verificación:** La red de nodos valida que toda la información sea correcta.
   4. **Inmutabilidad:** Una vez añadido el bloque, el cliente puede revisar su factura y compararla con la información registrada. Si se intenta alterar algún dato, se rompería el enlace del HASH, haciendo evidente la manipulación.
 
-
 ## **Resumen**
 
 - Cada bloque se compone de datos de transacción, un código HASH único, el HASH del bloque anterior y una marca de tiempo.
