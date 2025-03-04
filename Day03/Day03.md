@@ -75,18 +75,6 @@ Imagine we continue with the example of the electric company:
 
 
 
-## **Suggestions for Further Exploration**
-
-- **Security Analysis:**  
-  Reflect on how the block structure contributes to the system's **security** and **prevents fraud**.
-  
-- **Discussion on Advantages and Challenges:**  
-  Consider how **distributed verification** and **immutability** build trust in the network, but also discuss potential challenges such as **scalability** or managing large volumes of data.
-
-- **Practical Exercise:**  
-  Even without visual aids, you can ask each student to write an example of a block using text, detailing each of its components (**transaction data**, **HASH**, **previous block’s HASH**, and **timestamp**) and explaining how they interconnect.
-
-
 
 ## **Summary**
 
