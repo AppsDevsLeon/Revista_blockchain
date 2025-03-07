@@ -1,8 +1,8 @@
-# Redes Públicas, Privadas, Federadas y Blockchain como Servicio (BaaS)
+## **Redes Públicas, Privadas, Federadas y Blockchain como Servicio (BaaS)**
 
 Blockchain ha emergido como una tecnología transformadora con diversas implementaciones y casos de uso. Entre estos, las redes blockchain pueden clasificarse en cuatro tipos principales: públicas, privadas, federadas y Blockchain como Servicio (BaaS). Cada tipo de red tiene características únicas que las hacen adecuadas para diferentes propósitos. Este documento explica estas redes y proporciona detalles sobre cómo funcionan y cuándo se utilizan.
 
-## 1. Redes Blockchain Públicas
+## **1. Redes Blockchain Públicas**
 
 Las redes públicas son abiertas para cualquier persona. No hay restricciones en cuanto a quién puede unirse o participar en la validación de transacciones.
 
@@ -25,7 +25,7 @@ Las redes públicas son abiertas para cualquier persona. No hay restricciones en
 - **Escalabilidad**: Al ser de acceso público, las redes públicas pueden experimentar problemas de escalabilidad, ya que cualquier usuario puede interactuar con la red.
 - **Altos costos de transacción**: Las redes públicas pueden incurrir en tarifas altas debido a la necesidad de validación en muchos nodos distribuidos.
 
-## 2. Redes Blockchain Privadas
+## **2. Redes Blockchain Privadas**
 
 Las redes privadas son controladas por una sola organización o entidad. Solo los usuarios autorizados pueden unirse a la red, y las transacciones y los permisos son gestionados internamente.
 
@@ -47,7 +47,7 @@ Las redes privadas son controladas por una sola organización o entidad. Solo lo
 - **Centralización**: La red es menos descentralizada y, por lo tanto, más susceptible a la manipulación.
 - **Menos seguridad**: Aunque son seguras, no cuentan con los mismos mecanismos de seguridad distribuidos que las redes públicas.
 
-## 3. Redes Blockchain Federadas (o Consorciadas)
+## **3. Redes Blockchain Federadas (o Consorciadas)**
 
 Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de ser controladas por una sola entidad, estas redes son gestionadas por un grupo de organizaciones que comparten el control y la toma de decisiones.
 
@@ -69,7 +69,7 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 - **No tan descentralizadas como las redes públicas**: Aunque más descentralizadas que las privadas, las redes federadas aún dependen de una cantidad limitada de participantes.
 - **Complejidad en la gobernanza**: La coordinación entre varias entidades puede resultar en decisiones más lentas o complicadas.
 
-## 4. Blockchain como Servicio (BaaS)
+## **4. Blockchain como Servicio (BaaS)**
 
 **Blockchain como Servicio (BaaS)** es una oferta de servicios en la nube proporcionada por plataformas como Microsoft, Amazon y Google que permite a las empresas crear, alojar y operar sus propias aplicaciones basadas en blockchain sin tener que gestionar la infraestructura subyacente.
 
@@ -91,7 +91,7 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 - **Dependencia del proveedor**: La empresa depende del proveedor de BaaS para la disponibilidad y el rendimiento de la red.
 - **Posibles limitaciones en la personalización**: Las soluciones BaaS pueden no ser tan flexibles como una implementación personalizada de blockchain.
 
-# Comparativa entre los Tipos de Redes Blockchain
+## **Comparativa entre los Tipos de Redes Blockchain**
 
 
 | Tipo de Red                        | Público                                 | Privado                                 | Federado                                  | Blockchain as a Service                     |
@@ -106,7 +106,7 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 
 
 Nota : El término **N/A** significa **"No Aplica"**
-## Resumen
+
 
 - Las **redes públicas** son ideales para casos donde la descentralización, transparencia y accesibilidad son esenciales, pero pueden ser lentas y caras.
 - Las **redes privadas** son adecuadas para organizaciones que necesitan control total y eficiencia, pero carecen de la seguridad y descentralización de las redes públicas.
