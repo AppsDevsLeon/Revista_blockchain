@@ -1,8 +1,8 @@
-## **Fundamentos de Blockchain y los Pilares de la Tecnología**
+# **Fundamentos de Blockchain y los Pilares de la Tecnología**
 
 Blockchain es una tecnología revolucionaria que ha transformado la manera en que gestionamos la confianza en la información digital. Para entender cómo funciona, es esencial conocer sus principios fundamentales y cómo cada uno de sus elementos garantiza la seguridad, la transparencia y la fiabilidad del sistema.
 
-### **¿Cuál es el problema de los sistemas tradicionales?**
+## **¿Cuál es el problema de los sistemas tradicionales?**
 
 En los sistemas tradicionales, la autenticidad de documentos como certificados académicos, contratos y registros financieros depende de entidades centralizadas, lo que genera vulnerabilidades:
 
@@ -12,44 +12,68 @@ En los sistemas tradicionales, la autenticidad de documentos como certificados a
 
 Blockchain ofrece una solución al eliminar intermediarios y garantizar la integridad de los datos mediante criptografía avanzada y descentralización.
 
-
-
 ## **Los Pilares Fundamentales de Blockchain**
-
-Para que blockchain sea confiable y eficaz, debe cumplir con varios principios clave que aseguran su funcionamiento seguro y eficiente. Los cuatro pilares principales de blockchain son:
 
 ### **1. Seguridad: La Base de la Confianza**
 
-La seguridad es el pilar fundamental de blockchain y se logra mediante los siguientes mecanismos:
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Riesgo de fraude o manipulación**: En sistemas tradicionales, los datos pueden ser alterados o eliminados sin ser detectados, ya que dependen de una entidad central para mantener la integridad de la información.
+- **Dependencia de una sola fuente de control**: Los datos suelen estar almacenados en una base de datos centralizada, lo que genera puntos únicos de fallo.
 
-- **Criptografía avanzada (SHA256)**: Cada bloque contiene un código hash único que actúa como un sello digital, garantizando que la información no haya sido alterada.
-- **Inmutabilidad**: Una vez registrado un bloque, no puede ser modificado sin invalidar toda la cadena. Esto garantiza la integridad de la información.
+#### ¿Cómo lo resuelve Blockchain?
+- **Criptografía avanzada (SHA256)**: Cada bloque contiene un código hash único que actúa como un sello digital, garantizando que la información no haya sido alterada. Esto garantiza que cualquier intento de modificar un bloque alteraría la cadena completa, lo que lo haría evidente para todos los participantes.
+- **Inmutabilidad**: Una vez registrado un bloque, no puede ser modificado sin invalidar toda la cadena. Esto asegura que los datos no puedan ser manipulados.
 - **Distribución**: La información no se almacena en un solo lugar. En lugar de depender de una entidad central, la red blockchain distribuye los datos entre miles de nodos (computadoras) a través de la red, evitando un punto único de fallo.
-
-Esto hace que blockchain sea extremadamente seguro y resistente a ataques o manipulaciones.
 
 ### **2. Transparencia: Todo a la Vista, Sin Trampas**
 
-Blockchain registra todas las transacciones en un **libro de contabilidad digital público**, que está accesible para todos los usuarios de la red. Esto asegura que cualquiera pueda verificar las transacciones en cualquier momento, lo que aumenta la confianza en el sistema.
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Opacidad**: En los sistemas tradicionales, los procesos pueden ser ocultos, lo que impide que las partes interesadas verifiquen la veracidad de las transacciones o registros.
+- **Falta de trazabilidad**: Es difícil verificar el historial de las transacciones sin acceso a la base de datos completa, lo que puede permitir la manipulación.
 
-- **Accesibilidad**: Aunque las transacciones son públicas, están protegidas por criptografía, asegurando que solo las partes autorizadas puedan hacer cambios.
-
-Este enfoque elimina la opacidad de los sistemas tradicionales y ofrece una trazabilidad total de todas las transacciones.
+#### ¿Cómo lo resuelve Blockchain?
+- **Libro de contabilidad digital público**: Blockchain registra todas las transacciones en un libro de contabilidad accesible para todos los usuarios de la red. Cualquiera puede verificar las transacciones en cualquier momento, lo que aumenta la confianza en el sistema.
+- **Accesibilidad y protección de datos**: Aunque las transacciones son públicas, están protegidas por criptografía, asegurando que solo las partes autorizadas puedan hacer cambios.
 
 ### **3. Descentralización: Sin un Único Dueño**
 
-A diferencia de los sistemas tradicionales, donde una sola entidad controla los datos, en blockchain la información está distribuida entre muchos nodos en la red. Esto elimina la dependencia de una autoridad central y reduce el riesgo de manipulaciones.
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Dependencia de una autoridad central**: En los sistemas tradicionales, una sola entidad controla la información y el proceso de validación. Si esta entidad es corrupta o tiene problemas, todo el sistema se ve afectado.
+- **Riesgo de censura o bloqueo de información**: La autoridad central puede manipular o bloquear el acceso a la información.
 
-- **Red distribuida**: Cada nodo de la red valida las transacciones, lo que significa que no hay un único punto de control, y cada participante tiene acceso a la misma información.
-- **Sin puntos de fallo**: Si un nodo es comprometido, la red sigue funcionando correctamente gracias a la distribución de datos.
+#### ¿Cómo lo resuelve Blockchain?
+- **Red distribuida**: En lugar de depender de una autoridad central, blockchain distribuye la información entre miles de nodos (computadoras) en la red, cada uno de los cuales valida las transacciones. Esto elimina el riesgo de manipulación por parte de una sola entidad.
+- **Sin puntos de fallo**: Si un nodo es comprometido, la red sigue funcionando correctamente gracias a la distribución de datos. Además, la red valida las transacciones colectivamente, lo que garantiza la veracidad de la información sin un único punto de control.
 
 ### **4. Anonimato: Privacidad con Trazabilidad**
 
-Aunque blockchain es transparente, también ofrece privacidad. Los usuarios interactúan con la red a través de direcciones alfanuméricas en lugar de nombres reales. Esto garantiza que las identidades de los usuarios se mantengan ocultas, mientras que las transacciones siguen siendo trazables y verificables.
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Exposición de la identidad personal**: Los sistemas tradicionales suelen requerir que los usuarios proporcionen información personal sensible (como nombres y direcciones), lo que puede ser vulnerable a robos de identidad o filtraciones.
+- **Riesgo de espionaje**: Las transacciones pueden ser rastreadas fácilmente, exponiendo los detalles personales de los usuarios.
 
-- **Trazabilidad sin revelación**: Aunque las transacciones son verificables públicamente, las identidades de los usuarios permanecen protegidas.
+#### ¿Cómo lo resuelve Blockchain?
+- **Direcciones alfanuméricas en lugar de nombres reales**: En lugar de exponer las identidades de los usuarios, blockchain utiliza direcciones alfanuméricas que permiten la trazabilidad sin comprometer la privacidad.
+- **Trazabilidad sin revelación de identidad**: Aunque las transacciones son verificables públicamente, las identidades de los usuarios permanecen protegidas mediante criptografía. Esto permite que las transacciones sean rastreadas sin comprometer la privacidad de los usuarios.
 
-Esto combina los beneficios de la privacidad con la transparencia y la seguridad, lo que es especialmente importante en áreas como las criptomonedas.
+### **5. Inmutabilidad: Imposibilidad de Alterar los Registros**
+
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Manipulación de registros**: Los sistemas tradicionales pueden permitir que los registros sean alterados por personas con acceso a las bases de datos centrales, lo que genera inseguridad en la integridad de la información.
+- **Cambios retroactivos sin control**: Una vez que los datos se modifican, puede ser difícil verificar o detectar estas alteraciones.
+
+#### ¿Cómo lo resuelve Blockchain?
+- **Cadena de bloques interconectados**: Blockchain asegura que una vez que un bloque es registrado, su información no puede ser alterada sin cambiar toda la cadena. Esto se logra mediante el uso de hashes que vinculan los bloques entre sí.
+- **Detectabilidad inmediata**: Si alguien intentara alterar un bloque, su hash cambiaría, lo que invalidaría no solo ese bloque, sino todos los bloques posteriores, lo que alertaría de inmediato a la red.
+
+### **6. Consenso: Asegurando la Validación de Transacciones**
+
+#### ¿Qué riesgos existen en los sistemas tradicionales?
+- **Validación unitaria**: En los sistemas tradicionales, las transacciones y los registros pueden ser validados por una única entidad, lo que introduce riesgos de fraude y errores.
+- **Falta de confianza**: La dependencia de una sola autoridad para validar las transacciones puede generar desconfianza entre las partes involucradas.
+
+#### ¿Cómo lo resuelve Blockchain?
+- **Mecanismos de consenso**: Blockchain utiliza algoritmos como Proof of Work (PoW) o Proof of Stake (PoS) para asegurar que todas las transacciones sean validadas de manera descentralizada por la red, eliminando la necesidad de confiar en una sola entidad.
+- **Confianza sin intermediarios**: Gracias a los mecanismos de consenso, todos los participantes de la red validan las transacciones y se aseguran de que sean correctas, lo que elimina la necesidad de confianza en una sola parte.
 
 
 
