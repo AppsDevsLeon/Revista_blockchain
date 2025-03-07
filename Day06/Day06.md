@@ -1,4 +1,4 @@
-# **How Bitcoin Revolutionized the World**
+## **How Bitcoin Revolutionized the World**
 
 Bitcoin has become one of the most important financial and technological revolutions of the 21st century. Its impact stretches beyond just being a currency; it has disrupted traditional financial systems, provided solutions to historical economic issues, and opened new doors for decentralized applications. Here’s an in-depth look at how Bitcoin has changed the world.
 
