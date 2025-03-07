@@ -41,4 +41,3 @@ El principal objetivo de Bitcoin es permitir que las personas realicen transacci
 El artículo de Satoshi Nakamoto sentó las bases de Bitcoin como la primera aplicación importante de la tecnología blockchain. Al comprender los principios básicos que se explican en este artículo, uno puede entender cómo Bitcoin y otras aplicaciones de blockchain están cambiando la forma en que las personas piensan sobre el dinero, las transacciones y la confianza en un sistema descentralizado. Además, aprender sobre Bitcoin te prepara para explorar conceptos más avanzados de blockchain, como *finanzas descentralizadas (DeFi)* y *contratos inteligentes*.
 
 
-[¿Qué es el bloque génesis?](https://academy.bit2me.com/que-es-bloque-genesis/)
