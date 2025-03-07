@@ -91,15 +91,21 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 - **Dependencia del proveedor**: La empresa depende del proveedor de BaaS para la disponibilidad y el rendimiento de la red.
 - **Posibles limitaciones en la personalización**: Las soluciones BaaS pueden no ser tan flexibles como una implementación personalizada de blockchain.
 
-## Comparativa entre Redes Blockchain
+# Comparativa entre los Tipos de Redes Blockchain
 
-| Tipo de Red                  | Control                             | Descentralización | Seguridad  | Ejemplos Principales      | Ventajas                     | Desventajas                      |
-|------------------------------|-------------------------------------|-------------------|------------|---------------------------|------------------------------|-----------------------------------|
-| **Pública**                  | Ninguno (Acceso Abierto)            | Total             | Alta       | Bitcoin, Ethereum         | Accesibilidad, Transparencia  | Escalabilidad, Costos altos      |
-| **Privada**                  | Organización Única                  | Baja              | Moderada   | Hyperledger, Corda        | Control, Eficiencia, Escalabilidad | Centralización, Menos seguridad |
-| **Federada**                 | Varias Organizaciones               | Moderada          | Alta       | Ripple, Enterprise Ethereum Alliance | Confianza, Escalabilidad | Gobernanza compleja               |
-| **BaaS (Blockchain como Servicio)** | Proveedor de la nube               | Alta (gestión compartida) | Alta       | Microsoft Azure, AWS Blockchain | Sin infraestructura propia, Escalabilidad | Dependencia del proveedor        |
 
+| Tipo de Red                        | Público                                 | Privado                                 | Federado                                  | Blockchain as a Service                     |
+|-------------------------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|--------------------------------------------|
+| **Ejemplos**                        | Bitcoin, Ethereum, Litecoin             | Hyperledger, Corda, Quorum              | Hyperledger, Corda, Quorum                | IBM, Microsoft, Amazon                     |
+| **Participación**                   | Cualquiera puede participar             | NA                                      | Los participantes actúan, en general, como nodos | NA                                         |
+| **Transparencia**                   | NA                                      | Hay un único administrador              | Hay más de un administrador               | NA                                         |
+| **Administradores**                 | NA                                      | No hay administradores                  | Ningún participante tiene más derechos que los demás | NA                                         |
+| **Smart Contracts**                 | NA                                      | Se pueden implementar Smart Contracts  | NA                                        | Existe recompensa por minado de bloques   |
+| **Recompensa por Minado**           | NA                                      | Soluciona problema de falta de confianza | Seguridad basada en protocolos de consenso | Seguridad basada en funciones hash        |
+| **Seguridad**                       | NA                                      | NA                                      | NA                                        | Provee servicios en la nube               |
+
+
+Nota : El término **N/A** significa **"No Aplica"**
 ## Resumen
 
 - Las **redes públicas** son ideales para casos donde la descentralización, transparencia y accesibilidad son esenciales, pero pueden ser lentas y caras.
