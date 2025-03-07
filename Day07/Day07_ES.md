@@ -1,4 +1,4 @@
-# **Introducción a Bitcoin y Blockchain: Una Guía Básica**
+# **Introducción a Bitcoin y Blockchain**
 
 ## **¿Por qué aprender sobre Bitcoin es importante para entender Blockchain?**
 Bitcoin está basado en una tecnología llamada *blockchain* o *cadena de bloques*, que es la primera aplicación importante de esta tecnología. Si entiendes cómo funciona Bitcoin, obtendrás una base sólida para entender cómo funciona la tecnología blockchain en general. Aprender sobre Bitcoin te ayudará a comprender mejor cómo se están utilizando las cadenas de bloques en diferentes áreas, no solo en criptomonedas.
