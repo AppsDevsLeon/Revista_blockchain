@@ -20,7 +20,7 @@ Blockchain es un sistema distribuido que permite registrar y validar transaccion
     Un valor único generado mediante una función hash (por ejemplo, SHA-256) que identifica de forma inmutable el contenido del bloque.
   - **Hash del Bloque Anterior:**
     Cada bloque contiene el hash del bloque anterior, creando un vínculo secuencial y garantizando la integridad de toda la cadena.
-  - **Nonce:**\
+  - **Nonce:**
     Un número que los mineros deben encontrar para satisfacer los criterios de dificultad en el proceso de minería.
   - **Lista de Transacciones:**
     Registro de todas las transacciones o datos que se desean almacenar en el bloque.
@@ -76,12 +76,12 @@ La siguiente imagen ilustra este principio de inmutabilidad:
   - **Resistencia a Colisiones:** Es extremadamente improbable que dos entradas diferentes produzcan el mismo hash.
   - **Resistencia a Pre-imágenes:** A partir de un hash es prácticamente imposible recuperar el mensaje original.
 
-- **Ejemplo: SHA-256:**\
+- **Ejemplo: SHA-256:**
   Este algoritmo toma cualquier dato de entrada y lo transforma en una cadena de 256 bits, asegurando que cada bloque tenga una "huella digital" única.
 
 ### 3.2 Criptografía de Clave Pública y Privada
 
-- **Concepto Básico:**\
+- **Concepto Básico:**
   Cada usuario posee un par de claves: una pública, que se comparte libremente, y una privada, que se mantiene en secreto.
 - **Aplicaciones:**
   - **Firmas Digitales:** Garantizan que las transacciones sean autorizadas únicamente por el propietario de la clave privada.
