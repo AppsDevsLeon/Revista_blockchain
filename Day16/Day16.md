@@ -10,7 +10,7 @@ Information is automatically replicated across all nodes, enabling any malicious
 
 A node in a blockchain network is an individual computer actively participating in the network. Each node has a complete copy of the ledger, allowing it to independently verify and audit all transactions and detect any irregularities.
 
-![node](https://github.com/AppsDevsLeon/Revista_blockchain/blob/main/Day16/Images/r2.png)
+![node](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day16/Images/r2.png)
 
 # Blockchain Nodes
 
