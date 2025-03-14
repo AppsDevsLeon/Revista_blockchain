@@ -2,7 +2,7 @@
 
 Blockchain networks start with a **genesis state**, marking the beginning of their decentralized ledger. This state defines the initial parameters and serves as the foundation for all subsequent blocks. The **genesis block** is the first block in a blockchain and remains immutable throughout the network's existence.
 
-### **1. The Genesis Block: The Birth of Blockchain**
+## **1. The Genesis Block: The Birth of Blockchain**
 
 The **genesis block** is unique in that it has no preceding block and sets the initial state of the blockchain. It is hardcoded into the protocol and serves as the root from which all other blocks grow.
 
@@ -15,7 +15,7 @@ The **genesis block** is unique in that it has no preceding block and sets the i
 
 - **Other Notable Genesis Blocks:** Many blockchain networks have their own unique genesis blocks, marking the start of their history and defining their consensus mechanisms.
 
-### **2. State Management in Blockchain**
+## **2. State Management in Blockchain**
 
 Blockchain networks maintain a global **state**, which evolves with every new transaction and block. The state is continuously updated as transactions alter account balances, smart contract storage, and network parameters.
 
@@ -36,7 +36,7 @@ Genesis → State 1 → State 2 → ... → Current State
 
 Each **state transition** is cryptographically secured and verified by the network, ensuring transparency and security.
 
-### **3. Structure of a Block**
+## **3. Structure of a Block**
 
 Each block in a blockchain contains the following essential components:
 - **Block Header**: Includes metadata such as the block hash, previous block hash, timestamp, and nonce.
