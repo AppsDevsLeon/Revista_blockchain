@@ -25,7 +25,7 @@ Blockchain is a distributed system that allows recording and validating transact
   - **List of Transactions:**  
     A record of all transactions or data intended to be stored in the block.
     
-![Peer-to-Peer Network](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day09/Images/Bloque1a.png)
+![Red Peer-to-Peer](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day10/Images/Bloque1a.png)
 
 ### 2.2 The Blockchain
 
