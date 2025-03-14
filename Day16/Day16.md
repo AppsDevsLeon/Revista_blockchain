@@ -12,18 +12,52 @@ A node in a blockchain network is an individual computer actively participating 
 
 ![node](https://github.com/AppsDevsLeon/Revista_blockchain/blob/main/Day16/Images/r2.png)
 
+## **Blockchain Nodes**
+
+A blockchain network relies on different types of nodes, each playing specific roles to maintain security, integrity, and performance. Here we explain all the types of nodes that exist within a blockchain network.
+
 ## **Types of Nodes**
 
-### Regular Nodes
+### **Full Nodes**
+Full nodes store the complete blockchain ledger. They independently validate blocks and transactions to ensure network rules are strictly followed, contributing significantly to decentralization and security.
+
+### **Regular Nodes**
 These nodes store a complete copy of the ledger, validate transactions, and ensure overall network integrity.
 
-### Mining Nodes
-Mining nodes are responsible for:
-- Grouping new transactions into blocks.
-- Verifying and validating those transactions.
-- Proposing the new blocks to the rest of the network for inclusion in the global ledger.
+### **Mining Nodes**
+Mining nodes perform the following tasks:
+- Group new transactions into blocks.
+- Verify and validate these transactions.
+- Propose new blocks to be added to the global ledger.
 
-Miners receive cryptocurrency rewards for their validation work.
+### **Light Nodes**
+Light nodes don't store the complete ledger but keep partial data to validate transactions quickly. They depend on full nodes to access complete blockchain data.
+
+### **Full Nodes**
+Full nodes store the complete blockchain history, maintain network integrity by validating all blocks and transactions, and propagate new blocks throughout the network.
+
+### **Archival Nodes**
+Archival nodes maintain the entire blockchain history, including all states and transactions, providing comprehensive data retrieval capabilities useful for analytical purposes.
+
+## **Node Comparison Table**
+
+| Node Type       | Ledger Copy      | Validation Role      | Mining Capability | Storage Requirements | Network Role                 |
+|-----------------|-------------------|---------------------|-------------------|---------------------|
+| Regular Node    | Partial/Full      | Validation           | No                | Moderate             |
+| Mining Node     | Full              | Validation & Creation| Yes               | High                 |
+| Full Node       | Full              | Complete Validation  | No                | High                 |
+| Light Node      | Partial           | Limited Validation   | No                | Low                  |
+| Archival Node   | Complete History  | Complete Validation  | No                | Very High            |
+
+---
+
+## **Benefits of Node Diversity**
+
+- **Security and Reliability:** The diverse types of nodes increase network resilience and security.
+- **Transparency:** Comprehensive validation across multiple nodes ensures data accuracy and integrity.
+- **Decentralization:** No single node or group can control or influence the entire network significantly.
+
+
 
 ---
 
