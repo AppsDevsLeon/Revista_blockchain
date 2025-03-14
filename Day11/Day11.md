@@ -32,6 +32,8 @@ The state transition process is illustrated below:
 Genesis → State 1 → State 2 → ... → Current State
 ```
 
+![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/2022-09-30_16-53-15-bcbf65bc94e7ce1618cbd9735f3f2ef3.webp)
+
 Each **state transition** is cryptographically secured and verified by the network, ensuring transparency and security.
 
 ### **3. Structure of a Block**
@@ -49,6 +51,8 @@ The block structure is illustrated below:
 ```
 Block 1 → Block 2 → Block 3 → ... → Block N
 ```
+
+![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/2022-09-30_16-53-15-bcbf65bc94e7ce1618cbd9735f3f2ef3.webp)
 
 Each block references the previous block’s hash, ensuring historical traceability and tamper resistance.
 
