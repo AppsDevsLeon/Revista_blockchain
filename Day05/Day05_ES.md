@@ -95,7 +95,7 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 
 
 | Tipo de Red                        | Público                                 | Privado                                 | Federado                                  | Blockchain as a Service                     |
-|-------------------------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|--------------------------------------------|
+
 | **Ejemplos**                        | Bitcoin, Ethereum, Litecoin             | Hyperledger, Corda, Quorum              | Hyperledger, Corda, Quorum                | IBM, Microsoft, Amazon                     |
 | **Participación**                   | Cualquiera puede participar             | NA                                      | Los participantes actúan, en general, como nodos | NA                                         |
 | **Transparencia**                   | NA                                      | Hay un único administrador              | Hay más de un administrador               | NA                                         |
