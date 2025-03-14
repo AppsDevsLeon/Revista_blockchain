@@ -26,7 +26,12 @@ Blockchain es un sistema distribuido que permite registrar y validar transaccion
 ### 2.2 La Cadena de Bloques
 
 - **Estructura Encadenada:**  
-  Al incluir el hash del bloque anterior, cada bloque se conecta al siguiente, formando una cadena ininterrumpida que remonta hasta el bloque génesis.  
+ Al incluir el hash del bloque anterior, cada bloque se conecta al siguiente, formando una cadena ininterrumpida que remonta hasta el bloque génesis. Esto garantiza que cualquier alteración en un bloque cambiaría su hash, rompiendo la secuencia y evidenciando la manipulación.
+
+ La siguiente imagen ilustra esta estructura, mostrando cómo cada bloque contiene el hash del anterior, asegurando la continuidad e integridad de la cadena:
+
+    ![Red Peer-to-Peer](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day09/Images/1.png)
+
 - **Inmutabilidad:**  
   Una vez añadido, cualquier cambio en un bloque modificaría su hash, haciendo evidente la alteración y rompiendo la cadena de validez.
 
