@@ -1,6 +1,5 @@
 ## **Comparativa de Redes: Centralizadas vs. Descentralizadas vs. Distribuidas**
 
-
 ![redes](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day15/Images/r1.png)
 
 ## **Tabla Comparativa**
