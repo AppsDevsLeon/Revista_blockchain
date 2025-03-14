@@ -64,4 +64,28 @@ Usa hashes secuenciales con timestamps para verificar rápidamente el orden y ti
 - **Proof of History (PoH):**
   - Añade orden cronológico verificable mediante hashes.
   - Incrementa enormemente la velocidad de la red.
+ 
+  # Algoritmos y Estructuras Blockchain para Conectar Bloques
+
+En la tecnología blockchain, los bloques se conectan de forma segura mediante algoritmos específicos que determinan la estructura subyacente de la red. A continuación, se presenta un resumen detallado sobre los algoritmos y estructuras más utilizados en diferentes redes blockchain para enlazar bloques.
+
+## **Prueba de Historia (Proof of History - PoH)**
+
+- Crea un orden cronológico mediante marcas de tiempo criptográficas.
+- Permite una validación extremadamente rápida de las transacciones.
+
+**Ejemplo:** Solana
+
+## **Comparación de Características Clave**
+
+| Tipo de Estructura       | Seguridad       | Velocidad de Transacción | Complejidad | Escalabilidad               |
+|--------------------------|-----------------|--------------------------|-------------|-----------------------------|
+| **Cadena Lineal**        | Muy Alta        | Moderada-Baja            | Moderada    | Limitada (sin soluciones L2)|
+| **Árboles Merkle**       | Alta            | Alta                     | Media       | Media-Alta                  |
+| **DAG**                  | Media a Alta    | Muy Alta                 | Alta        | Muy Alta                    |
+| **Prueba de Historia**   | Alta            | Muy Alta                 | Alta        | Alta                        |
+
+Este resumen detalla propiedades esenciales, estructuras y algoritmos utilizados por diversas redes blockchain, facilitando una comprensión clara de sus fundamentos tecnológicos.
+
+
 
