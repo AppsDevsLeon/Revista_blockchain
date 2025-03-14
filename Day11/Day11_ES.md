@@ -2,7 +2,7 @@
 
 Las redes blockchain comienzan con un **estado génesis**, marcando el inicio de su libro mayor descentralizado. Este estado define los parámetros iniciales y sirve como la base para todos los bloques subsiguientes. El **bloque génesis** es el primer bloque en una blockchain y permanece inmutable a lo largo de la existencia de la red.
 
-### **1. El Bloque Génesis: El Nacimiento de la Blockchain**
+## **1. El Bloque Génesis: El Nacimiento de la Blockchain**
 
 El **bloque génesis** es único porque no tiene un bloque anterior y establece el estado inicial de la blockchain. Está codificado en el protocolo y sirve como la raíz de la que crecen todos los demás bloques.
 
@@ -15,7 +15,7 @@ El **bloque génesis** es único porque no tiene un bloque anterior y establece 
 
 - **Otros Bloques Génesis Notables:** Muchas redes blockchain tienen sus propios bloques génesis únicos, marcando el inicio de su historia y definiendo sus mecanismos de consenso.
 
-### **2. Gestión del Estado en Blockchain**
+## **2. Gestión del Estado en Blockchain**
 
 Las redes blockchain mantienen un **estado global**, que evoluciona con cada nueva transacción y bloque. El estado se actualiza continuamente a medida que las transacciones alteran los saldos de cuentas, el almacenamiento de contratos inteligentes y los parámetros de la red.
 
@@ -35,7 +35,7 @@ Génesis → Estado 1 → Estado 2 → ... → Estado Actual
 
 Cada **transición de estado** está asegurada criptográficamente y verificada por la red, garantizando transparencia y seguridad.
 
-### **3. Estructura de un Bloque**
+## **3. Estructura de un Bloque**
 
 Cada bloque en una blockchain contiene los siguientes componentes esenciales:
 - **Encabezado del Bloque**: Incluye metadatos como el hash del bloque, el hash del bloque anterior, la marca de tiempo y el nonce.
