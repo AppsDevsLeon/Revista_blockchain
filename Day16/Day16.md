@@ -12,54 +12,58 @@ A node in a blockchain network is an individual computer actively participating 
 
 ![node](https://github.com/AppsDevsLeon/Revista_blockchain/blob/main/Day16/Images/r2.png)
 
-## **Blockchain Nodes**
+# Blockchain Nodes
 
-A blockchain network relies on different types of nodes, each playing specific roles to maintain security, integrity, and performance. Here we explain all the types of nodes that exist within a blockchain network.
+A blockchain network maintains security, integrity, and performance through various node types, each performing distinct roles. This document details node types and includes a comparison of blockchain networks based on their node usage.
 
 ## **Types of Nodes**
 
 ### **Full Nodes**
-Full nodes store the complete blockchain ledger. They independently validate blocks and transactions to ensure network rules are strictly followed, contributing significantly to decentralization and security.
-
-### **Regular Nodes**
-These nodes store a complete copy of the ledger, validate transactions, and ensure overall network integrity.
+Full nodes store the complete blockchain ledger. They independently validate all blocks and transactions, enforcing network rules strictly, which enhances decentralization and security.
 
 ### **Mining Nodes**
-Mining nodes perform the following tasks:
-- Group new transactions into blocks.
-- Verify and validate these transactions.
-- Propose new blocks to be added to the global ledger.
+Mining nodes are responsible for:
+- Grouping new transactions into blocks.
+- Verifying and validating these transactions.
+- Proposing new blocks to the network.
+
+### **Regular Nodes**
+Regular nodes store a complete or partial copy of the ledger and perform transaction validations. They contribute to the overall network health.
 
 ### **Light Nodes**
-Light nodes don't store the complete ledger but keep partial data to validate transactions quickly. They depend on full nodes to access complete blockchain data.
-
-### **Full Nodes**
-Full nodes store the complete blockchain history, maintain network integrity by validating all blocks and transactions, and propagate new blocks throughout the network.
+Light nodes store only essential blockchain data to verify transactions rapidly. They rely on full nodes for complete blockchain information.
 
 ### **Archival Nodes**
-Archival nodes maintain the entire blockchain history, including all states and transactions, providing comprehensive data retrieval capabilities useful for analytical purposes.
+Archival nodes store the entire blockchain history, facilitating detailed analysis and audits.
 
 ## **Node Comparison Table**
 
-| Node Type       | Ledger Copy      | Validation Role      | Mining Capability | Storage Requirements | Network Role                 |
-|-----------------|-------------------|---------------------|-------------------|---------------------|
-| Regular Node    | Partial/Full      | Validation           | No                | Moderate             |
-| Mining Node     | Full              | Validation & Creation| Yes               | High                 |
-| Full Node       | Full              | Complete Validation  | No                | High                 |
-| Light Node      | Partial           | Limited Validation   | No                | Low                  |
-| Archival Node   | Complete History  | Complete Validation  | No                | Very High            |
+| Node Type       | Ledger Copy         | Validation Role           | Mining Capability | Storage Requirements |
+|-----------------|---------------------|---------------------------|-------------------|----------------------|
+| Full Node       | Complete            | Complete Validation       | No                | High                 |
+| Mining Node     | Complete            | Validation & Creation     | Yes               | High                 |
+| Regular Node    | Partial/Full        | Basic Validation          | No                | Moderate             |
+| Light Node      | Partial             | Limited Validation        | No                | Low                  |
+| Archival Node   | Complete History    | Complete Validation       | No                | Very High            |
+
+## **Blockchain Networks and Node Types Used**
+
+| Blockchain Network | Full Nodes | Mining Nodes | Light Nodes | Archival Nodes |
+|--------------------|------------|--------------|-------------|----------------|
+| Bitcoin            | ✔️          | ✔️            | ✔️               | ✔️               |
+| Ethereum           | ✔️          | ✔️                     | ✔️                | ✔️              |
+| Litecoin          | ✔️          | ✔️           | ✔️         | ❌              |
+| Solana             | ✔️                | ❌ (validators instead)   | ✔️(validators)    | ❌              |
+| Cardano           | ✔️           | ❌ (validators instead) | ✔️(validators)    | ✔️              |
+| Polkadot           | ✔️           | ❌ (validators instead) | ✔️(validators)    | ✔️              |
 
 ---
 
 ## **Benefits of Node Diversity**
 
-- **Security and Reliability:** The diverse types of nodes increase network resilience and security.
-- **Transparency:** Comprehensive validation across multiple nodes ensures data accuracy and integrity.
-- **Decentralization:** No single node or group can control or influence the entire network significantly.
-
-
-
----
+- **Security and Resilience:** Diversity in node types enhances overall network robustness.
+- **Transparency:** Multiple nodes ensure the accuracy and integrity of blockchain data.
+- **Decentralization:** Prevents a single entity from controlling the blockchain network.
 
 ## **Benefits of Distributed Networks**
 
