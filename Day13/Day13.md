@@ -18,7 +18,7 @@ The following table offers a detailed comparative summary of blockchain networks
 | **Cardano**        | Ouroboros                | Linear chain with Merkle Trees       | Secure and energy-efficient, Proof of Stake   | SHA-256               |
 | **Hedera Hashgraph** | Hashgraph               | Directed Acyclic Graph (DAG)         | High speed, robust security                  | SHA-384               |
 
-##  **Key Characteristics of Blockchain Structures **
+## **Key Characteristics of Blockchain Structures**
 
 ### Linear Chain (Classic Blockchain)
 - Secure block linking using cryptographic hashes
@@ -35,21 +35,21 @@ The following table offers a detailed comparative summary of blockchain networks
 
 **Examples:** IOTA, Avalanche, Hedera Hashgraph
 
-##  **Merkle Trees **
+## **Merkle Trees**
 
 - Allow quick verification of transaction integrity.
 - Significantly reduce storage needs through hashing.
 
 **Commonly Used in:** Bitcoin, Ethereum, Cardano
 
-## Proof of History (PoH)
+## **Proof of History (PoH)**
 
 - Creates chronological order through cryptographic timestamps.
 - Enables extremely fast validation of transactions.
 
 **Example:** Solana
 
-## Key Characteristics Comparison
+##  **Key Characteristics Comparison**
 
 | Structure Type           | Security          | Transaction Speed | Complexity      | Scalability          |
 |--------------------------|-------------------|-------------------|-----------------|----------------------|
