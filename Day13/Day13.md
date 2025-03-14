@@ -1,8 +1,8 @@
-##  **Blockchain Algorithms and Structures for Connecting Blocks **
+## **Blockchain Algorithms and Structures for Connecting Blocks**
 
 In blockchain technology, blocks are securely and uniquely connected using specific algorithms that determine the network's underlying structure. Below is a detailed overview of the most commonly used algorithms in different blockchain networks to link blocks, covering structures from linear chains to graphs.
 
-##  **Common Blockchain Structures and Algorithms **
+## **Common Blockchain Structures and Algorithms**
 
 The following table offers a detailed comparative summary of blockchain networks and the algorithms they utilize for connecting blocks:
 
