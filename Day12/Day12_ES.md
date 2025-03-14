@@ -1,6 +1,5 @@
 ## **Hash, Hashing y SHA-256**
 
-
 Antes de comenzar, debemos entender qué es exactamente un hash y, más específicamente, el hash SHA-256. Un hash se asemeja a una secuencia aparentemente aleatoria de números y letras, actuando como una huella digital única de datos digitales específicos.
 
 ## ¿Qué es SHA-256?
