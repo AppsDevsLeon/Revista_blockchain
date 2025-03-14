@@ -170,7 +170,6 @@ La siguiente imagen ilustra este principio de inmutabilidad:
   - Aumenta la seguridad al incrementar la barrera computacional contra posibles ataques.
 
 
-
 ## **6. Aplicaciones Avanzadas de Blockchain**
 
 ### 6.1 Criptomonedas
@@ -213,8 +212,6 @@ La siguiente imagen ilustra este principio de inmutabilidad:
   
 - **Datos Abiertos y Transparencia:**  
   Permite la publicación y verificación de datos de manera descentralizada, facilitando la transparencia en procesos gubernamentales y comerciales.
-
----
 
 ## **7. Retos y Perspectivas Futuras**
 
