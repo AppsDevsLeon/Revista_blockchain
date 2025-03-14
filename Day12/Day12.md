@@ -2,7 +2,7 @@
 
 Before we start, we need to understand exactly what a hash is, and more specifically, the SHA-256 hash. A hash appears as a seemingly random sequence of numbers and letters, acting as a unique digital fingerprint of specific digital data.
 
-## What is SHA-256?
+## **What is SHA-256?**
 
 SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic function that generates a unique, fixed-length 256-bit (32 bytes) string, typically represented in hexadecimal with 64 characters. This algorithm exclusively generates hexadecimal values, meaning numbers from 0-9 and letters from A to F.
 
@@ -30,7 +30,7 @@ If we slightly modify the original text, for example changing the last letter to
 
 You could write tons of text and always get a hash of the same length. Whether it is a tiny amount of information, no information, or the entire digital contents of the Library of Congress, the hash length will always remain the same as shown above. You will never guess what the hash will be, but it will always be the same hash whenever you enter the exact same data.
 
-## Mathematical Properties of SHA-256
+## **Mathematical Properties of SHA-256**
 
 SHA-256 employs rigorous mathematical procedures involving logical and arithmetic operations, such as:
 
@@ -42,14 +42,14 @@ The algorithm processes data in 512-bit blocks (64 bytes). Each block is divided
 
 These operations ensure SHA-256’s high security, making it resistant to known cryptographic attacks.
 
-## Important Properties of SHA-256
+## **Important Properties of SHA-256**
 
 - **Fixed length**: Always 256 bits, represented as 64 hexadecimal characters (0-9 and A-F).
 - **Deterministic**: The same input always produces the same hash.
 - **One-way**: It is impossible to reverse a hash to recover original data.
 - **Collision-resistant**: Virtually impossible to find two different inputs generating the same hash.
 
-## Avalanche Effect
+## **Avalanche Effect**
 
 SHA-256 exhibits the **avalanche effect**, meaning even a small change in the original data will result in a completely different and unpredictable hash. This is crucial for ensuring data integrity and security.
 
@@ -61,7 +61,7 @@ For example:
 
 This property makes it impossible to alter data without significantly changing the resulting hash, ensuring integrity across multiple technological applications.
 
-## Applications of SHA-256
+## **Applications of SHA-256**
 
 SHA-256 is widely used in:
 
