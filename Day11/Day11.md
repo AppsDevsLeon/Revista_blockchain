@@ -44,6 +44,14 @@ Each block in a blockchain contains the following essential components:
 
 This structure ensures that each block is cryptographically linked to the previous block, forming a secure and immutable chain.
 
+The block structure is illustrated below:
+
+```
+Block 1 → Block 2 → Block 3 → ... → Block N
+```
+
+Each block references the previous block’s hash, ensuring historical traceability and tamper resistance.
+
 ### **4. Table of Genesis Blocks Across Different Networks**
 
 Below is a comparison of the first blocks in different blockchain networks:
@@ -57,6 +65,7 @@ Below is a comparison of the first blocks in different blockchain networks:
 | **Cardano** | September 29, 2017  | Ouroboros Proof-of-Stake |
 | **Polkadot** | May 26, 2020       | Interoperable parachains |
 
+### **Conclusion**
 
 The **genesis block** marks the foundation of every blockchain network. It defines the initial state, sets the consensus rules, and provides an immutable starting point. As blockchains grow, state management ensures that every transaction is recorded transparently and securely, making blockchain technology a revolutionary tool for decentralized applications and financial systems.
 
