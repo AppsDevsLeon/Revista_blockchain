@@ -15,7 +15,7 @@ Por ejemplo, el siguiente hash inicia con `e3b0`, y es la representación del ha
 
 Si escribimos cualquier texto en una caja, como por ejemplo la palabra `blockchain`, el hash generado cambia completamente:
 
-![Metamask](Images/a19.png)
+![Metamask](https://raw.githubusercontent.com/spo0ds/Journey-to-become-a-Blockchain-Engineer/refs/heads/main/Day02/Images/a19.png)
 
 Este hash, que inicia con `5318`, es el resultado único y constante del texto "blockchain" escrito completamente en minúsculas. Si borras el texto y vuelves a escribir exactamente lo mismo, obtendrás siempre el mismo hash. Por ello decimos que es la **"huella digital"** del texto ingresado.
 
