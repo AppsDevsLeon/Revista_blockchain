@@ -37,7 +37,7 @@ Blockchain is a distributed system that allows recording and validating transact
 - **Immutability:**  
   Each block in the blockchain has a unique hash that represents it, along with a field that stores the previous block's hash. If someone tries to modify a block, its hash will change, invalidating all subsequent blocks.
   
-![Genesis Block](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day09/Images/genesisblock2.png)
+![Bloque Génesis](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day10/Images/genesisblock2.png)
 
 1. **Genesis Block:**
    - Represents the first block of the Bitcoin blockchain.
