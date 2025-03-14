@@ -94,15 +94,18 @@ Las redes federadas son una mezcla entre redes públicas y privadas. En lugar de
 ## **Comparativa entre los Tipos de Redes Blockchain**
 
 
-| Tipo de Red                        | Público                                 | Privado                                 | Federado                                  | Blockchain as a Service                     |
+## **Comparación de Tipos de Redes Blockchain**
 
-| **Ejemplos**                        | Bitcoin, Ethereum, Litecoin             | Hyperledger, Corda, Quorum              | Hyperledger, Corda, Quorum                | IBM, Microsoft, Amazon                     |
-| **Participación**                   | Cualquiera puede participar             | NA                                      | Los participantes actúan, en general, como nodos | NA                                         |
-| **Transparencia**                   | NA                                      | Hay un único administrador              | Hay más de un administrador               | NA                                         |
-| **Administradores**                 | NA                                      | No hay administradores                  | Ningún participante tiene más derechos que los demás | NA                                         |
-| **Smart Contracts**                 | NA                                      | Se pueden implementar Smart Contracts  | NA                                        | Existe recompensa por minado de bloques   |
-| **Recompensa por Minado**           | NA                                      | Soluciona problema de falta de confianza | Seguridad basada en protocolos de consenso | Seguridad basada en funciones hash        |
-| **Seguridad**                       | NA                                      | NA                                      | NA                                        | Provee servicios en la nube               |
+| Tipo de Red                      | Pública                                | Privada                                | Federada                               | Blockchain como Servicio                  |
+|----------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|-------------------------------------------|
+| **Ejemplos**                     | Bitcoin, Ethereum, Litecoin            | Hyperledger, Corda, Quorum              | Hyperledger, Corda, Quorum              | IBM, Microsoft, Amazon                    |
+| **Participación**                | Cualquiera puede participar             | N/A                                    | Los participantes generalmente actúan como nodos  | N/A                                    |
+| **Transparencia**                | N/A                                    | Un solo administrador                   | Múltiples administradores               | N/A                                    |
+| **Administradores**              | N/A                                    | Sin administradores                     | Ningún participante tiene más derechos que los demás | N/A                                    |
+| **Contratos Inteligentes**       | N/A                                    | Se pueden implementar Contratos Inteligentes | N/A                              | Existe minería de recompensa de bloques    |
+| **Recompensa por Minería**       | N/A                                    | Resuelve problemas de confianza         | Seguridad basada en protocolos de consenso | Seguridad basada en funciones hash         |
+| **Seguridad**                    | N/A                                    | N/A                                    | N/A                                    | Servicios basados en la nube proporcionados   |
+
 
 
 Nota : El término **N/A** significa **"No Aplica"**
