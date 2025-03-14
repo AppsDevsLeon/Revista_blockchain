@@ -11,22 +11,63 @@ La información se replica automáticamente a través de todos los nodos, permit
 
 Un nodo en una red blockchain es un ordenador individual que participa activamente en la red. Cada nodo posee una copia completa del libro mayor, lo que le permite verificar y auditar de manera independiente todas las transacciones y detectar cualquier irregularidad.
 
-![red](https://github.com/AppsDevsLeon/Revista_blockchain/blob/main/Day16/Images/r2.png)
+![node](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day16/Images/r2.png)
+
+
+# Nodos en Blockchain
+
+Una red blockchain mantiene la seguridad, integridad y rendimiento mediante varios tipos de nodos, cada uno desempeñando funciones específicas. Este documento detalla los tipos de nodos e incluye una comparación de las redes blockchain según el uso de estos nodos.
 
 ## **Tipos de Nodos**
 
-### Nodos Regulares
-Estos nodos almacenan una copia completa del libro mayor, validan transacciones y se encargan de la integridad general de la red.
+### **Nodos Completos (Full Nodes)**
+Los nodos completos almacenan el libro mayor blockchain íntegro. Validan de forma independiente todos los bloques y transacciones, aplicando estrictamente las reglas de la red, lo que aumenta la descentralización y seguridad.
 
-### Nodos de Minería
-Los nodos de minería son responsables de:
+### **Nodos de Minería**
+Los nodos de minería tienen las siguientes responsabilidades:
 - Agrupar nuevas transacciones en bloques.
-- Verificar y validar esas transacciones.
-- Proponer los nuevos bloques al resto de la red para su inclusión en el libro mayor global.
+- Verificar y validar dichas transacciones.
+- Proponer nuevos bloques a la red.
 
-Los mineros reciben recompensas en criptomonedas por su trabajo de validación.
+### **Nodos Regulares**
+Los nodos regulares almacenan una copia completa o parcial del libro mayor y realizan validaciones básicas de transacciones. Contribuyen a la salud general de la red.
+
+### **Nodos Ligeros (Light Nodes)**
+Los nodos ligeros almacenan únicamente los datos esenciales de la blockchain para verificar rápidamente transacciones. Dependen de los nodos completos para obtener la información blockchain completa.
+
+### **Nodos Archivadores (Archival Nodes)**
+Los nodos archivadores almacenan toda la historia de la blockchain, facilitando análisis detallados y auditorías.
+
+## **Tabla Comparativa de Nodos**
+
+| Tipo de Nodo       | Copia del Libro Mayor | Rol de Validación       | Capacidad de Minado | Requisitos de Almacenamiento |
+|--------------------|-----------------------|-------------------------|---------------------|------------------------------|
+| Nodo Completo      | Completa              | Validación completa     | No                  | Alta                         |
+| Nodo de Minería    | Completa              | Validación y creación   | Sí                  | Alta                         |
+| Nodo Regular       | Parcial/Completa      | Validación básica       | No                  | Moderada                     |
+| Nodo Ligero        | Parcial               | Validación limitada     | No                  | Baja                         |
+| Nodo Archivador    | Historia Completa     | Validación completa     | No                  | Muy alta                     |
+
+## **Redes Blockchain y Tipos de Nodos Utilizados**
+
+| Red Blockchain | Nodos Completos | Nodos de Minería | Nodos Ligeros | Nodos Archivadores |
+|----------------|-----------------|------------------|---------------|--------------------|
+| Bitcoin        | ✔️               | ✔️                | ✔️            | ✔️                 |
+| Ethereum       | ✔️               | ✔️                | ✔️            | ✔️                 |
+| Litecoin       | ✔️               | ✔️                | ✔️            | ❌                 |
+| Solana         | ✔️               | ❌ (validadores)  | ✔️(validadores)| ❌                 |
+| Cardano        | ✔️               | ❌ (validadores)  | ✔️(validadores)| ✔️                 |
+| Polkadot       | ✔️               | ❌ (validadores)  | ✔️(validadores)| ✔️                 |
 
 ---
+
+## **Beneficios de la Diversidad de Nodos**
+
+- **Seguridad y Resiliencia:** La diversidad de tipos de nodos mejora la robustez general de la red.
+- **Transparencia:** La validación a través de múltiples nodos asegura la precisión e integridad de los datos blockchain.
+- **Descentralización:** Evita que una sola entidad pueda controlar significativamente la red blockchain.
+
+
 
 ## **Beneficios de las Redes Distribuidas**
 
