@@ -11,6 +11,7 @@ Blockchain es un sistema distribuido que permite registrar y validar transaccion
 
 ### 2.1 ¿Qué es un Bloque?
 
+
 - **Definición:**
   Un bloque es un archivo digital que almacena información relevante, como transacciones, marcas de tiempo y otros metadatos.
 
