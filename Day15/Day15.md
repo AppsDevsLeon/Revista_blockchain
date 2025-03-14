@@ -2,7 +2,7 @@
 
 ![redes](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day15/Images/r1.png)
 
-### **Comparative Table**
+## **Comparative Table**
 
 | Characteristic           | Centralized                 | Decentralized                   | Distributed                 |
 |--------------------------|-----------------------------|---------------------------------|------------------------------|
@@ -12,7 +12,7 @@
 | **Example**              | Traditional servers, banks  | Private blockchain, federated networks | Public blockchain, Bitcoin      |
 | **Security**             | Moderate                    | High                           | Very high                   |
 
-### **Detailed Explanation**
+## **Detailed Explanation**
 
 #### **Centralized Networks**
 - **Control Point:** Single, centralized authority.
