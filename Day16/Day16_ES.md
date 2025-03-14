@@ -5,7 +5,7 @@ Una red distribuida peer-to-peer está compuesta por múltiples ordenadores inte
 
 La información se replica automáticamente a través de todos los nodos, permitiendo que cualquier modificación maliciosa o accidental pueda ser detectada y corregida rápidamente por la mayoría de los nodos.
 
----
+![red](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day16/Images/2022-09-30_16-44-49-2f01f6aa2670c613df15c0aadae24c44.webp)
 
 ##  **¿Qué es un Nodo?**
 
