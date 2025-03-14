@@ -11,7 +11,7 @@ La información se replica automáticamente a través de todos los nodos, permit
 
 Un nodo en una red blockchain es un ordenador individual que participa activamente en la red. Cada nodo posee una copia completa del libro mayor, lo que le permite verificar y auditar de manera independiente todas las transacciones y detectar cualquier irregularidad.
 
-![red](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day16/Images/r2.png)
+![red](https://github.com/AppsDevsLeon/Revista_blockchain/blob/main/Day16/Images/r2.png)
 
 ## **Tipos de Nodos**
 
