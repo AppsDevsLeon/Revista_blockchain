@@ -62,7 +62,7 @@ Blockchain es un sistema distribuido que permite registrar y validar transaccion
 
 La siguiente imagen ilustra este principio de inmutabilidad:  
 
-![Libro Mayor Inmutable]([adjuntar_imagen_aquí](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day09/Images/h4_.PNG))
+![Libro Mayor Inmutable](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day09/Images/h4_.PNG)
 
 ## **3. Fundamentos Criptográficos y Matemáticos**
 
