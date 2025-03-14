@@ -1,6 +1,7 @@
 
 ## **Blockchain: Las Matemáticas Detrás de una Tecnología Revolucionaria**
 
+
 En la era digital actual, blockchain se erige como una tecnología que ha transformado tanto el ámbito de las criptomonedas como múltiples sectores de la industria. Su fortaleza reside en el uso de principios matemáticos y criptográficos avanzados, que permiten crear un sistema de almacenamiento de información seguro, descentralizado e inmutable. Este documento profundiza en los conceptos fundamentales, la estructura, la seguridad y las aplicaciones de blockchain.
 
 Blockchain es un sistema distribuido que permite registrar y validar transacciones sin la necesidad de una autoridad central. Gracias a su base matemática y a técnicas criptográficas de última generación, es posible mantener un registro inalterable y seguro de datos. Este documento ofrece una visión completa y técnica de cómo funciona blockchain, sus mecanismos de seguridad y su potencial para revolucionar la forma en que se gestionan y transmiten datos en el mundo digital.
