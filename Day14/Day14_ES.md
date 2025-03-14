@@ -12,7 +12,7 @@ Un bloque en blockchain organiza la información en tres partes principales clar
 
 La siguiente imagen ilustra cómo se estructura un bloque típico:
 
-![Bloque Blockchain](Images/a20.png)
+![Bloque Blockchain]((https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a20.png)
 
 El hash del bloque incluye toda la información anterior. Por ejemplo, el hash de arriba comienza con cuatro ceros (`0000`). Este tipo de hash es relativamente raro y representa un bloque válido o "firmado".
 
@@ -20,13 +20,13 @@ El hash del bloque incluye toda la información anterior. Por ejemplo, el hash d
 
 Si modificamos cualquier información del bloque, el hash generado cambia completamente y probablemente ya no cumplirá con el requisito inicial (empezar con cuatro ceros). Por ejemplo:
 
-![Bloque modificado](Images/a21.png)
+![Bloque modificado](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a21.png)
 
 Aquí el hash ya no comienza con cuatro ceros, indicando que el bloque ya no es válido. El fondo rojo indica visualmente que el bloque está inválido o no firmado.
 
 Para solucionar esto, se ajusta el valor del Nonce hasta encontrar un hash que nuevamente cumpla con el requisito inicial (empezar con cuatro ceros). Por ejemplo:
 
-![Bloque válido después de ajustar Nonce](Images/a22.png)
+![Bloque válido después de ajustar Nonce](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a22.png)
 
 En este caso, se encontró un Nonce que genera nuevamente un hash válido, haciendo que el bloque sea válido y "firmado" nuevamente.
 
