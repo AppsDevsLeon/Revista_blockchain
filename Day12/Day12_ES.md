@@ -2,7 +2,7 @@
 
 Antes de comenzar, debemos entender qué es exactamente un hash y, más específicamente, el hash SHA-256. Un hash se asemeja a una secuencia aparentemente aleatoria de números y letras, actuando como una huella digital única de datos digitales específicos.
 
-## ¿Qué es SHA-256?
+## **¿Qué es SHA-256?**
 
 SHA-256 (Secure Hash Algorithm 256-bit) es una función criptográfica que genera una cadena única y fija de 256 bits (32 bytes), generalmente representada en hexadecimal con 64 caracteres. Este algoritmo genera valores exclusivamente dentro del rango hexadecimal, es decir, números del 0-9 y letras de la A hasta la F.
 
@@ -30,7 +30,7 @@ Si modificamos ligeramente el texto original, por ejemplo cambiando la última l
 
 Podrías escribir toneladas y toneladas de texto y siempre obtendrás un hash del mismo tamaño. Ya sea una pequeña cantidad de información, ninguna información o una biblioteca completa del Congreso, siempre obtendrás un hash con la longitud mostrada anteriormente. Nunca podrás adivinar cuál será el hash. Siempre tendrás el mismo hash sin importar cuántas veces ingreses la misma información.
 
-## Propiedades Matemáticas del SHA-256
+## **Propiedades Matemáticas del SHA-256**
 
 SHA-256 utiliza un procedimiento matemático riguroso que involucra operaciones lógicas y aritméticas como:
 
@@ -42,7 +42,7 @@ El algoritmo procesa los datos en bloques de 512 bits (64 bytes). Cada bloque se
 
 Estas operaciones aseguran la alta seguridad del algoritmo SHA-256, haciéndolo resistente a ataques criptográficos conocidos.
 
-## Propiedades Importantes del SHA-256
+## **Propiedades Importantes del SHA-256**
 
 - **Longitud fija:** Siempre 256 bits, representados como 64 caracteres hexadecimales (0-9 y A-F).
 
@@ -52,7 +52,7 @@ Estas operaciones aseguran la alta seguridad del algoritmo SHA-256, haciéndolo 
 
 - **Resistente a colisiones:** Es prácticamente imposible encontrar dos entradas diferentes que generen el mismo hash.
 
-## Efecto Avalancha
+## **Efecto Avalancha**
 
 SHA-256 tiene una característica llamada **efecto avalancha**. Este efecto significa que un pequeño cambio en los datos originales generará un hash totalmente diferente e impredecible. Esto es crucial para garantizar la integridad y seguridad.
 
@@ -64,7 +64,7 @@ Por ejemplo:
 
 Esta propiedad hace imposible alterar datos sin cambiar radicalmente el resultado del hash, garantizando integridad en múltiples aplicaciones tecnológicas actuales.
 
-## Aplicaciones del SHA-256
+## **Aplicaciones del SHA-256**
 
 SHA-256 es ampliamente usado en:
 
