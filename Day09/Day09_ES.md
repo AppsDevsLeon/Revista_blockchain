@@ -1,7 +1,6 @@
 
 ## **Tipos de Redes Blockchain**
 
-## **Introducción**
 Las blockchains han revolucionado la manera en que se almacenan y verifican los datos en diferentes industrias. Existen diversos tipos de redes blockchain, cada una con características únicas que las hacen adecuadas para distintos casos de uso. En este documento exploraremos los tres tipos principales de redes blockchain: públicas, privadas y de consorcio, junto con ejemplos representativos de cada una.
 
 ---
