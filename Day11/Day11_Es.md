@@ -31,6 +31,7 @@ El proceso de transición de estado se ilustra a continuación:
 ```
 Génesis → Estado 1 → Estado 2 → ... → Estado Actual
 ```
+![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/2022-09-30_16-53-15-bcbf65bc94e7ce1618cbd9735f3f2ef3.webp)
 
 Cada **transición de estado** está asegurada criptográficamente y verificada por la red, garantizando transparencia y seguridad.
 
