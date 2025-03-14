@@ -11,7 +11,7 @@ Antes de continuar, echemos un vistazo más profundo al hash SHA256. Un hash luc
 
 Por ejemplo, el siguiente hash inicia con `e3b0`, y es la representación del hash SHA-256 cuando no hay ningún dato (un valor vacío):
 
-![Metamask](Images/a18.png)
+![Metamask](https://raw.githubusercontent.com/spo0ds/Journey-to-become-a-Blockchain-Engineer/refs/heads/main/Day02/Images/a18.png)
 
 Si escribimos cualquier texto en una caja, como por ejemplo la palabra `blockchain`, el hash generado cambia completamente:
 
