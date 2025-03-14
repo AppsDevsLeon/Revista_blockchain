@@ -1,8 +1,8 @@
-# Blockchain Algorithms and Structures for Connecting Blocks
+##  **Blockchain Algorithms and Structures for Connecting Blocks **
 
 In blockchain technology, blocks are securely and uniquely connected using specific algorithms that determine the network's underlying structure. Below is a detailed overview of the most commonly used algorithms in different blockchain networks to link blocks, covering structures from linear chains to graphs.
 
-## Common Blockchain Structures and Algorithms
+##  **Common Blockchain Structures and Algorithms **
 
 The following table offers a detailed comparative summary of blockchain networks and the algorithms they utilize for connecting blocks:
 
@@ -18,7 +18,7 @@ The following table offers a detailed comparative summary of blockchain networks
 | **Cardano**        | Ouroboros                | Linear chain with Merkle Trees       | Secure and energy-efficient, Proof of Stake   | SHA-256               |
 | **Hedera Hashgraph** | Hashgraph               | Directed Acyclic Graph (DAG)         | High speed, robust security                  | SHA-384               |
 
-## Key Characteristics of Blockchain Structures
+##  **Key Characteristics of Blockchain Structures **
 
 ### Linear Chain (Classic Blockchain)
 - Secure block linking using cryptographic hashes
@@ -27,7 +27,7 @@ The following table offers a detailed comparative summary of blockchain networks
 
 **Examples:** Bitcoin, Litecoin, Cardano
 
-## Directed Acyclic Graph (DAG)
+##  **Directed Acyclic Graph (DAG) **
 
 - Blocks or transactions linked in a graph rather than a linear chain.
 - Higher scalability and faster transactions.
@@ -35,7 +35,7 @@ The following table offers a detailed comparative summary of blockchain networks
 
 **Examples:** IOTA, Avalanche, Hedera Hashgraph
 
-## Merkle Trees
+##  **Merkle Trees **
 
 - Allow quick verification of transaction integrity.
 - Significantly reduce storage needs through hashing.
