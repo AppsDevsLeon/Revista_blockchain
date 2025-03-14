@@ -52,7 +52,7 @@ The block structure is illustrated below:
 Block 1 → Block 2 → Block 3 → ... → Block N
 ```
 
-![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/2022-09-30_16-53-15-bcbf65bc94e7ce1618cbd9735f3f2ef3.webp)
+![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/blocke.webp)
 
 Each block references the previous block’s hash, ensuring historical traceability and tamper resistance.
 
