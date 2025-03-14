@@ -25,10 +25,22 @@ ef7797e13d3a75526946a3bcf00daec9fc9c9c4d51ddc7cc5df888f74dd434d1
 Si modificamos ligeramente el texto original, por ejemplo cambiando la última letra a mayúscula `blockchaiN`, el hash generado es totalmente diferente:
 
 ```
-6cfa1dbb6eb068b5050efee9f90a954fb0896e9f90a954fb0896cfa1dbb6eb06
+6cfa1dbb6eb068b5050efee9f90a954fb0896e5c97e84713bfe023b9408c2cef
 ```
 
 Podrías escribir toneladas y toneladas de texto y siempre obtendrás un hash del mismo tamaño. Ya sea una pequeña cantidad de información, ninguna información o una biblioteca completa del Congreso, siempre obtendrás un hash con la longitud mostrada anteriormente. Nunca podrás adivinar cuál será el hash. Siempre tendrás el mismo hash sin importar cuántas veces ingreses la misma información.
+
+## Propiedades Matemáticas del SHA-256
+
+SHA-256 utiliza un procedimiento matemático riguroso que involucra operaciones lógicas y aritméticas como:
+
+- **Operaciones de bits**: AND, OR, XOR, NOT
+- **Desplazamientos de bits**: rotaciones y desplazamientos hacia la derecha
+- **Adiciones módulo 2³²**: suma binaria con desbordamiento controlado (mod 2³²)
+
+El algoritmo procesa los datos en bloques de 512 bits (64 bytes). Cada bloque se divide en 16 palabras de 32 bits, que se expanden a 64 palabras mediante un proceso de expansión y mezcla matemática que incrementa la seguridad y la aleatoriedad aparente del resultado final.
+
+Estas operaciones aseguran la alta seguridad del algoritmo SHA-256, haciéndolo resistente a ataques criptográficos conocidos.
 
 ## Propiedades Importantes del SHA-256
 
@@ -48,6 +60,19 @@ Por ejemplo:
 - Texto original: `blockchain`
   - Hash: `ef7797e13d3a75526946a3bcf00daec9fc9c9c4d51ddc7cc5df888f74dd434d1`
 - Texto modificado: `blockchaiN`
-  - Hash: `6cfa1dbb6eb068b5050efee9f90a954fb0896cfa1dbb6eb068b5050efee9f90a`
+  - Hash: `6cfa1dbb6eb068b5050efee9f90a954fb0896e5c97e84713bfe023b9408c2cef`
 
 Esta propiedad hace imposible alterar datos sin cambiar radicalmente el resultado del hash, garantizando integridad en múltiples aplicaciones tecnológicas actuales.
+
+## Aplicaciones del SHA-256
+
+SHA-256 es ampliamente usado en:
+
+- Blockchain (Bitcoin, Ethereum, etc.)
+- Verificación de integridad de archivos
+- Almacenamiento seguro de contraseñas
+- Firmas digitales
+
+La importancia de SHA-256 radica en la combinación de rapidez y seguridad que ofrece en un sinfín de aplicaciones tecnológicas actuales.
+
+
