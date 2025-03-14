@@ -50,6 +50,7 @@ La estructura del bloque se ilustra a continuación:
 ```
 Bloque 1 → Bloque 2 → Bloque 3 → ... → Bloque N
 ```
+![img1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day11/Images/blocke.webp)
 
 Cada bloque referencia el hash del bloque anterior, asegurando la trazabilidad histórica y la resistencia a manipulaciones.
 
