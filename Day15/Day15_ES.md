@@ -2,6 +2,8 @@
 
 En este documento, analizamos las características fundamentales y diferencias entre los tres tipos principales de estructuras de red: centralizadas, descentralizadas y distribuidas.
 
+![redes](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day15/Images/r1.png)
+
 ## **Tabla Comparativa**
 
 | Característica             | Centralizada                      | Descentralizada                      | Distribuida                          |
