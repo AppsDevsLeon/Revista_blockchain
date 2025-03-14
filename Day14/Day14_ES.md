@@ -12,7 +12,7 @@ Un bloque en blockchain organiza la información en tres partes principales clar
 
 La siguiente imagen ilustra cómo se estructura un bloque típico:
 
-![Bloque Blockchain]((https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a20.png)
+![Bloque Blockchain](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day02/Images/a20.png)
 
 El hash del bloque incluye toda la información anterior. Por ejemplo, el hash de arriba comienza con cuatro ceros (`0000`). Este tipo de hash es relativamente raro y representa un bloque válido o "firmado".
 
