@@ -1,3 +1,4 @@
+
 ## **Key Events in Bitcoin History**
 
 Bitcoin has marked significant milestones since its creation, transforming the world of cryptocurrencies and blockchain technology. Below are the most relevant events in Bitcoin's history, from the publication of its whitepaper to its economic and technological milestones.
