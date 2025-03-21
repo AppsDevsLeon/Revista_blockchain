@@ -1,4 +1,4 @@
-# **Byzantine Fault Tolerance (BFT)**
+## **Byzantine Fault Tolerance (BFT)**
 
 Byzantine Fault Tolerance (BFT) is the ability of a distributed system to continue functioning correctly even if some of its components fail or act maliciously. This concept is fundamental in systems where high availability and fault resistance are required, such as blockchain networks.
 
