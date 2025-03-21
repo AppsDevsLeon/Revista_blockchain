@@ -66,7 +66,7 @@ In the block explorer, we can see how transactions are organized and stored in M
 
 ---
 
-## The Role of MemPool in Blockchain Mining**
+## **The Role of MemPool in Blockchain Mining**
 
 MemPool is essential in the Bitcoin mining process. It organizes the transactions that have not yet been confirmed and prepares them for the next mined block. Furthermore, it gives miners the ability to **modify transactions** and restart the mining process, improving efficiency in the search for a valid hash.
 
