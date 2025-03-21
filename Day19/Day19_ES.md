@@ -60,11 +60,14 @@ Aquí viene lo importante:
 
 ## **Límite de Tolerancia a Fallos**
 
-La solución al problema de los generales bizantinos requiere que:
+Para resolver correctamente el Problema de los Generales Bizantinos:
 
- **Para que un sistema tolerante a fallos bizantinos funcione correctamente, debe cumplirse:**
+> **Un sistema tolerante a fallos bizantinos debe cumplir con la condición:**  
+>  
+> **n ≥ 3f + 1**
 
-**n ≥ 3f + 1**
+Donde `n` es el número total de nodos, y `f` es el número máximo de nodos defectuosos o maliciosos que se pueden tolerar.
+
 
 ## **Aplicaciones del Problema de los Generales Bizantinos**
 
