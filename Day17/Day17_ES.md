@@ -1,107 +1,112 @@
-## **Tolerancias a Fallas Bizantinas**
-
-La Tolerancia a Fallas Bizantinas (BFT) es la capacidad de un sistema distribuido para continuar funcionando correctamente incluso si algunos de sus componentes fallan o se comportan de manera maliciosa. Este concepto es fundamental en sistemas donde se requiere alta disponibilidad y resistencia a fallas, como en las redes blockchain.
-
-## **Definición del Problema**
-
-El *Problema de los Generales Bizantinos* plantea la dificultad de alcanzar un acuerdo confiable en un sistema distribuido, incluso cuando algunos participantes (nodos) pueden fallar o actuar maliciosamente. Se define formalmente como un problema de consenso en presencia de fallos arbitrarios (también conocidos como fallos bizantinos).
-
-Un grupo de nodos debe acordar una única decisión (por ejemplo, atacar o retirarse), pero algunos de ellos pueden enviar mensajes contradictorios o falsos. El objetivo es garantizar que:
-
-1. Todos los nodos leales acuerden la misma decisión.
-2. Si el nodo líder (comandante) es leal, entonces los nodos leales siguen su orden.
-
-## **Condiciones del Modelo**
-
-- Comunicación punto a punto (todos los nodos pueden comunicarse entre sí).
-- Los mensajes pueden ser enviados por canales poco confiables (con posibilidad de manipulación por parte de nodos defectuosos).
-- Se desconoce de antemano cuántos nodos son maliciosos.
-- Los nodos deben alcanzar consenso basado en los mensajes intercambiados.
+## **Minería de Criptomonedas: Proceso, Propósito y Tecnología**
 
 
-## **Caso de Estudio: 4 Generales, 1 Traidor**
-
-Supongamos un conjunto de 4 generales rodeando un objetivo militar. Cada general puede enviar mensajes a los otros. El objetivo común es tomar una decisión coherente entre "atacar" o "retirarse".
-
-### Escenario 1: Un General Leal da la Orden
-
-- El comandante envía la orden "atacar".
-- Un general actúa como traidor y altera el mensaje recibido por los demás.
-- Los generales leales se comunican entre ellos para confirmar los mensajes.
-- Al recibir mayoría de mensajes "atacar", se decide proceder con el ataque.
-
-Resultado: **consenso alcanzado** (3 de 4 generales toman la misma decisión).
-
-### Escenario 2: El Comandante es el Traidor
-
-- El comandante envía "atacar" a algunos y "retirarse" a otros.
-- Los generales leales intercambian mensajes para validar el contenido recibido.
-- Cada uno sigue el valor mayoritario entre los mensajes recibidos.
-
-Resultado: **consenso aún alcanzado**, si hay solo un traidor.
-
-### ¿Cuántos Traidores Puede Haber?
-
-Aquí viene lo importante:
-
- **La tolerancia a fallos bizantinos solo funciona si no hay más de un tercio de traidores.**
-
-| Total de Generales | Máximo de Traidores Tolerables |
-|--------------------|-------------------------------|
-| 3                  | 0                             |
-| 4                  | 1                             |
-| 10                 | 3                             |
-| 100                | 33                            |
-
- Si hay más del 33%, el consenso ya no es confiable.
+La **minería de criptomonedas** es el proceso mediante el cual se validan y registran nuevas transacciones en una blockchain. Consiste en resolver problemas criptográficos complejos con el fin de agregar bloques válidos a la cadena de bloques. Los participantes que realizan este trabajo se denominan **mineros**.
 
 ---
 
+##  **Objetivo de la Minería**
 
-## **Límite de Tolerancia a Fallos**
+1. **Validación de transacciones**: Confirmar que las transacciones son legítimas.
+2. **Seguridad de la red**: Aumentar la resistencia contra ataques (como el doble gasto).
+3. **Emisión de nuevas monedas**: En redes como Bitcoin, la minería es el único mecanismo para generar nuevas unidades de la criptomoneda.
+4. **Consenso descentralizado**: Alcanzar acuerdos sin necesidad de una autoridad central, utilizando algoritmos como Proof of Work (PoW).
 
-La solución al problema de los generales bizantinos requiere que:
+---
 
- **Para que un sistema tolerante a fallos bizantinos funcione correctamente, debe cumplirse:**
+## **¿Cómo Funciona?**
 
-**n ≥ 3f + 1**
+### 1. Agrupamiento de transacciones
+Los mineros recogen transacciones pendientes y las agrupan en un bloque.
 
-## **Aplicaciones del Problema de los Generales Bizantinos**
+### 2. Cálculo del Hash
+Utilizan algoritmos como **SHA-256** para calcular el hash del nuevo bloque, incluyendo:
+- Hash del bloque anterior.
+- Lista de transacciones.
+- Un valor ajustable llamado **nonce**.
 
-Este problema no es solo una historia divertida. Es un **problema real** con implicaciones **tecnológicas críticas**. Aquí algunos ejemplos:
+### 3. Criterio de dificultad
+El hash resultante debe cumplir una condición específica (por ejemplo, empezar con varios ceros). Este criterio se ajusta automáticamente para mantener un ritmo constante de generación de bloques.
 
-###  Aviones
-- Los sensores de un avión deben compararse entre sí para evitar catástrofes.
-- Si un sensor falla, los demás deben **ponerse de acuerdo** para ignorar la información errónea.
+### 4. Competencia
+Miles de mineros prueban distintos nonces hasta encontrar un hash válido. El primero en lograrlo **gana la recompensa del bloque**.
 
-###  Plantas Nucleares
-- La coordinación entre múltiples sistemas críticos garantiza seguridad ante fallos o sabotajes.
+### 5. Propagación y verificación
+El bloque es enviado a la red para ser verificado por otros nodos. Si la mayoría lo aprueba, se añade a la blockchain.
 
-### Estaciones Espaciales
-- El sistema de acoplamiento de una nave con la Estación Espacial Internacional requiere **coordinación total** entre subsistemas.
+---
 
-### Blockchain
-- En una blockchain descentralizada, los **nodos** deben llegar a un **consenso sobre las transacciones**, incluso si algunos están comprometidos.
+## **Protocolo de Consenso: Proof of Work (PoW)**
 
+La minería se basa comúnmente en el algoritmo **Proof of Work**, que exige demostrar que se ha invertido potencia computacional para resolver el problema.
 
+Características:
+- Costosa en energía y recursos.
+- Difícil de resolver, pero fácil de verificar.
+- Protege contra manipulaciones y ataques Sybil.
 
-## **Relación con Blockchain**
+---
 
-En blockchain, usamos protocolos de consenso inspirados en este problema, como:
+## **Recompensas**
 
-- **Proof of Work (PoW)**
-- **Proof of Stake (PoS)**
-- **Practical Byzantine Fault Tolerance (PBFT)**
+Los mineros reciben:
 
-Estos protocolos permiten:
+- **Recompensa del bloque**: Nuevas criptomonedas emitidas por la red.
+- **Comisiones por transacción**: Pagos incluidos voluntariamente por los usuarios.
 
-- Mantener la red segura.
-- Tolerar ataques.
-- Asegurar que todos los nodos lleguen al mismo resultado, aún cuando algunos actúen maliciosamente.
+Ejemplo en Bitcoin:
+- Recompensa inicial: 50 BTC por bloque.
+- Reducción por halvings cada 210,000 bloques (~cada 4 años).
+- Recompensa actual (2024): 6.25 BTC.
+
+---
+
+## **Dificultad de Minado**
+
+- La red ajusta automáticamente el nivel de dificultad cada cierto número de bloques (en Bitcoin, cada 2016 bloques).
+- El objetivo es mantener un intervalo constante entre bloques (por ejemplo, 10 minutos en Bitcoin).
+- Cuanto más poder de cómputo tiene la red, más difícil se vuelve encontrar un bloque válido.
+
+---
+
+## **Consumo Energético y Críticas**
+
+- La minería de PoW consume grandes cantidades de electricidad.
+- Ha generado preocupaciones medioambientales debido a su huella de carbono.
+- Alternativas como **Proof of Stake (PoS)** se han desarrollado para reducir el consumo energético.
+
+---
+
+## **Pool de Minería**
+
+Los mineros pueden colaborar formando **pools**, donde combinan su poder computacional y comparten las recompensas proporcionalmente, aumentando sus posibilidades de éxito.
+
+---
+
+## **Ejemplo Visual del Proceso**
+
+```text
+1. Recolectar transacciones
+2. Crear un nuevo bloque
+3. Iniciar el cálculo del hash
+4. Probar diferentes valores de nonce
+5. Encontrar un hash válido
+6. Añadir el bloque a la cadena
+7. Recibir recompensa
+```
+
+---
+
+## **Relación con la Seguridad de la Blockchain**
+
+- La minería impone un **costo económico** a la alteración de la blockchain.
+- Un atacante necesitaría controlar más del 50% del poder computacional para reorganizar bloques anteriores (**ataque del 51%**).
+- Mientras la minería sea descentralizada, es extremadamente difícil realizar un ataque exitoso.
+
+---
 
 ## **Referencias**
 
-- 📄 **The Byzantine Generals Problem** (1982) – Leslie Lamport, Robert Shostak y Marshall Pease.
-- 📝 Blog: *Understanding Blockchain Fundamentals* – Medium, 2017, por George Cox.
-
-
+- Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*.
+- Antonopoulos, A. M. (2014). *Mastering Bitcoin*.
+- Ethereum Foundation. *Proof of Work vs. Proof of Stake*.
