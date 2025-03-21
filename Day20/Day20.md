@@ -1,174 +1,71 @@
-## **Byzantine Fault Tolerance (BFT)**
 
-Byzantine Fault Tolerance (BFT) is the ability of a distributed system to continue functioning correctly even if some of its components fail or act maliciously. This concept is fundamental in systems where high availability and fault resistance are required, such as blockchain networks.
+## **Increase in Mining Difficulty in Blockchain**
 
+Now that we understand the cryptographic puzzle of mining, it's time to move forward and look at how the difficulty of this process increases and why it is necessary. As we have seen, mining focuses primarily on the nonce field, which is controlled by the miners and changes in order to generate different hashes until a valid one is found.
 
-## **Problem Definition**
+The probability of finding a valid hash is very small, which results in constant competition among miners.
 
-The *Byzantine Generals Problem* illustrates the difficulty of reaching a reliable agreement in a distributed system, even when some participants (nodes) may fail or act maliciously. It is formally defined as a consensus problem in the presence of arbitrary failures (also known as Byzantine faults).
+## **The Range of Nonces and the Difficulty of Finding a Valid Hash**
 
-A group of nodes must agree on a single decision (e.g., attack or retreat), but some may send contradictory or false messages. The goal is to ensure that:
+A block contains a field that holds a value of 32 bits of allocated memory. This means there is a limited range of around 4 billion possible values for the nonce.
 
-1. All loyal nodes agree on the same decision.  
-2. If the leader node (commander) is loyal, then all loyal nodes follow its command.
+### **How Do We Know the Number of Values?**
 
----
+A 32-bit value can be either a 1 or 0 bit, meaning it has two possible values. This gives us a total of:
 
-## **Model Assumptions**
-
-- Point-to-point communication (all nodes can communicate with each other).  
-- Messages can be sent over unreliable channels (with potential tampering by faulty nodes).  
-- The number of malicious nodes is unknown in advance.  
-- Nodes must reach consensus based on exchanged messages.
-
----
-
-## **Case Study: 4 Generals, 1 Traitor**
-
-Imagine a group of 4 generals surrounding a military target. Each general can send messages to the others. The common goal is to reach a coordinated decision to either **attack** or **retreat**.
-
-###  Scenario 1: A Loyal Commander Issues the Order
-
-- The commander sends the order "attack".  
-- One general is a traitor and alters the message for others.  
-- Loyal generals communicate with each other to confirm the message.  
-- After receiving a majority of "attack" messages, they proceed with the attack.
-
-**Result:**  **Consensus achieved** (3 out of 4 generals agree).
-
-###  Scenario 2: The Commander is the Traitor
-
-- The commander sends "attack" to some and "retreat" to others.  
-- Loyal generals exchange messages to validate the received content.  
-- Each one follows the majority value among the received messages.
-
-**Result:**  **Consensus still achieved**, as long as there is only one traitor.
-
----
-
-## **How Many Traitors Can Be Tolerated?**
-
-Byzantine fault tolerance only works if **no more than one-third of participants are traitors**.
-
-| Total Generals | Max Tolerable Traitors |
-|----------------|------------------------|
-| 3              | 0                      |
-| 4              | 1                      |
-| 10             | 3                      |
-| 100            | 33                     |
-
->  If more than 33% are malicious, consensus is no longer reliable.
-
----
-
-## **Fault Tolerance Limit**
-
-To correctly solve the Byzantine Generals Problem:
-
-> **A Byzantine fault-tolerant system must meet the condition:**  
->  
-> **n ≥ 3f + 1**
-
-Where `n` is the total number of nodes, and `f` is the maximum number of faulty ones.
-
----
-
-## **Real-World Applications of the Byzantine Generals Problem**
-
-This isn’t just a thought experiment — it has **real-world critical applications**:
-
-###  Airplanes
-
-- Aircraft sensors must cross-check data to prevent disasters.  
-- If one sensor fails, the others must **agree** to ignore it.
-
-###  Nuclear Plants
-
-- Coordination among multiple critical systems ensures safety from failures or sabotage.
-
-###  Space Stations
-
-- Docking systems must maintain **total coordination** between subsystems for safety and success.
-
-###  Blockchain
-
-- In decentralized blockchains, **nodes** must **agree on transactions**, even if some are compromised.
-
----
-
-## **Relation to Blockchain**
-
-Blockchain networks use consensus protocols inspired by the Byzantine Generals Problem, such as:
-
-- **Proof of Work (PoW)**  
-- **Proof of Stake (PoS)**  
-- **Practical Byzantine Fault Tolerance (PBFT)**
-
-These protocols ensure:
-
--  Network security  
--  Fault and attack tolerance  
--  Agreement across all nodes — even with some behaving maliciously
-
-
-## **Visualizing Blockchain Links and the Impact of a Byzantine Node**
-
-This illustrates how blocks in a blockchain are interconnected and how a malicious node can break the chain by altering a single block.
-
----
-
-### Structure of a Block in Blockchain
-
-```plaintext
-+-------------+       +-------------+       +-------------+       +-------------+
-|  Block #1   | ----> |  Block #2   | ----> |  Block #3   | ----> |  Block #4   |
-| (Genesis)   |       | PrevHash: 1 |       | PrevHash: 2 |       | PrevHash: 3 |
-| Hash: #1    |       | Hash: #2    |       | Hash: #3    |       | Hash: #4    |
-| Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |
-+-------------+       +-------------+       +-------------+       +-------------+
+```text
+2^32 = 4,294,967,296 possible values
 ```
 
-Each block contains:
+This gives us a range of approximately 4 billion possible values for the nonce.
 
-- ✅ Transaction data  
-- 🔗 Hash of the previous block  
-- 🔒 Its own hash  
-- 🎯 A **nonce**: a number adjusted to find a valid hash
+### **Example: Calculations of an Average Miner**
 
----
+An average miner can calculate up to 100 million hashes per second. This means they can calculate the entire range of 4 billion possible values in just 40 seconds.
 
-### What Happens if a Malicious Node Modifies Block #2?
-
-```plaintext
-+-------------+       +-------------+       +-------------+       +-------------+
-|  Block #1   | ----> |  Block #2   | -X->  |  Block #3   |  ???  |  Block #4   |
-| (Genesis)   |       | 🔧 Altered  |       | PrevHash: ❌ |       | PrevHash: ❌ |
-| Hash: #1    |       | Hash: ⚠️     |       | Hash: ??    |       | Hash: ??    |
-| Nonce: ❓    |       | Nonce: 🔁    |       | Nonce: 🔁    |       | Nonce: 🔁    |
-+-------------+       +-------------+       +-------------+       +-------------+
+```text
+4,294,967,296 values / 100,000,000 calculations per second = 40,000 seconds
 ```
 
-- If **any data** in Block #2 is changed (including the **nonce**), its **hash changes completely** due to the **avalanche effect** of hash functions.
-- This breaks the chain because Block #3 now contains an **invalid previous hash**, and the error continues down to Block #4 and beyond.
-- To keep the chain valid, all following blocks would need to **recalculate their nonces**, which is **computationally infeasible** in a distributed network.
-- The network automatically detects this manipulation because the hashes no longer match.
+**Mining pools** and **industrial miners** can traverse this entire range of values in fractions of a second.
 
+### **The Problem: Low Probability of Finding a Valid Hash**
 
-- If all blocks are properly linked (valid hash + nonce), the chain is **secure and valid**.
-- If **even a single block is modified**, the **avalanche effect** is triggered:  
-  All subsequent hashes and nonces must be recomputed.
-- This demonstrates the **immutability and security** of blockchain:  
-  **Any attempt to alter a block breaks the chain and is instantly detected.**
+Although the calculation is fast, the probability of finding a valid hash is extremely low, even after traversing the 4 billion possible attempts. The probability of finding a valid hash is:
 
-## **References**
+```text
+P(valid hash) = 16^(-18) (an extremely low probability)
+```
 
--  **The Byzantine Generals Problem** (1982) – Leslie Lamport, Robert Shostak, and Marshall Pease.  
--  *Understanding Blockchain Fundamentals* – Medium Blog (2017) by George Cox.
+## **How to Increase the Difficulty of Mining?**
 
+To prevent blocks from being created in seconds or fractions of seconds, it is necessary to increase the difficulty of the cryptographic puzzle. This is done by adding a new field in the block: the **timestamp**.
 
+### **What is the Timestamp?**
 
+The timestamp is a field that represents the number of seconds elapsed since January 1, 1970 (Unix time). This timestamp changes every second and is included as part of the hash calculation of the block.
 
+The formula for the block hash now depends on the block identifier (block number), the timestamp, the nonce, the data, and the previous hash.
 
+### **Example of Calculation with Timestamp**
 
+```text
+Hash = SHA256(block_number + timestamp + nonce + data + previous_hash)
+```
 
+### **The Problem with Industrial Miners**
+
+While average miners may take up to 40 seconds to calculate the entire nonce range, industrial miners or mining pools can do this in fractions of a second. However, the timestamp, which changes every second, allows average miners to restart their calculations, as the change in the timestamp makes the hash calculation different every second.
+
+### **How Difficulty is Increased for Industrial Miners**
+
+To further complicate the process for industrial miners, large mining pools, with their enormous computational power, can perform calculations in fractions of a second. To counteract this, the difficulty is adjusted to ensure that a new block is created approximately every **10 minutes**, not in fractions of a second.
+
+### **Solution: Use of MemPool and Difficulty Adjustments**
+
+An effective solution to the increased computational power of industrial miners is the use of **MemPool** and automatic difficulty adjustments. This ensures that mining remains an efficient and fair process for all participants, regardless of their computational power.
+
+## **Conclusion: Difficulty and Block Creation in Blockchain**
+
+Mining in blockchain is a highly competitive process where miners must calculate valid hashes while facing an extremely low probability of success. To ensure that block creation is efficient and not completed in seconds or fractions of seconds, the difficulty is increased by adjusting the timestamp and using mechanisms like MemPool. This keeps the process under control and ensures that the goal of generating a block every 10 minutes is met.
 
