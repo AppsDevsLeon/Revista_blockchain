@@ -47,6 +47,26 @@ Características:
 
 ---
 
+La imagen muestra la estructura de un bloque en una blockchain, específicamente el bloque #3, que contiene información clave como:
+
+Número del bloque: Indica su posición en la cadena.
+Nonce: Un campo que en este caso está vacío, pero que se usa en la minería para encontrar un hash válido.
+Datos de transacciones: Registra las transacciones en este bloque, incluyendo transferencias de "jbcoins" entre usuarios.
+Prev. Hash: El hash del bloque anterior, lo que asegura la continuidad e integridad de la cadena.
+Hash: La huella digital única del bloque, generada a partir de toda la información en el bloque.
+
+![nonce](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day18/Images/Nonce1.png)
+
+En esta imagen, parece que el bloque aún no ha sido minado, ya que el campo Nonce está vacío.
+
+El proceso de minería implica:
+
+Recopilar transacciones en un nuevo bloque.
+Calcular un hash a partir del contenido del bloque y un nonce.
+Probar diferentes valores de nonce hasta encontrar un hash que cumpla con la dificultad establecida por la red.
+Validar y añadir el bloque a la cadena cuando se encuentra un hash válido.
+El propósito de este proceso es garantizar la seguridad y la inmutabilidad de la blockchain, evitando la manipulación de datos y asegurando que cada bloque esté vinculado de manera segura con el anterior.
+
 ## **Recompensas**
 
 Los mineros reciben:
