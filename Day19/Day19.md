@@ -1,155 +1,123 @@
-**Advanced NFT**
+# **Byzantine Fault Tolerance (BFT)**
 
-Let's go ahead and create a new file in our contracts "AdvancedCollectible.sol".What we're gonna do here is we're gonna make again an NFT contract, token URI can be one of 3 different cats.When you mint NFT you'd get random image from your image directory.I'm not going to go over stat generation and like creating battling NFTs or really games out of these but if you wanna see a version of those contracts check out this [repo](https://github.com/PatrickAlphaC/dungeons-and-dragons-nft) to see and it actually creates characters that can do battle and have like stats and attributes like attack.The repo is done with truffle as opposed to being done with brownie but all the contracts are going to be the same other than migration.sol.
+Byzantine Fault Tolerance (BFT) is the ability of a distributed system to continue functioning correctly even if some of its components fail or act maliciously. This concept is fundamental in systems where high availability and fault resistance are required, such as blockchain networks.
 
-![AdvancedCollectible](Images/l32.png)
+---
 
-Since we're gonna work with chain-link VRF to get a provably random NFT, we're also importing VRFConsumerBase.
+## **Problem Definition**
 
-![importingVRF](Images/l33.png)
+The *Byzantine Generals Problem* illustrates the difficulty of reaching a reliable agreement in a distributed system, even when some participants (nodes) may fail or act maliciously. It is formally defined as a consensus problem in the presence of arbitrary failures (also known as Byzantine faults).
 
-We're gonna go back to config and add chainlink in our dependencies.
+A group of nodes must agree on a single decision (e.g., attack or retreat), but some may send contradictory or false messages. The goal is to ensure that:
 
-![vrfDependencies](Images/l34.png)
+1. All loyal nodes agree on the same decision.  
+2. If the leader node (commander) is loyal, then all loyal nodes follow its command.
 
-Our AdvancedCollectible is ERC721 and VRFConsumerBase.
+---
 
-![Inheritance](Images/l35.png)
+## **Model Assumptions**
 
-So same as always let's go ahead and start with the constructor.We knoe from our lottery smart contract that we're actually wanna parameterize alot of the pieces for working with the VRFCoordinator for working on different chains and testnets.We can always head to [chainlink docs](https://docs.chain.link/docs/get-a-random-number/v1/) to get a random number just in case we forgot what some of the parameters are.
+- Point-to-point communication (all nodes can communicate with each other).  
+- Messages can be sent over unreliable channels (with potential tampering by faulty nodes).  
+- The number of malicious nodes is unknown in advance.  
+- Nodes must reach consensus based on exchanged messages.
 
-![chainLinkDocs](Images/l36.png)
+---
 
-![Constructor](Images/l37.png)
+## **Case Study: 4 Generals, 1 Traitor**
 
-**Double Inherited Constructor**
+Imagine a group of 4 generals surrounding a military target. Each general can send messages to the others. The common goal is to reach a coordinated decision to either **attack** or **retreat**.
 
-Of course we need to do the VRFConsumerBase constructor and the ERC721 constructor so:
+###  Scenario 1: A Loyal Commander Issues the Order
 
-![doubleInheritedConstructor](Images/l38.png)
+- The commander sends the order "attack".  
+- One general is a traitor and alters the message for others.  
+- Loyal generals communicate with each other to confirm the message.  
+- After receiving a majority of "attack" messages, they proceed with the attack.
 
-We know we're also gonna need to do tokenCounter(looking from SimpleCollectible.sol).
+**Result:**  **Consensus achieved** (3 out of 4 generals agree).
 
-![tokenCounter](Images/l39.png)
+###  Scenario 2: The Commander is the Traitor
 
-We're gonna need a keyHash and fee too.
+- The commander sends "attack" to some and "retreat" to others.  
+- Loyal generals exchange messages to validate the received content.  
+- Each one follows the majority value among the received messages.
 
-![AllSet](Images/l40.png)
+**Result:**  **Consensus still achieved**, as long as there is only one traitor.
 
-This is a combination of alot of stuff we did in our lottery smart contract and some of the pieces that are from ERC721.We need the keyHash, fee, vrfCoordinator and linkToken all for the VRFConsumerBase and we need "Chase", "CHA" and tokenCounter for ERC721.So now we're gonna create our function createCollectible.
+---
 
-![functionDefinition](Images/l41.png)
+## **How Many Traitors Can Be Tolerated?**
 
-This time in our python script we're actually gonna define where we're getting tokenURI from.Remember way back in our lottery when we did `event RequestedLotteryWinner` when we called the chainlink VRF, 
+Byzantine fault tolerance only works if **no more than one-third of participants are traitors**.
 
-![RR](Images/l42.png)
+| Total Generals | Max Tolerable Traitors |
+|----------------|------------------------|
+| 3              | 0                      |
+| 4              | 1                      |
+| 10             | 3                      |
+| 100            | 33                     |
 
-![emit](Images/l43.png)
+>  If more than 33% are malicious, consensus is no longer reliable.
 
-we're gonna do a similar thing here where we're going to make an event for whenever we request one of these new cats and that is also what we're gonna return.We're gonna return that requestID here.
+---
 
-Since we're using the chainlink VRF, we can go ahead and call that requestRandomness function.
+## **Fault Tolerance Limit**
 
-![callingRR](Images/l44.png)
+To correctly solve the Byzantine Generals Problem:
 
-This function is imported from ERC721 and then in that request and receive model it's going to call back with our fulfill randomness function.We're gonna need to do couple of different things here because we want the user who called createCollectible to be the same use who gets assigned the tokenID.
+> **A Byzantine fault-tolerant system must meet the condition:**  
+>  
+> **n ≥ 3f + 1**
 
-![randomnessRequest](Images/l45.png)
+Where `n` is the total number of nodes, and `f` is the maximum number of faulty ones.
 
-This is going to create our randomness request to get a random breed for cats.Let's go ahead and define a little bit of fulfill randomness function so we can figure out how we're actually going to pick a random cat.
+---
 
-Well the first thing we're gonna need is some definition of what the different breeds that the cat can actually be and again similar to lottery we're going to create a new type called breed using the ENUM. 
+## **Real-World Applications of the Byzantine Generals Problem**
 
-![enum](Images/l46.png)
+This isn’t just a thought experiment — it has **real-world critical applications**:
 
-So our breed is going to be one of these three breeds.Don't mind with the breed I just wrote randomly.It has no relation with the pictures.
+###  Airplanes
 
-In our fulfillRandomness when we get that random number back, we can use that random number to pick one of these three breeds.
+- Aircraft sensors must cross-check data to prevent disasters.  
+- If one sensor fails, the others must **agree** to ignore it.
 
-![gettingBreed](Images/l47.png)
+###  Nuclear Plants
 
-Making it internal so that only VRFCoordinator can call it and we're selecting based off of a random number.
+- Coordination among multiple critical systems ensures safety from failures or sabotage.
 
-**tokenIDToBreed**
+###  Space Stations
 
-However we do need to assign this cat_breed to it's tokenID.Now that we've a random breed back, How do we actually go ahead and assign this? Well we're gonna have to create a mapping to do this.We need to get our tokenID somehow and equal it to cat_breed.So our first question is inorder for us to assign cat_breed to tokenID, How do we actually get the tokenID?
+- Docking systems must maintain **total coordination** between subsystems for safety and success.
 
-Well we're gonna grab the tokenId by:
+###  Blockchain
 
-![tokenIDToBreed](Images/l48.png)
+- In decentralized blockchains, **nodes** must **agree on transactions**, even if some are compromised.
 
-We need to make tokenIDToBreed mapping up on our code.
+---
 
-![mapping](Images/l49.png)
+## **Relation to Blockchain**
 
-This way each tokenID is going to have a very specific breed based off of this mapping's results.
+Blockchain networks use consensus protocols inspired by the Byzantine Generals Problem, such as:
 
-What else do we need in this fulfillment?We need to mint the NFT and set a token URI.Well when we minted before we called _safeMint function.However msg.sender is always going to be the VRFCoordinator.Since the VRFCoordinator is actually the one calling fulfillRandomness so we can't actually have msg.sender as a parameter.We need to figure out how we can get the original caller of createCollectible.How do we get original msg.sender of createCollectible? 
+- **Proof of Work (PoW)**  
+- **Proof of Stake (PoS)**  
+- **Practical Byzantine Fault Tolerance (PBFT)**
 
-Well the answer is actually going to be another mapping.When we call createCollectible , we can create a mapping of requestID to sender.
+These protocols ensure:
 
-![requestIDToSender](Images/l50.png)
+-  Network security  
+-  Fault and attack tolerance  
+-  Agreement across all nodes — even with some behaving maliciously
 
-We're going to create this new mapping at the top.
+---
 
-![requestIDMApping](Images/l51.png)
+## **References**
 
-Now in our fulfillRandomness function, the same requestID that requested the random breed is returned.So what we can do is we can say :
+-  **The Byzantine Generals Problem** (1982) – Leslie Lamport, Robert Shostak, and Marshall Pease.  
+-  *Understanding Blockchain Fundamentals* – Medium Blog (2017) by George Cox.
 
-![owner](Images/l52.png)
-
-And then the address of the owner is who we're gonna _safeMint the NFT to and we don't wanna forget to always do tokenCounter + 1 at the end.
-
-![safeMint](Images/l53.png)
-
-We still need to set the token URI.So back in our AdvancedCollectible, we're gonna have to do _setTokenURI at some point.Let's actually think about it for a second.We're only gonna know breed of our cat once the random number is returned and we know the breed of the cat is gonna be one in the img folder.
-
-We're only going to know what the breed is once the random number is returned and the breed is actually gonna govern if it's a persian, bengal or manix.  
-
-
-**setTokenURI**
-
-So we technically could get rid of the input parameters for createCollectible.Since there's gonna be no token URI initially created.What we could do is we could create a new _setTokenURI function that sets the token URI based on the breed of the dog.For the simplicity of this project we're actually just going to create our own setTokenURI function that we're going to update based off the breed of the cat.A challenge for you after we finish this project is to make this even more decentralized and have the fulfill randomness function actually be the one to decide what the token URI is.Bur for now in our fulfillRandomness function we're going to skip setting the token URI and we're actually gonna call it in a seperate function.
-
-![setTokenURI](Images/l53.png)
-
-Once the fulfillRandomness function is responded, the breed of the cat is going to set.This `tokenIDToBreed` is gonna say newTokenID is now associated with this cat_breed which is going to be persian or bengal or minx.All we want to do then is now that we've the on-chain metedata, we're just going to reciprocate that with the off-chain metadata.So we're gonna need three token URIs for those three cats.We're gonna need one for persian, bengal and minx.However we wanna make it so that only the owner of the tokenID can actually be the one to update the tokenURI.So we can use require function for this.
-
-**_isApprovedOrOwner**
-
-We're gonna use an imported open zeppelin function.
-
-![require](Images/l54.png)
-
-This _isApprovedOrOwner function if we go into ERC721 Github for open zeppelin which checks the owner of the ERC721 of that tokenID and makes it so that only the owner or somebody approved to work with the tokenID can actually change the tokenURI.
-
-![isApprovedOrOwner](Images/l55.png)
-
-then we're just going to call that function called _setTokenURI of the tokenID.
-
-![setTokenURI](Images/l56.png)
-
-Now we're actually manually going to be the ones to call _setTokenURI once the breed has been decided.We could have ofcourse like I said use a mapping at the top that automatically routes it there but so that we can experiment a little bit more and learn a little bit more about IPFS we're gonna leave it a little bit more general like this.
-
-This is pretty much the majority of what we're going to need for our ERC721 contract.Obviously we still need to work with IPFS and getting our token URI but for the most part this is everything that we need.
-
-**Best Practice**
-
-Now I'm going to introduce a new best practice here.Whenever we update our mapping, typically a good best practice is going to actually be to emit an event.So let's create an event for each one of these mapping updates.
-
-![requestedCollectable](Images/l57.png)
-
-The "indexed" keyword just makes it easier to search for this event.The requestedCollectable event is going to be emitted when we requestIDToSender because we're updating the mapping here.This is also going to be really helpful when we run tests so we can get the requestID similar to what we did with the lottery.
-
-![emit1](Images/l58.png)
-
-We also update a mapping with tokenIDToBreed.
-
-![event2](Images/l59.png)
-
-![emit2](Images/l60.png)
-
-Let's see if we did everything right.Let's do `brownie compile`.
 
 
 
