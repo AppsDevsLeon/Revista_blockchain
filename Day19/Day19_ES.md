@@ -102,7 +102,7 @@ Estos protocolos permiten:
 - Tolerar ataques.
 - Asegurar que todos los nodos lleguen al mismo resultado, aún cuando algunos actúen maliciosamente.
 
-  ## **Visualizando los Enlaces de Blockchain y el Impacto de un Nodo Bizantino**
+## **Visualizando los Enlaces de Blockchain y el Impacto de un Nodo Bizantino**
 
 Se ilustra cómo los bloques en una blockchain están interconectados y cómo un nodo malicioso puede romper la cadena al alterar un solo bloque.
 
