@@ -22,7 +22,7 @@ La fórmula para calcular el hash del bloque sería:
 Hash = SHA256(numero_bloque + transacciones + hash_anterior + nonce)
 ```
 
-📌 **Importante**: El único campo que los mineros pueden alterar sin violar la integridad de los datos es el nonce. Todo lo demás debe permanecer intacto.
+ **Importante**: El único campo que los mineros pueden alterar sin violar la integridad de los datos es el nonce. Todo lo demás debe permanecer intacto.
 
 ---
 
@@ -105,8 +105,6 @@ en la cadena             y repetir
 
 ---
 
-## **Conclusión**
-
 El campo **nonce** es el núcleo del mecanismo de **Proof of Work (PoW)**. Su existencia permite a los mineros "jugar" con el contenido del bloque sin alterar los datos ni romper la integridad de la cadena.
 
 - Permite variabilidad sin modificar los datos.
@@ -115,25 +113,6 @@ El campo **nonce** es el núcleo del mecanismo de **Proof of Work (PoW)**. Su ex
 
 En la siguiente sección se explicará cómo la dificultad de minado se ajusta automáticamente y cómo influye en el tiempo de creación de nuevos bloques.
 
----
-
-## **Insertar tus Propias Imágenes**
-
-Si quieres agregar tus propias imágenes, puedes subirlas a un repositorio y enlazarlas así:
-
-```markdown
-![texto-alternativo](https://ruta-del-repositorio.com/carpeta/imagen.png)
-```
-
-Ejemplo:
-
-```markdown
-![nonce-explicacion](https://mi-repo.com/images/nonce-explicacion.png)
-```
-
-Asegúrate de que la URL del archivo termine en `.png`, `.jpg`, `.gif`, etc.
-
----
 
 ## **Referencias**
 
