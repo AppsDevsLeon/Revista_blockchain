@@ -114,7 +114,7 @@ These protocols ensure:
 
 ## **Visualizing Blockchain Links and the Impact of a Byzantine Node**
 
-This document illustrates how blocks in a blockchain are interconnected and how a malicious node can break the chain by altering a single block.
+This illustrates how blocks in a blockchain are interconnected and how a malicious node can break the chain by altering a single block.
 
 ---
 
