@@ -38,6 +38,17 @@ En esta imagen se representa:
 
 ---
 
+La imagen muestra la estructura de un bloque en una blockchain, específicamente el bloque #3, que contiene información clave como:
+
+Número del bloque: Indica su posición en la cadena.
+Nonce: Un campo que en este caso está vacío, pero que se usa en la minería para encontrar un hash válido.
+Datos de transacciones: Registra las transacciones en este bloque, incluyendo transferencias de "jbcoins" entre usuarios.
+Prev. Hash: El hash del bloque anterior, lo que asegura la continuidad e integridad de la cadena.
+Hash: La huella digital única del bloque, generada a partir de toda la información en el bloque.
+
+![nonce](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day18/Images/Nonce1.png)
+
+
 ## **¿Cómo Funciona el Nonce en la Práctica?**
 
 Supongamos que tenemos un bloque con los siguientes datos:
