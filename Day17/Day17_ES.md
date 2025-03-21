@@ -14,6 +14,57 @@ La **minería de criptomonedas** es el proceso mediante el cual se validan y reg
 
 ---
 
+### ¿Por qué existen los mineros?
+
+La mayoría de la gente piensa que la **minería** es simplemente una forma de agregar nuevas transacciones y crear nuevas monedas. Pero, como mencionamos anteriormente, **la minería también ayuda a mantener la red segura**.
+
+### Seguridad en sistemas descentralizados
+
+En sistemas descentralizados como **Bitcoin**, es fundamental asegurarse de que **todos los participantes en la red estén de acuerdo con el orden de las transacciones**. Esta propiedad se conoce como **consenso**.
+
+###  Ejemplo ilustrativo
+
+Imagina la siguiente secuencia:
+
+```
+Alice → Bob → Charlie
+```
+
+1. **Alice** envía 1 BTC a **Bob**
+2. Luego, **Bob** envía 1 BTC a **Charlie**
+
+ Si las transacciones se procesan en otro orden (por ejemplo, Bob envía primero a Charlie, antes de recibir de Alice), la operación **no funcionará** correctamente.
+
+Es esencial que **todos los nodos de la red** estén de acuerdo en este orden. Y aquí es donde entran los **mineros**.
+
+##  ¿Qué hacen los mineros?
+
+Los mineros tienen un rol fundamental en el ecosistema blockchain, especialmente en Bitcoin:
+
+- **Validan las transacciones**
+- **Agrupan las transacciones en bloques**
+- **Agregan estos bloques al libro mayor distribuido (blockchain)**
+- **Previenen el doble gasto**, es decir, que una misma moneda digital se use más de una vez
+
+
+El proceso de minería también **asegura que la red alcance consenso sin necesidad de una autoridad central**. Esto se logra mediante el **Proof of Work (Prueba de trabajo)**, un mecanismo que exige a los mineros resolver acertijos computacionales para validar un bloque.
+
+Cada vez que un minero resuelve uno de estos acertijos:
+
+- El bloque es agregado a la cadena
+- El minero recibe una recompensa (en BTC)
+- La red queda sincronizada con el mismo historial de transacciones
+
+
+Los mineros no solo **crean nuevas monedas**, también son responsables de:
+
+- Mantener el orden correcto de las transacciones
+- Garantizar la seguridad de la red
+- Asegurar la integridad del libro mayor
+- Evitar el doble gasto
+
+Por eso, los mineros son una parte esencial del funcionamiento de blockchain en criptomonedas como **Bitcoin**.
+
 ## **¿Cómo Funciona?**
 
 ### 1. Agrupamiento de transacciones
