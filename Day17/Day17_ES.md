@@ -62,7 +62,6 @@ La solución al problema de los generales bizantinos requiere que:
 
  **Para que un sistema tolerante a fallos bizantinos funcione correctamente, debe cumplirse:**
 
-```math
 **n ≥ 3f + 1**
 
 ## **Aplicaciones del Problema de los Generales Bizantinos**
