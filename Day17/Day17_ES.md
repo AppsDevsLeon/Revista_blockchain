@@ -1,5 +1,7 @@
 ## **Tolerancias a Fallas Bizantinas**
 
+La Tolerancia a Fallas Bizantinas (BFT) es la capacidad de un sistema distribuido para continuar funcionando correctamente incluso si algunos de sus componentes fallan o se comportan de manera maliciosa. Este concepto es fundamental en sistemas donde se requiere alta disponibilidad y resistencia a fallas, como en las redes blockchain.
+
 ## **Definición del Problema**
 
 El *Problema de los Generales Bizantinos* plantea la dificultad de alcanzar un acuerdo confiable en un sistema distribuido, incluso cuando algunos participantes (nodos) pueden fallar o actuar maliciosamente. Se define formalmente como un problema de consenso en presencia de fallos arbitrarios (también conocidos como fallos bizantinos).
