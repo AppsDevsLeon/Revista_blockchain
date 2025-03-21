@@ -1,5 +1,4 @@
 
-
 ## **Nonce Concept**
 
 The term **nonce** (from English *number used once*) is an arbitrary number that miners can freely modify to find a **valid hash** for a block. This number has no function other than altering the result of the hash algorithm until it meets a predefined difficulty condition (e.g., the hash starts with a certain number of zeros).
