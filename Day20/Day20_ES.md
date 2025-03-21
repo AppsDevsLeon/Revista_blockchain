@@ -1,5 +1,5 @@
 
-# **Incremento de Dificultad en el Minado de Blockchain**
+## **Incremento de Dificultad en el Minado de Blockchain**
 
 
 Ahora que entendemos el rompecabezas criptográfico del minado, es momento de avanzar y analizar cómo se incrementa la dificultad de este proceso y por qué es necesario hacerlo. Como hemos visto, el minado se enfoca en gran medida en el campo del nonce, un campo controlado por los mineros que va variando para generar distintos hashes hasta encontrar uno válido.
