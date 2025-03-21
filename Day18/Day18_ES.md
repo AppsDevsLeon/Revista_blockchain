@@ -1,4 +1,4 @@
-# **El Nonce y el Proceso de Minado en Blockchain**
+
 
 ## **Concepto del Nonce**
 
