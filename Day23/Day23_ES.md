@@ -3,6 +3,15 @@
 
 En este capítulo, discutimos cómo las redes blockchain mantienen su integridad y cómo logran que todos los nodos lleguen a un acuerdo en el proceso de añadir nuevos bloques a la cadena. Esta es una de las bases más importantes de la tecnología blockchain, ya que asegura la seguridad y la fiabilidad de las transacciones.
 
+## **¿Qué es un protocolo de consenso?**
+Cuando se trata de cadenas de bloques, que son esencialmente bases de datos descentralizadas distribuidas, los nodos de la red deben llegar a un acuerdo sobre el estado actual de la red.
+
+Los protocolos de consenso nos ayudan a lograr el acuerdo, o consenso, sobre el estado de la red en un momento dado.
+
+Aunque los protocolos de consenso no están directamente relacionados con la creación de dApps, comprenderlos te ayudará a comprender muchos otros conceptos y a desarrollar tus fundamentos.
+
+Los protocolos de consenso son principalmente sistemas económicos que ayudan a prevenir ciertos tipos de ataques. Teóricamente, un atacante podría comprometer el consenso controlando el 51% de la red. Los protocolos de consenso están diseñados para hacer que este "ataque del 51%" sea económicamente inviable. Se diseñan diferentes mecanismos para resolver este problema de manera diferente.
+
 ## **El Reto de los Protocolos de Consenso**
 
 ### **Redes Distribuidas y Decisiones Comunes**
