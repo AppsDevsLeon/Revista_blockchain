@@ -108,7 +108,7 @@ Se ilustra cómo los bloques en una blockchain están interconectados y cómo un
 
 ---
 
-## **Estructura de un Bloque en Blockchain**
+### Estructura de un Bloque en Blockchain**
 
 ```plaintext
 +-------------+       +-------------+       +-------------+       +-------------+
@@ -128,7 +128,7 @@ Cada bloque contiene:
 
 ---
 
-## 🚨 ¿Qué Ocurre si un Nodo Malicioso Modifica el Bloque #2?
+### ¿Qué Ocurre si un Nodo Malicioso Modifica el Bloque #2?**
 
 ```plaintext
 +-------------+       +-------------+       +-------------+       +-------------+
