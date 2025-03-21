@@ -118,7 +118,12 @@ Probar diferentes valores de nonce hasta encontrar un hash que cumpla con la dif
 Validar y añadir el bloque a la cadena cuando se encuentra un hash válido.
 El propósito de este proceso es garantizar la seguridad y la inmutabilidad de la blockchain, evitando la manipulación de datos y asegurando que cada bloque esté vinculado de manera segura con el anterior.
 
-## **Recompensas**
+## **¿Por qué alguien se convertiría en minero?**
+Al igual que las monedas físicas, cuando alguien ejecuta una transacción, el estado de la cadena de bloques debe actualizarse para reflejar el débito/crédito de cada cuenta involucrada.
+
+Sin embargo, las plataformas digitales son propensas a los ataques y pueden ser manipuladas. Por lo tanto, los mineros no solo proponen nuevos bloques y validan todas las transacciones, sino que también deben presentar un certificado de legitimidad de que todas las transacciones en su bloque propuesto son válidas.
+
+### Recompensas
 
 Los mineros reciben:
 
@@ -140,7 +145,19 @@ Ejemplo en Bitcoin:
 
 ---
 
-## **Consumo Energético y Críticas**
+## *¿Quién puede convertirse en minero?**
+Técnicamente hablando, cualquiera puede convertirse en minero en Ethereum ejecutando el software de nodo Ethereum. Sin embargo, no todos pueden minar Ethereum de manera rentable.
+
+En la mayoría de los casos, los mineros compran hardware especializado para extraer de manera rentable. Es poco probable que las computadoras promedio ganen suficientes recompensas mineras para cubrir los costos eléctricos y de hardware asociados para la minería.
+
+### Costos de la minería
+Costos de hardware necesarios para construir y mantener el hardware
+
+Costos eléctricos de la alimentación de la plataforma minera
+
+Costo potencial del equipo para soportar la plataforma minera (refrigeradores, ventiladores, monitores de energía, cableado eléctrico, granjas solares, etc.)
+
+### Consumo Energético y Críticas
 
 - La minería de PoW consume grandes cantidades de electricidad.
 - Ha generado preocupaciones medioambientales debido a su huella de carbono.
@@ -148,7 +165,19 @@ Ejemplo en Bitcoin:
 
 ---
 
-## **Pool de Minería**
+### Diferentes métodos de minería
+
+En los primeros días de la tecnología, cuando era bastante fácil convertirse en minero, la mayoría de los mineros usaban minería basada en CPU que se ejecutaba en sus computadoras de escritorio y portátiles. Sin embargo, la minería de CPU es bastante lenta y poco práctica en la era actual porque puede llevar meses ganar incluso una pequeña cantidad de recompensas mineras, mientras ejecuta constantemente su CPU al 100% de su capacidad y paga altos costos eléctricos.
+
+La minería basada en GPU es el enfoque más común en estos días. Este enfoque puede maximizar la potencia de cálculo al reunir múltiples GPU bajo una sola plataforma de minería, poniéndolas todas a trabajar en paralelo, aumentando así la capacidad general y el rendimiento de una plataforma.
+
+La minería de circuitos integrados específicos de la aplicación (ASIC) también es bastante popular. Estos son chips de hardware diseñados específicamente para minar Ethereum. Puede comprar ASIC en línea para las redes de blockchain más populares. Sin embargo, son caros, y a medida que más y más mineros se unen a la red y la minería se vuelve más difícil, el hardware se vuelve obsoleto rápidamente. Un nuevo ASIC generalmente solo duraría 1-2 años como máximo.
+
+Otra opción que está creciendo en estos días es la minería en la nube, que permite a los mineros individuales aprovechar el poder de las instalaciones mineras dedicadas, sin poseer ningún hardware.
+
+### **Pool de Minería** 
+
+La mayoría de los mineros individuales no tienen suficientes recursos para establecer enormes instalaciones mineras con miles de GPU y ASIC. Los grupos de minería permiten a los mineros combinar sus recursos computacionales para aumentar sus posibilidades de extraer bloques. Si alguien en el grupo de minería tiene éxito en la minería de un bloque, la recompensa se distribuye proporcionalmente a todos en el grupo en función de su poder computacional que contribuyen al grupo.
 
 Los mineros pueden colaborar formando **pools**, donde combinan su poder computacional y comparten las recompensas proporcionalmente, aumentando sus posibilidades de éxito.
 
