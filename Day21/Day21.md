@@ -1,174 +1,74 @@
-## **Byzantine Fault Tolerance (BFT)**
 
-Byzantine Fault Tolerance (BFT) is the ability of a distributed system to continue functioning correctly even if some of its components fail or act maliciously. This concept is fundamental in systems where high availability and fault resistance are required, such as blockchain networks.
+## **The Use of MemPool in the Blockchain Mining Process**
 
+Now, let's continue with mining by exploring a key concept: **memory**, specifically **MemPool**. Why is it important? Because participants in the Bitcoin network are constantly making transactions with each other. These transactions are not immediately confirmed but must wait to be included in the next block. However, a new block is only added every **10 minutes** in Bitcoin.
 
-## **Problem Definition**
+### **What Happens to Transactions Before a New Block?**
 
-The *Byzantine Generals Problem* illustrates the difficulty of reaching a reliable agreement in a distributed system, even when some participants (nodes) may fail or act maliciously. It is formally defined as a consensus problem in the presence of arbitrary failures (also known as Byzantine faults).
+Before a transaction is added to a block, it is stored in a "trial area" called **MemPool**. This area holds Bitcoin transactions that are not yet in a block and are waiting to be added to the next block when it is mined.
 
-A group of nodes must agree on a single decision (e.g., attack or retreat), but some may send contradictory or false messages. The goal is to ensure that:
+The **block size** is limited on the Bitcoin network, with a maximum of **2 megabytes (MB)**. This means that not all transactions in the MemPool can fit into a new block. Miners must select which transactions to include. Additionally, miners have control over which transactions they select, affecting the block's hash calculation.
 
-1. All loyal nodes agree on the same decision.  
-2. If the leader node (commander) is loyal, then all loyal nodes follow its command.
+## **The Block Size and Selection of Transactions**
 
----
+In the Bitcoin network, the block size is limited to **2 MB**, but not all transactions from MemPool can be included in the new block. Miners must choose which transactions to include based on the available space and the **transaction fee** each one offers.
 
-## **Model Assumptions**
+### **How Do Miners Choose Transactions?**
 
-- Point-to-point communication (all nodes can communicate with each other).  
-- Messages can be sent over unreliable channels (with potential tampering by faulty nodes).  
-- The number of malicious nodes is unknown in advance.  
-- Nodes must reach consensus based on exchanged messages.
+Miners can choose which transactions to include in the next block. This gives them control over which transactions are confirmed first. They may choose transactions with higher **transaction fees** to maximize their earnings.
 
 ---
 
-## **Case Study: 4 Generals, 1 Traitor**
+## **Variability and the Influence of Transactions**
 
-Imagine a group of 4 generals surrounding a military target. Each general can send messages to the others. The common goal is to reach a coordinated decision to either **attack** or **retreat**.
+Each transaction added to MemPool affects the **hash** calculation of the block. If a miner decides to change a transaction or reconfigure the selected transactions, this will change the hash result, introducing **variability** into the mining process.
 
-###  Scenario 1: A Loyal Commander Issues the Order
+### **Illustrative Example of Transaction Selection**
 
-- The commander sends the order "attack".  
-- One general is a traitor and alters the message for others.  
-- Loyal generals communicate with each other to confirm the message.  
-- After receiving a majority of "attack" messages, they proceed with the attack.
+1. **Start of the Process:**
+   - A miner selects transactions pending in MemPool.
+   - The transaction of **Johanna to James (2 BTC)** and **James to Johanna (5 BTC)** are chosen.
 
-**Result:**  **Consensus achieved** (3 out of 4 generals agree).
+2. **Hash Calculation:**
+   - These transactions are combined with other elements of the block, such as the block number and the **previous hash**.
+   - A unique hash is calculated for the block.
 
-###  Scenario 2: The Commander is the Traitor
+3. **Change of Transactions:**
+   - If the miner is unsuccessful in finding a valid hash after trying all possible nonce values, they can alter the selected transactions.
+   - Changing the transactions will change the hash, restarting the process.
 
-- The commander sends "attack" to some and "retreat" to others.  
-- Loyal generals exchange messages to validate the received content.  
-- Each one follows the majority value among the received messages.
-
-**Result:**  **Consensus still achieved**, as long as there is only one traitor.
-
----
-
-## **How Many Traitors Can Be Tolerated?**
-
-Byzantine fault tolerance only works if **no more than one-third of participants are traitors**.
-
-| Total Generals | Max Tolerable Traitors |
-|----------------|------------------------|
-| 3              | 0                      |
-| 4              | 1                      |
-| 10             | 3                      |
-| 100            | 33                     |
-
->  If more than 33% are malicious, consensus is no longer reliable.
+4. **Resetting the Process:**
+   - By modifying the transactions, the miner can restart the mining process without waiting, allowing them to test new combinations until a valid hash is found.
 
 ---
 
-## **Fault Tolerance Limit**
+## **Block Explorer and MemPool**
 
-To correctly solve the Byzantine Generals Problem:
+In the block explorer, we can see how transactions are organized and stored in MemPool before being added to a block. In a mined block, the transactions are shown along with the **block size** and the number of transactions included.
 
-> **A Byzantine fault-tolerant system must meet the condition:**  
->  
-> **n ≥ 3f + 1**
+### **Example in the Explorer:**
 
-Where `n` is the total number of nodes, and `f` is the maximum number of faulty ones.
+1. **Block Size:**
+   - A block can be up to 2 MB in size, but not all blocks are full of transactions. For example, a block might have only **800 transactions** out of a possible **1560**.
 
----
-
-## **Real-World Applications of the Byzantine Generals Problem**
-
-This isn’t just a thought experiment — it has **real-world critical applications**:
-
-###  Airplanes
-
-- Aircraft sensors must cross-check data to prevent disasters.  
-- If one sensor fails, the others must **agree** to ignore it.
-
-###  Nuclear Plants
-
-- Coordination among multiple critical systems ensures safety from failures or sabotage.
-
-###  Space Stations
-
-- Docking systems must maintain **total coordination** between subsystems for safety and success.
-
-###  Blockchain
-
-- In decentralized blockchains, **nodes** must **agree on transactions**, even if some are compromised.
+2. **Viewing in the Explorer:**
+   - The explorer also shows the **transactions pending in MemPool**, as well as the **mining rate** and **difficulty** of the network.
 
 ---
 
-## **Relation to Blockchain**
+## **Importance of MemPool for Industrial Miners**
 
-Blockchain networks use consensus protocols inspired by the Byzantine Generals Problem, such as:
+**Industrial miners** and **mining pools** have a great advantage due to their ability to perform millions of calculations per second. Through MemPool, they can **test different transaction configurations** continuously without downtime.
 
-- **Proof of Work (PoW)**  
-- **Proof of Stake (PoS)**  
-- **Practical Byzantine Fault Tolerance (PBFT)**
+### **No Waiting Time:**
 
-These protocols ensure:
-
--  Network security  
--  Fault and attack tolerance  
--  Agreement across all nodes — even with some behaving maliciously
-
-
-## **Visualizing Blockchain Links and the Impact of a Byzantine Node**
-
-This illustrates how blocks in a blockchain are interconnected and how a malicious node can break the chain by altering a single block.
+- Industrial miners can modify MemPool as they please to **reset the calculation process** without waiting, allowing them to continue testing combinations and increase their chances of finding a valid hash in less time.
 
 ---
 
-### Structure of a Block in Blockchain
+## The Role of MemPool in Blockchain Mining**
 
-```plaintext
-+-------------+       +-------------+       +-------------+       +-------------+
-|  Block #1   | ----> |  Block #2   | ----> |  Block #3   | ----> |  Block #4   |
-| (Genesis)   |       | PrevHash: 1 |       | PrevHash: 2 |       | PrevHash: 3 |
-| Hash: #1    |       | Hash: #2    |       | Hash: #3    |       | Hash: #4    |
-| Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |
-+-------------+       +-------------+       +-------------+       +-------------+
-```
+MemPool is essential in the Bitcoin mining process. It organizes the transactions that have not yet been confirmed and prepares them for the next mined block. Furthermore, it gives miners the ability to **modify transactions** and restart the mining process, improving efficiency in the search for a valid hash.
 
-Each block contains:
-
-- ✅ Transaction data  
-- 🔗 Hash of the previous block  
-- 🔒 Its own hash  
-- 🎯 A **nonce**: a number adjusted to find a valid hash
-
----
-
-### What Happens if a Malicious Node Modifies Block #2?
-
-```plaintext
-+-------------+       +-------------+       +-------------+       +-------------+
-|  Block #1   | ----> |  Block #2   | -X->  |  Block #3   |  ???  |  Block #4   |
-| (Genesis)   |       | 🔧 Altered  |       | PrevHash: ❌ |       | PrevHash: ❌ |
-| Hash: #1    |       | Hash: ⚠️     |       | Hash: ??    |       | Hash: ??    |
-| Nonce: ❓    |       | Nonce: 🔁    |       | Nonce: 🔁    |       | Nonce: 🔁    |
-+-------------+       +-------------+       +-------------+       +-------------+
-```
-
-- If **any data** in Block #2 is changed (including the **nonce**), its **hash changes completely** due to the **avalanche effect** of hash functions.
-- This breaks the chain because Block #3 now contains an **invalid previous hash**, and the error continues down to Block #4 and beyond.
-- To keep the chain valid, all following blocks would need to **recalculate their nonces**, which is **computationally infeasible** in a distributed network.
-- The network automatically detects this manipulation because the hashes no longer match.
-
-
-- If all blocks are properly linked (valid hash + nonce), the chain is **secure and valid**.
-- If **even a single block is modified**, the **avalanche effect** is triggered:  
-  All subsequent hashes and nonces must be recomputed.
-- This demonstrates the **immutability and security** of blockchain:  
-  **Any attempt to alter a block breaks the chain and is instantly detected.**
-
-## **References**
-
--  **The Byzantine Generals Problem** (1982) – Leslie Lamport, Robert Shostak, and Marshall Pease.  
--  *Understanding Blockchain Fundamentals* – Medium Blog (2017) by George Cox.
-
-
-
-
-
-
-
+This system of **variability** and the ability to change transactions is crucial for maintaining **competition** among miners and ensuring that blocks are mined effectively and continuously.
 
