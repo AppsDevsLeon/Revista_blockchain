@@ -111,7 +111,55 @@ These protocols ensure:
 -  Fault and attack tolerance  
 -  Agreement across all nodes — even with some behaving maliciously
 
+
+## **Visualizing Blockchain Links and the Impact of a Byzantine Node**
+
+This document illustrates how blocks in a blockchain are interconnected and how a malicious node can break the chain by altering a single block.
+
 ---
+
+### Structure of a Block in Blockchain
+
+```plaintext
++-------------+       +-------------+       +-------------+       +-------------+
+|  Block #1   | ----> |  Block #2   | ----> |  Block #3   | ----> |  Block #4   |
+| (Genesis)   |       | PrevHash: 1 |       | PrevHash: 2 |       | PrevHash: 3 |
+| Hash: #1    |       | Hash: #2    |       | Hash: #3    |       | Hash: #4    |
+| Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |
++-------------+       +-------------+       +-------------+       +-------------+
+```
+
+Each block contains:
+
+- ✅ Transaction data  
+- 🔗 Hash of the previous block  
+- 🔒 Its own hash  
+- 🎯 A **nonce**: a number adjusted to find a valid hash
+
+---
+
+### What Happens if a Malicious Node Modifies Block #2?
+
+```plaintext
++-------------+       +-------------+       +-------------+       +-------------+
+|  Block #1   | ----> |  Block #2   | -X->  |  Block #3   |  ???  |  Block #4   |
+| (Genesis)   |       | 🔧 Altered  |       | PrevHash: ❌ |       | PrevHash: ❌ |
+| Hash: #1    |       | Hash: ⚠️     |       | Hash: ??    |       | Hash: ??    |
+| Nonce: ❓    |       | Nonce: 🔁    |       | Nonce: 🔁    |       | Nonce: 🔁    |
++-------------+       +-------------+       +-------------+       +-------------+
+```
+
+- If **any data** in Block #2 is changed (including the **nonce**), its **hash changes completely** due to the **avalanche effect** of hash functions.
+- This breaks the chain because Block #3 now contains an **invalid previous hash**, and the error continues down to Block #4 and beyond.
+- To keep the chain valid, all following blocks would need to **recalculate their nonces**, which is **computationally infeasible** in a distributed network.
+- The network automatically detects this manipulation because the hashes no longer match.
+
+
+- If all blocks are properly linked (valid hash + nonce), the chain is **secure and valid**.
+- If **even a single block is modified**, the **avalanche effect** is triggered:  
+  All subsequent hashes and nonces must be recomputed.
+- This demonstrates the **immutability and security** of blockchain:  
+  **Any attempt to alter a block breaks the chain and is instantly detected.**
 
 ## **References**
 
