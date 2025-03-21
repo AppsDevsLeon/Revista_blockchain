@@ -102,6 +102,57 @@ Estos protocolos permiten:
 - Tolerar ataques.
 - Asegurar que todos los nodos lleguen al mismo resultado, aún cuando algunos actúen maliciosamente.
 
+  ## **Visualizando los Enlaces de Blockchain y el Impacto de un Nodo Bizantino**
+
+Se ilustra cómo los bloques en una blockchain están interconectados y cómo un nodo malicioso puede romper la cadena al alterar un solo bloque.
+
+---
+
+## **Estructura de un Bloque en Blockchain**
+
+```plaintext
++-------------+       +-------------+       +-------------+       +-------------+
+|  Bloque #1  | ----> |  Bloque #2  | ----> |  Bloque #3  | ----> |  Bloque #4  |
+| (Génesis)   |       | PrevHash: 1 |       | PrevHash: 2 |       | PrevHash: 3 |
+| Hash: #1    |       | Hash: #2    |       | Hash: #3    |       | Hash: #4    |
+| Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |       | Nonce: 💡    |
++-------------+       +-------------+       +-------------+       +-------------+
+```
+
+Cada bloque contiene:
+
+- ✅ Datos de transacciones  
+- 🔗 Hash del bloque anterior  
+- 🔒 Su propio hash  
+- 🎯 Un **nonce**: número que se ajusta hasta encontrar un hash válido
+
+---
+
+## 🚨 ¿Qué Ocurre si un Nodo Malicioso Modifica el Bloque #2?
+
+```plaintext
++-------------+       +-------------+       +-------------+       +-------------+
+|  Bloque #1  | ----> |  Bloque #2  | -X->  |  Bloque #3  |  ???  |  Bloque #4  |
+| (Génesis)   |       | 🔧 Alterado |       | PrevHash: ❌ |       | PrevHash: ❌ |
+| Hash: #1    |       | Hash: ⚠️     |       | Hash: ??    |       | Hash: ??    |
+| Nonce: ❓    |       | Nonce: 🔁    |       | Nonce: 🔁    |       | Nonce: 🔁    |
++-------------+       +-------------+       +-------------+       +-------------+
+```
+
+-  Al cambiar cualquier dato en el Bloque #2 (incluyendo el **nonce**), su **hash cambia por completo** debido al **efecto avalancha** de las funciones hash.
+-  Esto invalida el hash previo almacenado en el Bloque #3, que a su vez arrastra el error hacia el Bloque #4 y los siguientes.
+- Para que la cadena siga siendo válida, se tendría que **recalcular el nonce de todos los bloques posteriores**, lo cual es computacionalmente inviable en una red distribuida.
+-  La red detecta automáticamente esta manipulación, ya que los hashes ya no coinciden.
+
+
+
+- Si todos los bloques están correctamente enlazados (hash + nonce válidos), la cadena es segura y válida.
+- Si se modifica un solo bloque, se activa el **efecto avalancha**:  
+  Se deben rehacer todos los hashes y nonces de los bloques siguientes.
+- Esto demuestra la **inmutabilidad y seguridad** de la blockchain:  
+  **Cualquier intento de alterar un bloque rompe la cadena y es detectado inmediatamente.**
+
+
 ## **Referencias**
 
 - 📄 **The Byzantine Generals Problem** (1982) – Leslie Lamport, Robert Shostak y Marshall Pease.
