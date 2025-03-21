@@ -1,7 +1,6 @@
 
 ## **El Rompecabezas Criptográfico y el Proceso de Minado en Blockchain**
 
-## **Introducción al Minado en Blockchain**
 
 El minado es un pilar fundamental de la tecnología blockchain, haciendo que la cadena de bloques sea completamente inmutable. Para entender a fondo el minado, es esencial comprender primero las funciones de hash que permiten que este proceso se lleve a cabo.
 
