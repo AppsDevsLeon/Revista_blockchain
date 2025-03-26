@@ -4,6 +4,8 @@ In today's digital age, blockchain stands as a technology that has transformed n
 
 Blockchain is a distributed system that allows recording and validating transactions without the need for a central authority. Thanks to its mathematical foundation and state-of-the-art cryptographic techniques, it is possible to maintain an unalterable and secure record of data. This document offers a comprehensive and technical view of how blockchain works, its security mechanisms, and its potential to revolutionize the management and transmission of data in the digital world.
 
+ ![bloque](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day10/Images/bloques.png)
+
 ## **2. Fundamental Concepts of Blockchain**
 
 ### 2.1 What is a Block?
