@@ -15,6 +15,8 @@
 
 ## **Explicación Detallada**
 
+![redes](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day15/Images/descentralizaci%C3%B3n.jpeg)
+
 ### Redes Centralizadas
 - **Definición:** Toda la información y el control están en un único punto central.
 - **Ventajas:** Fácil de gestionar y controlar.
