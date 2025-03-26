@@ -13,6 +13,7 @@
 | **Security**             | Moderate                    | High                           | Very high                   |
 
 ## **Detailed Explanation**
+![redes](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day15/Images/descentralizaci%C3%B3n.jpeg)
 
 #### **Centralized Networks**
 - **Control Point:** Single, centralized authority.
