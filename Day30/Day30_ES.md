@@ -24,7 +24,7 @@ En lugar de seleccionar los nodos validadores únicamente en función de la cant
    - Excelente reputación
    - Participación activa en la red
 
-## ** Ventajas del DPoS**
+## **Ventajas del DPoS**
 
 -  **Mayor rendimiento y eficiencia**  
   - Menos nodos validadores ⇒ transacciones más rápidas
