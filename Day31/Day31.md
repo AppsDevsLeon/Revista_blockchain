@@ -1,4 +1,4 @@
-# **Immutability and Finality in Blockchain Transactions**
+## **Immutability and Finality in Blockchain Transactions**
 
 Immutability refers to the blockchain's ability to preserve its transaction history unchanged, preventing any modifications or deletions. Once transactions are confirmed, they become **permanent and irreversible**.
 
