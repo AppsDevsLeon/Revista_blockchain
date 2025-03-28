@@ -1,10 +1,10 @@
-## ¿Qué es el Consenso en Blockchain?
+## **¿Qué es el Consenso en Blockchain?**
 
 El **consenso** en blockchain hace referencia al proceso mediante el cual los participantes de una cadena de bloques llegan a un **acuerdo colectivo** sobre el estado de la información y las transacciones que se registran en ella.
 
 Dado que las blockchain son redes **descentralizadas**, donde no existe una autoridad central que valide las transacciones, es esencial contar con un mecanismo que garantice que todos los nodos tengan la misma información y que las transacciones sean válidas. En este contexto, el consenso es **clave**, garantizando la **seguridad**, **fiabilidad** y **confianza** en la red.
 
-##  ¿Qué implica el consenso?
+##  **¿Qué implica el consenso?**
 
 El consenso es el proceso mediante el cual los nodos de una blockchain llegan a un **acuerdo general**. Para que este proceso ocurra, intervienen diferentes elementos, entre ellos:
 
@@ -27,7 +27,7 @@ Sin un algoritmo de consenso eficaz, la blockchain no podría operar correctamen
 
 ---
 
-##  Reglas del Consenso
+##  **Reglas del Consenso**
 
 En el proceso de consenso también intervienen las **reglas de consenso**, un conjunto de normas que determinan cómo los nodos de la red deben validar transacciones y bloques.
 
@@ -46,7 +46,7 @@ Este software de código abierto se encarga de hacer cumplir las reglas de conse
 
 ---
 
-## Gobernanza y Actualizaciones
+## **Gobernanza y Actualizaciones**
 
 En una **blockchain pública**, la comunidad decide generalmente cuáles son las reglas del consenso. Esto permite:
 
@@ -56,7 +56,7 @@ En una **blockchain pública**, la comunidad decide generalmente cuáles son las
 
 ---
 
-##  Resumen
+##  **Resumen**
 
 - El **consenso** asegura que todos los nodos estén sincronizados y de acuerdo sobre el estado de la blockchain.
 - Los **algoritmos de consenso** permiten validar transacciones y bloques sin una autoridad central.
