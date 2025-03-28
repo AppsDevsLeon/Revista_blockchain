@@ -2,6 +2,8 @@
 
 Immutability refers to the blockchain's ability to preserve its transaction history unchanged, preventing any modifications or deletions. Once transactions are confirmed, they become **permanent and irreversible**.
 
+![i](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day31/images/ChatGPT%20Image%2028%20mar%202025%2C%2014_45_23.png)
+
 ###  Key Elements:
 
 - **Block Structure and Hashes**  
