@@ -4,7 +4,7 @@ El **consenso** en blockchain hace referencia al proceso mediante el cual los pa
 
 Dado que las blockchain son redes **descentralizadas**, donde no existe una autoridad central que valide las transacciones, es esencial contar con un mecanismo que garantice que todos los nodos tengan la misma información y que las transacciones sean válidas. En este contexto, el consenso es **clave**, garantizando la **seguridad**, **fiabilidad** y **confianza** en la red.
 
-##  **¿Qué implica el consenso?**
+## **¿Qué implica el consenso?**
 
 El consenso es el proceso mediante el cual los nodos de una blockchain llegan a un **acuerdo general**. Para que este proceso ocurra, intervienen diferentes elementos, entre ellos:
 
