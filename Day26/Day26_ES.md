@@ -36,7 +36,7 @@ El consenso es clave para que la red funcione **sin una autoridad central**, pro
 **¿Cuál de las siguientes afirmaciones describe mejor la importancia del consenso en una blockchain?**
 
 - [ ] El consenso permite que solo una autoridad central controle todas las transacciones en la red.  
-- [x] El consenso asegura que las transacciones sean validadas y registradas de manera única, previniendo el doble gasto y garantizando la integridad del libro mayor.  
+- [ ] El consenso asegura que las transacciones sean validadas y registradas de manera única, previniendo el doble gasto y garantizando la integridad del libro mayor.  
 - [ ] El consenso elimina la necesidad de tener reglas específicas para la validación de transacciones.  
 - [ ] El consenso asegura que todos los nodos tengan la misma información, independientemente de su comportamiento.
 
