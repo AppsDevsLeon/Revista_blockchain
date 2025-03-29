@@ -2,7 +2,7 @@
 
 An address is a string of text generated using cryptography to represent your account on the blockchain. This address can be shared publicly with others, and it is completely safe to do so. You can send and receive funds to and from your wallet address. Basically, the address is your unique identifier on the blockchain and represents your "account."
 
-## Example of an Ethereum address:
+*Example of an Ethereum address:*
 `0x01573Df433484fCBe6325a0c6E051Dc62Ab107D1`
 
 ## **Address Formats and Security Recommendations by Network**
