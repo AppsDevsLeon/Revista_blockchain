@@ -1,79 +1,52 @@
 ## **What is a Wallet?**
 
-As you can see right below the title, first of all, a wallet, a purse, a billfold—or however it's said in your language—is all the same thing.
+In the world of cryptocurrencies, it's common to encounter different terms that refer to the same thing: **wallet**, **purse**, or **billfold**. Although the name may vary depending on the language or region, all refer to the same fundamental element in the crypto ecosystem.
 
-It all refers to the same concept. If you're starting from scratch, reading "wallet," "purse," or "billfold" might be confusing, but they all mean the same thing.
+The first thing we need to understand is that **cryptocurrencies are not stored like physical money**, unlike a traditional wallet.
 
-The first thing we need to understand is that cryptocurrencies are **not** stored like cash or water, unlike a conventional wallet.
+---
 
-I have mine here somewhere—but okay, here’s an image showing a wallet with some bills, some euros.
+## **What Does a Wallet Do?**
 
-That’s not how it really works. Sure, there are some cold wallets that may **look** like that, but most don’t work that way.
+A wallet should not be thought of as a physical object where you store bills or coins. In reality, **cryptocurrencies are not stored inside the wallet**, because they **never leave the blockchain**. What the wallet really does is manage **access** and **control** over the funds that always remain on the network.
 
-In crypto, coins never leave the blockchain.
+---
 
-Cryptocurrencies—especially those in hot wallets—are always connected to the blockchain and **never** get disconnected from it.
+## **Cryptocurrencies and Their Blockchain**
 
-Crypto only exists on its respective blockchain. That’s another key thing to understand.
+Each cryptocurrency exists exclusively within its own network:
 
-For example: **Ether only exists on the Ethereum network.** It doesn't exist on the Bitcoin network, just like **Bitcoin only exists on the Bitcoin network.**
+- **Bitcoin** only exists on the Bitcoin network.  
+- **Ether (ETH)** only exists on the Ethereum network.
 
-You might have seen tokens like “Bitcoin” or “Ether” on the Solana network or Binance chain.
+It’s possible to find tokens like Bitcoin or Ethereum on other blockchains (such as Solana or Binance Smart Chain), but these are not the original assets. Instead, they are **wrapped or represented versions**, like **Wrapped Ether (WETH)** or **Wrapped Bitcoin (WBTC)**.
 
-But that’s not the real thing—it’s **not 100% the same**. What’s being used there is a **wrapped token**, a version that **mirrors** the original asset from another blockchain.
+---
 
-For example, Ether on another chain might be called **Wrapped Ether (WETH)**.
+## **Sending and Receiving Cryptocurrencies**
 
-It’s basically a way to **interconnect blockchains** and let users move value across different ecosystems.
+Your wallet connects to the blockchain to **send and receive funds**. The blockchain functions like a **distributed digital ledger**, where each transaction is publicly recorded:
 
-Anyway, I’m rambling a bit—let’s get back on track.
+> Juan sends 1 BTC to Ana  
+> ✅ The network validates the transaction  
+> 📈 Ana receives 1 BTC, and Juan’s balance is reduced
 
-Your wallet connects to the blockchain to **send and receive cryptocurrencies**.
+Depending on the network, transactions are validated using different consensus mechanisms:
 
-Now, the blockchain—if you’ve never heard of it—just imagine it like a **big ledger**, a massive database.
+- **Proof of Work (PoW)** – Used by Bitcoin  
+- **Proof of Stake (PoS)** – Used by Ethereum and other modern networks
 
-It records things like: *“Pepito sends Marina 1 Bitcoin.”* The blockchain logs that transaction, and then the miners **approve** it.
+---
 
-After that, the transfer is confirmed: Marina’s balance increases by 1 BTC, and Pepito’s goes down by 1 BTC.
+## **The Private Key**
 
-That’s how the blockchain works.
+To authorize any transaction, a **private key** is required:
 
-Explained for **total beginners**, so we don’t get too technical.
+- It’s a long string of alphanumeric characters  
+- It acts as a **secret password**  
+- **It should never be shared or lost**  
+- Whoever has access to the private key controls the associated funds
 
-As we said, a transaction must be approved, and to approve it—via miners and all that—well, that’s part of how the blockchain works. In Bitcoin’s case, it’s the **proof of work** mechanism.
-
-But there are **other blockchains** that use **proof of stake**, which works a little differently.
-
-Still, at the end of the day, a **blockchain is a giant ledger**, and that’s the key idea.
-
-To **approve** a transaction, you need to use your **private key**, which only you know.
-
-The private key (as we’ll see in the next slide) is a very long string of numbers and letters—basically your **password**.
-
-And as you can imagine, looking at this example in the video, on the left you’ll see a bunch of random letters, words, upper/lowercase, numbers...
-
-That’s the private key.
-
-Let’s be honest—you’re not going to memorize that, even if you write it down.
-
-It’s likely **more than 100 characters long**. So no, you’re not going to be copy-pasting that by hand all the time.
-
-Let’s move on.
-
-**Whoever has the private key has access to your crypto.** Simple as that.
-
-The private key is like your **bank password**.
-
-Then there's another concept: your **wallet address**.
-
-Let’s say this is your wallet address. To better understand it, just think of it as a **bank account number**.
-
-It’s similar to what you have with your bank card or savings account.
-
-That’s the **address** you give people when you want them to send you money.
-
-It’s also the address you use when sending funds from an exchange to your wallet—or wallet to wallet.
-
-And here’s something important: **your wallet address is generated from your private key**.
-
-That’s what I almost forgot to mention!
+```text
+Example of a private key:
+5J3mBbAH58CERF2YkZzXQZoJb9dV7XfEpNTkdUjGey9GfBgdZzv
