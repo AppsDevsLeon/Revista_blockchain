@@ -1,4 +1,4 @@
-## ** Descubre el Mundo de las Wallets
+## **Descubre el Mundo de las Wallets**
 
 
 ✅ Qué es una wallet y cómo funciona.  
