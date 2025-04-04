@@ -4,6 +4,8 @@ Understanding how wallets work is essential to navigating the world of cryptocur
 
 ---
 
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2016_55_30.png)
+
 ## **The Wallet as a Key Manager**
 
 A crypto wallet doesn’t hold cryptocurrencies directly—it **manages cryptographic keys**. There are two types of keys involved:
@@ -27,6 +29,7 @@ When you send cryptocurrency to someone, here’s what actually happens under th
 
 > The funds didn’t "move" from one place to another—they simply **changed ownership** on the blockchain.
 
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/Billetera%20electronica.png)
 ---
 
 ## **Wallet Types and How They Operate**
