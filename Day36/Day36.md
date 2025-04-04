@@ -4,7 +4,7 @@ Understanding how wallets work is essential to navigating the world of cryptocur
 
 ---
 
-![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2017_06_13.png)
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2016_55_30.png)
 
 ## **The Wallet as a Key Manager**
 
