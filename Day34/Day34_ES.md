@@ -7,7 +7,6 @@
 ✅ Cómo proteger tus criptomonedas y evitar errores fatales.  
 
 
-
 1. **¿Qué es una Wallet?**  
    Aprende desde cero qué es una billetera digital y por qué es fundamental en el mundo cripto.
 
