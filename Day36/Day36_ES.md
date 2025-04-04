@@ -30,7 +30,7 @@ Cuando envías criptomonedas a alguien, esto es lo que ocurre detrás de escena:
 
 ---
 
-![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/Billetera%20electronica.png)
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2017_01_18.png)
 
 ## **Tipos de Carteras y Cómo Operan**
 
