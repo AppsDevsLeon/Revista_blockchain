@@ -2,6 +2,7 @@
 
 Entender cómo funcionan las carteras es esencial para navegar con seguridad y eficacia en el mundo de las criptomonedas. Aunque no almacenan monedas físicamente como una billetera tradicional, **juegan un papel crucial** en la gestión y protección de tus activos digitales.
 
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2016_55_30.png)
 ---
 
 ## **La Cartera como Gestora de Claves**
@@ -28,6 +29,8 @@ Cuando envías criptomonedas a alguien, esto es lo que ocurre detrás de escena:
 > Los fondos no se “movieron” físicamente de un lugar a otro—simplemente **cambiaron de propiedad** en la blockchain.
 
 ---
+
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/Billetera%20electronica.png)
 
 ## **Tipos de Carteras y Cómo Operan**
 
