@@ -29,7 +29,7 @@ When you send cryptocurrency to someone, here’s what actually happens under th
 
 > The funds didn’t "move" from one place to another—they simply **changed ownership** on the blockchain.
 
-![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/Billetera%20electronica.png)
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2017_06_13.png)
 ---
 
 ## **Wallet Types and How They Operate**
