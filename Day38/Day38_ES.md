@@ -83,6 +83,7 @@ Por tanto, **la vulnerabilidad no está en la blockchain, sino en el uso de las 
 
 ### Ejemplo de frase semilla:
 
+![i2](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day38/images/ChatGPT%20Image%208%20abr%202025%2C%2003_44_28.png)
 
 ### Características:
 
