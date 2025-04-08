@@ -14,6 +14,8 @@ Este documento te guiará paso a paso para comprender:
 
 ---
 
+![i1]()
+
 ## **¿Qué tan seguras son las billeteras?**
 
 ### Blockchain vs. Billeteras
@@ -218,4 +220,45 @@ Tu billetera es tu **puerta de entrada al mundo cripto**. La blockchain es segur
 
 
 >  **Recuerda:** Si pierdes tu frase semilla, **nadie podrá ayudarte a recuperar tus fondos.** En blockchain, **tú eres tu propio banco.**
+
+## **CONSEJOS DE SEGURIDAD PARA EL USO DE BILLETERAS DIGITALES**
+
+### El sistema Blockchain es INFRANQUEABLE, pero tu billetera NO
+
+Aunque blockchain ha sido diseñada para ser resistente a ataques externos, con registros distribuidos e inmutables, **el punto vulnerable sigue siendo el usuario**. Las billeteras digitales, que actúan como interfaz entre tú y la red, pueden ser comprometidas si no se manejan correctamente. Por eso, debes tomar precauciones estrictas en la creación, uso y protección de tu billetera. La seguridad no está solo en la tecnología, **está en tus manos**.
+
+---
+
+###  Una sola billetera puede ser suficiente… pero evalúa tu inversión
+
+Si tu inversión es pequeña o recién estás comenzando en el mundo cripto, una sola billetera caliente confiable puede ser más que suficiente para guardar y gestionar tus fondos. Sin embargo, si estás haciendo inversiones mayores, superiores a unos miles de dólares, es altamente recomendable dividir tus activos. Usa **múltiples billeteras** y considera combinar billeteras calientes (para uso frecuente) con billeteras frías (para almacenamiento seguro). **Diversificar es proteger**.
+
+---
+
+###  Guarda tu llave privada como si fuera un cheque en blanco
+
+Tu llave privada o frase semilla representa el **único acceso real a tus fondos**. No basta con confiar en que la aplicación "recuerda" tus datos. Debes tener un respaldo físico o digital de tu frase, en un lugar seguro pero accesible. Guardarla escrita en papel y protegida del fuego, humedad y pérdidas es una buena práctica. Si prefieres lo digital, utiliza herramientas cifradas y jamás la compartas por correo o mensajería. Recuerda: **quien tenga tu frase semilla, tiene tu dinero**.
+
+---
+
+###  Evita estafas y hackeos con sentido común y educación
+
+Las estafas en el entorno cripto están a la orden del día. Nadie te va a regalar criptomonedas porque sí. Si una oferta parece demasiado buena para ser cierta, probablemente sea una estafa. También evita descargar billeteras de sitios no oficiales, ingresar claves privadas en páginas web sospechosas o compartir tu frase semilla con "soportes técnicos". Usa siempre **fuentes oficiales** y mantente actualizado. La educación continua es la mejor defensa ante el fraude digital.
+
+---
+
+## **HERRAMIENTAS PRÁCTICAS**
+
+Aquí algunas herramientas y estrategias que puedes aplicar para mejorar la seguridad de tu billetera digital:
+
+- Usa **autenticación de dos factores (2FA)** siempre que sea posible.
+- Emplea **administradores de contraseñas** para generar y guardar credenciales seguras.
+- **Encripta tus dispositivos** y no compartas tu PIN o contraseña con nadie.
+- Si usas billeteras frías como Ledger o Trezor, asegúrate de comprar desde la página oficial.
+- Crea una copia adicional de tu frase semilla y guárdala en otro lugar físico diferente.
+
+> *Recuerda: en blockchain no hay soporte técnico que recupere tus fondos. Tú eres tu propio banco. Protégete como tal.*
+
+---
+
 
