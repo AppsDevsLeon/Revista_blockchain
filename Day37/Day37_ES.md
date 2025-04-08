@@ -84,10 +84,11 @@ Las carteras frías como Ledger o Trezor son ideales para **guardar criptomoneda
 
 ---
 
-# **USOS DE LAS BILLETERAS DIGITALES**
+## **USOS DE LAS BILLETERAS DIGITALES**
 
 Las billeteras digitales ofrecen una amplia gama de funciones más allá del simple almacenamiento de criptomonedas. Aquí te presentamos los principales usos prácticos:
 
+![use](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day37/images/ChatGPT%20Image%207%20abr%202025%2C%2023_01_44.png)
 ---
 
 ###  **Exchange Fiat-Cripto / Cripto-Fiat / Cripto a Cripto**
