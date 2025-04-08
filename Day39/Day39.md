@@ -1,4 +1,4 @@
-##**Introduction to the Types of Digital Wallets**
+## **Introduction to the Types of Digital Wallets**
 
 In the world of cryptocurrencies, one of the first concepts you'll come across is the digital wallet, also known as a wallet. Unlike physical wallets where you store bills and coins, a digital wallet doesn’t literally store cryptocurrencies. Instead, it stores the private keys that allow you to access your funds on the blockchain network.
 
