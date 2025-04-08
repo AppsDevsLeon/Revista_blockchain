@@ -4,9 +4,6 @@ Las criptomonedas y la tecnología blockchain han transformado nuestra forma de 
 
 Sabemos que el inglés puede ser una barrera para muchos al explorar estos conceptos. Pero no te preocupes, porque esta guía está redactada en español y explicada paso a paso.
 
----
-
-## **Capítulo 1: ¿Qué es una Billetera Digital?**
 
 Una billetera digital o **wallet** es una herramienta que te permite almacenar, enviar y recibir criptomonedas. Aunque técnicamente no "almacena" las monedas en sí, guarda las **claves privadas** que te dan acceso a ellas.
 
@@ -20,7 +17,7 @@ Hay diferentes tipos de billeteras, y cada una tiene sus propias característica
 
 ---
 
-## **Capítulo 2: HD Wallets (Hierarchical Deterministic Wallets)**
+## **HD Wallets (Hierarchical Deterministic Wallets)**
 
 Las **HD Wallets** generan una **frase semilla de recuperación (seed phrase)** que permite restaurar todas las claves y fondos en caso de pérdida del dispositivo.
 
@@ -40,7 +37,7 @@ Las **HD Wallets** generan una **frase semilla de recuperación (seed phrase)** 
 
 ---
 
-## **Capítulo 3: Full Wallets (Monederos Completos)**
+## **Full Wallets (Monederos Completos)**
 
 Las **Full Wallets** descargan y validan toda la blockchain. Funcionan como nodos completos dentro de la red, ofreciendo un mayor nivel de descentralización y control.
 
@@ -60,7 +57,7 @@ Las **Full Wallets** descargan y validan toda la blockchain. Funcionan como nodo
 
 ---
 
-## **Capítulo 4: Lightweight Wallets (Carteras Ligeras)**
+## **Lightweight Wallets (Carteras Ligeras)**
 
 Las **Lightweight Wallets** no descargan la blockchain completa. En su lugar, se conectan a nodos externos y confían en ellos para verificar transacciones.
 
@@ -79,7 +76,7 @@ Las **Lightweight Wallets** no descargan la blockchain completa. En su lugar, se
 
 ---
 
-## **Capítulo 5: Billeteras Calientes y Frías**
+## **Billeteras Calientes y Frías**
 
 ### **Billeteras Calientes (Hot Wallets)**
 
@@ -123,7 +120,7 @@ Usa **una combinación** de billeteras calientes y frías. Guarda la mayoría de
 
 ---
 
-## **Capítulo 6: Buenas Prácticas de Seguridad**
+## **Buenas Prácticas de Seguridad**
 
 - Nunca compartas tu seed phrase.
 - Haz respaldos físicos y guárdalos fuera de línea.
@@ -134,7 +131,7 @@ Usa **una combinación** de billeteras calientes y frías. Guarda la mayoría de
 
 ---
 
-## **Capítulo 7: Comparativa Final de Seguridad entre Tipos de Wallets**
+## **Comparativa Final de Seguridad entre Tipos de Wallets**
 
 | Tipo de Wallet          | Genera Seed Phrase | Requiere Blockchain | Privacidad Alta | Control Total | Seguridad Alta | Facilidad de Uso |
 |-------------------------|--------------------|----------------------|------------------|----------------|----------------|------------------|
