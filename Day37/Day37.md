@@ -84,10 +84,11 @@ Cold wallets like Ledger or Trezor are ideal for **safely storing crypto** for l
 
 ---
 
-# **USES OF DIGITAL WALLETS**
+## **USES OF DIGITAL WALLETS**
 
 Digital wallets offer a wide range of functions beyond just storing cryptocurrencies. Here are the main practical uses:
 
+![use](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day37/images/ChatGPT%20Image%207%20abr%202025%2C%2022_59_43.png)
 ---
 
 ###  **Fiat-Crypto / Crypto-Fiat / Crypto-to-Crypto Exchange**
