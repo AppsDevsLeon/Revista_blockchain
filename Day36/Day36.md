@@ -36,12 +36,12 @@ When you send cryptocurrency to someone, here’s what actually happens under th
 
 Wallets can be classified by how and where they store your private key:
 
-### 🔥 **Hot Wallets**
+### **Hot Wallets**
 - Connected to the internet.
 - Fast and convenient for daily use.
 - Examples: Mobile apps, browser extensions (e.g., MetaMask).
 
-### ❄️ **Cold Wallets**
+###  **Cold Wallets**
 - Offline storage of private keys.
 - Ideal for long-term and secure storage.
 - Examples: Hardware wallets like Ledger, Trezor, or paper wallets.
@@ -50,15 +50,15 @@ Wallets can be classified by how and where they store your private key:
 
 ## **Custodial vs Non-Custodial**
 
-### 🏦 **Custodial Wallets**
+###  **Custodial Wallets**
 - Your keys are managed by a third party (like an exchange).
 - Easier for beginners, but less control.
 
-### 🔐 **Non-Custodial Wallets**
+###  **Non-Custodial Wallets**
 - You hold and control your own private keys.
 - More secure, but **you are fully responsible** for your access.
 
-> ⚠️ **Remember**: Not your keys, not your crypto.
+>  **Remember**: Not your keys, not your crypto.
 
 ---
 
