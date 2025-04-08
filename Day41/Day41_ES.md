@@ -67,3 +67,17 @@ Las **Hot Wallets** son aquellas que están siempre conectadas a Internet y alma
 - **Billeteras Calientes:** Son más fáciles de usar y accesibles, pero tienen un mayor riesgo de sufrir ataques debido a su constante conexión a Internet.
 
 Es importante elegir el tipo de billetera según las necesidades de seguridad y la frecuencia de uso que tenga el usuario para sus criptomonedas.
+
+### **Tabla Comparativa**
+
+| Característica                  | Billeteras Frías                   | Billeteras Calientes               |
+|----------------------------------|------------------------------------|------------------------------------|
+| **Seguridad**                    | Alta, no conectadas a Internet     | Baja, siempre conectadas a Internet|
+| **Comodidad**                    | Menos conveniente para transacciones frecuentes | Muy conveniente, acceso siempre disponible|
+| **Riesgo de Ciberataques**       | Bajo, ya que están desconectadas   | Alto, debido a la conexión constante a Internet |
+| **Control sobre las Claves Privadas** | Control total, las claves nunca salen del dispositivo | Varía, a veces gestionadas por terceros |
+| **Ejemplos**                     | Trezor, Ledger, Billeteras en Papel, Electrum (configuración fría) | Exodus, Electrum (configuración caliente), Trust Wallet, Coinbase |
+| **Opciones de Recuperación**     | Semilla de recuperación            | Depende de la billetera, a menudo depende de servicios online |
+| **Facilidad de Uso**             | Requiere conexión manual para transacciones | Acceso instantáneo, fácil para enviar/recibir criptos |
+
+Esta tabla resume las principales diferencias entre las billeteras frías y calientes en cuanto a seguridad, comodidad, riesgos, control, ejemplos, opciones de recuperación y facilidad de uso.
