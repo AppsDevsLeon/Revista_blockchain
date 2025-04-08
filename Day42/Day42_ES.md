@@ -1,7 +1,6 @@
 ## **¿Qué son las Hardware Wallets?**
 
 
-
 La seguridad de nuestros fondos en criptomonedas no es algo que deba tomarse a la ligera. Por ello, se han creado las **hardware wallets**. Estos son dispositivos físicos diseñados para ofrecer la mayor seguridad posible a nuestros fondos en todo momento.
 
 Al considerar la seguridad y protección de nuestras criptomonedas, las hardware wallets se presentan como una de las opciones más confiables. Estos pequeños dispositivos permiten resguardar y proteger nuestras claves privadas en un dispositivo físico diseñado específicamente para este fin.
@@ -66,8 +65,11 @@ Existen varias marcas en el mercado, pero hay tres compañías líderes que ofre
 Trezor fue una de las primeras compañías en desarrollar hardware wallets. Las wallets de Trezor son muy conocidas por su alta seguridad y facilidad de uso. Son dispositivos deterministas **(HD)**, lo que significa que pueden generar un número ilimitado de direcciones a partir de una semilla.
 
 **Modelos:**
-- **Trezor One** y **Trezor T.**  
+- **Trezor One** y **Trezor T**  
 Ambos dispositivos son compatibles con Android, Windows, Linux y macOS. Ofrecen un entorno aislado para firmar transacciones, reduciendo significativamente la posibilidad de que las claves privadas sean descubiertas.
+
+- **Trezor Safe 3** y **Trezor Safe 5**  
+Modelos más recientes que ofrecen mejoras en seguridad, con tecnología avanzada de cifrado y soporte para un mayor número de criptomonedas. El **Trezor Safe 3** es ideal para quienes buscan una opción más económica sin sacrificar seguridad. El **Trezor Safe 5** es una opción premium que incluye capacidades adicionales de seguridad, incluyendo mayores opciones de recuperación y una interfaz mejorada.
 
 ### **Ledger**
 Ledger ofrece una variedad de opciones de hardware wallets, como **Ledger Nano S** y **Ledger Nano X**. Utilizan un sistema operativo denominado **BOLOS** en un chip de seguridad que permite ejecutar aplicaciones de código abierto en completo aislamiento.
