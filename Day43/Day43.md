@@ -82,7 +82,7 @@ Look for a wallet that is **segregated**, meaning **your account is completely i
 - More secure for storing large amounts for the long term.
 - Requires a physical device or external storage.
 
-![Cold and Hot Wallet](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day39/image/Billetera%20fria%20y%20caliente.png)
+![Cold and Hot Wallet](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day39/image/ChatGPT%20Image%208%20abr%202025%2C%2004_09_44.png)
 
 ---
 
