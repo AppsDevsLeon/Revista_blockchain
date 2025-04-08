@@ -121,7 +121,7 @@ Desde tu wallet puedes:
 
 ---
 
-> ✨ Las billeteras digitales son herramientas versátiles y fundamentales para participar en la economía cripto de forma segura y eficiente.
+>  Las billeteras digitales son herramientas versátiles y fundamentales para participar en la economía cripto de forma segura y eficiente.
 
 
 ## **Resumen**
