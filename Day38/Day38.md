@@ -1,4 +1,4 @@
-# **Security in Digital Wallets**
+## **Security in Digital Wallets**
 
 In the blockchain ecosystem, security **does not rely solely on technology**, but also on **user behavior**. The blockchain network, due to its decentralized and cryptographic design, is extremely secure. However, **digital wallets** —the tools we use to interact with the network— **can be compromised**.
 
