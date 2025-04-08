@@ -14,7 +14,7 @@ Este documento te guiará paso a paso para comprender:
 
 ---
 
-![i1]()
+![i1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day38/images/ChatGPT%20Image%208%20abr%202025%2C%2001_36_50.png)
 
 ## **¿Qué tan seguras son las billeteras?**
 
