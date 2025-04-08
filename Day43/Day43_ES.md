@@ -51,7 +51,7 @@ Recuerda que **esto es un negocio**. Las billeteras digitales ganan dinero a tra
 - Conversión de fiat a cripto.
 - Retiros y depósitos.
 
-> ⚠ Evalúa los costos antes de comprometerte. No todas las billeteras son transparentes con sus tarifas.
+> Evalúa los costos antes de comprometerte. No todas las billeteras son transparentes con sus tarifas.
 
 ---
 
@@ -122,6 +122,3 @@ También puedes combinar ambas: una wallet caliente para tu uso diario y una fr�
 - Considera usar más de una billetera para **diversificar tu riesgo** y aprovechar lo mejor de cada opción.
 
 
----
-
-📚 *Este contenido forma parte de nuestro módulo educativo sobre criptomonedas y billeteras digitales. ¡Sigue aprendiendo con nosotros!*
