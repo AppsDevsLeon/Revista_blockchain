@@ -1,4 +1,4 @@
-#E **Introducción a los Tipos de Billeteras Digitales**
+## **Introducción a los Tipos de Billeteras Digitales**
 
 En el mundo de las criptomonedas, uno de los primeros conceptos que vas a escuchar es el de la billetera digital, también conocida como wallet. A diferencia de las billeteras físicas donde guardas billetes y monedas, una billetera digital no almacena criptomonedas de forma literal, sino que guarda las claves privadas que te permiten acceder a tus fondos en la red blockchain.
 
@@ -11,3 +11,5 @@ Por ejemplo, algunas billeteras están diseñadas para usarse desde el celular o
 Lo más importante a entender desde el principio es que no existe una billetera perfecta para todo el mundo. En realidad, la mejor billetera será aquella que se adapte a tu situación personal, a tus objetivos y a tu nivel de experiencia. Si eres principiante, es posible que prefieras una opción sencilla y amigable. Si ya tienes más experiencia o manejas grandes cantidades, quizás priorices la seguridad por encima de la comodidad.
 
 En los siguientes apartados te vamos a explicar los principales tipos de billeteras que existen, sus ventajas y sus limitaciones, para ayudarte a tomar una decisión informada y segura.
+
+![a](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day39/image/Billetera%20fria%20y%20caliente.png)
