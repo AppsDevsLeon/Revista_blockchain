@@ -41,7 +41,7 @@ Las carteras pueden clasificarse según cómo y dónde almacenan tu clave privad
 - Rápidas y convenientes para el uso diario.
 - Ejemplos: Aplicaciones móviles, extensiones de navegador (como MetaMask).
 
-### ❄ **Carteras Frías (Cold Wallets)**
+###  **Carteras Frías (Cold Wallets)**
 - Almacenamiento fuera de línea de las claves privadas.
 - Ideales para almacenamiento seguro y a largo plazo.
 - Ejemplos: Carteras hardware como Ledger, Trezor, o carteras de papel.
