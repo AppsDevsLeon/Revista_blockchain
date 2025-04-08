@@ -30,18 +30,18 @@ Cuando envías criptomonedas a alguien, esto es lo que ocurre detrás de escena:
 
 ---
 
-![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%204%20abr%202025%2C%2017_01_18.png)
+![w1](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day36/images/ChatGPT%20Image%207%20abr%202025%2C%2022_49_36.png)
 
 ## **Tipos de Carteras y Cómo Operan**
 
 Las carteras pueden clasificarse según cómo y dónde almacenan tu clave privada:
 
-### 🔥 **Carteras Calientes (Hot Wallets)**
+###  **Carteras Calientes (Hot Wallets)**
 - Conectadas a internet.
 - Rápidas y convenientes para el uso diario.
 - Ejemplos: Aplicaciones móviles, extensiones de navegador (como MetaMask).
 
-### ❄️ **Carteras Frías (Cold Wallets)**
+### ❄ **Carteras Frías (Cold Wallets)**
 - Almacenamiento fuera de línea de las claves privadas.
 - Ideales para almacenamiento seguro y a largo plazo.
 - Ejemplos: Carteras hardware como Ledger, Trezor, o carteras de papel.
@@ -50,15 +50,15 @@ Las carteras pueden clasificarse según cómo y dónde almacenan tu clave privad
 
 ## **Custodia vs No Custodia**
 
-### 🏦 **Carteras Custodiadas**
+###  **Carteras Custodiadas**
 - Tus claves son gestionadas por un tercero (como un exchange).
 - Más fáciles para principiantes, pero con menor control.
 
-### 🔐 **Carteras No Custodiadas**
+###  **Carteras No Custodiadas**
 - Tú mantienes y controlas tus propias claves privadas.
 - Más seguras, pero **eres completamente responsable** del acceso.
 
-> ⚠️ **Recuerda**: Si no son tus claves, no es tu cripto.
+>  **Recuerda**: Si no son tus claves, no es tu cripto.
 
 ---
 
