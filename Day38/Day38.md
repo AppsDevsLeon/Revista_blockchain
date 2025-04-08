@@ -71,12 +71,17 @@ This document will guide you step by step to understand:
 
 ## **Seed Phrase**
 
+
+
 ### What Is It?
 
 - A sequence of **12, 18, or 24 random English words**.  
 - Acts as a **backup for your wallet**.  
 - If you change devices, you can restore your wallet with this phrase.  
 - **It equals your private key.**
+
+- 
+![i2](https://raw.githubusercontent.com/AppsDevsLeon/Revista_blockchain/refs/heads/main/Day38/images/ChatGPT%20Image%208%20abr%202025%2C%2003_44_28.png)
 
 ### Characteristics:
 
@@ -86,6 +91,7 @@ This document will guide you step by step to understand:
 - The order of the words is **crucial**.
 
 ---
+
 
 ## **How to Protect Your Seed Phrase**
 
