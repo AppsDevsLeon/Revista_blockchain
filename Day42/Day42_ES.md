@@ -84,4 +84,45 @@ KeepKey es otro dispositivo USB para almacenar criptomonedas. Ofrece altos nivel
 
 Las hardware wallets son una excelente opción para almacenar grandes cantidades de criptomonedas de forma segura. Con su alto nivel de seguridad, facilidad de uso y resistencia a ataques, estas wallets ofrecen una solución confiable para proteger tus activos en el mundo digital. No dudes en invertir en una hardware wallet si quieres mantener tus fondos seguros y fuera del alcance de posibles hackers.
 
+## **Soporte de Monedas y Blockchains en Dispositivos Trezor**
+
+## Comparativa de Modelos de Trezor
+
+| **Característica**               | **Trezor One**                          | **Trezor Model T**                      | **Trezor Safe 3**                      | **Trezor Safe 5**                      |
+|-----------------------------------|-----------------------------------------|-----------------------------------------|---------------------------------------|---------------------------------------|
+| **Display**                       | OLED                                    | Pantalla táctil a color                | OLED                                  | Pantalla táctil a color              |
+| **Tipo de Pantalla**              | Monocromática                           | Pantalla táctil a color completa       | Monocromática                         | Pantalla táctil a color completa     |
+| **Botones**                       | 2 botones físicos                       | Pantalla táctil para entrada           | 2 botones físicos                     | Pantalla táctil y escáner biométrico |
+| **Sistema Operativo**             | Trezor Suite o MyEtherWallet           | Trezor Suite o MyEtherWallet           | Trezor Suite o MyEtherWallet         | Trezor Suite o MyEtherWallet         |
+| **Respaldo y Recuperación**       | Semilla de recuperación                 | Semilla de recuperación, gestor de contraseñas | Semilla de recuperación, respaldo encriptado | Semilla de recuperación, respaldo encriptado, biometría |
+| **Seguridad**                     | Seguridad básica con PIN y frase secreta | Seguridad avanzada con PIN, frase secreta y encriptación | Seguridad estándar con PIN y frase secreta | Seguridad máxima con PIN, frase secreta, encriptación y biometría |
+| **Compatibilidad**                | Bitcoin, Ethereum y otras monedas       | Bitcoin, Ethereum y otras monedas       | Bitcoin, Ethereum y otras monedas     | Bitcoin, Ethereum y otras monedas     |
+| **Rango de Precio**               | $60 - $70                               | $160 - $180                             | $100 - $120                           | $200 - $250                           |
+
+## Monedas y Blockchains Soportadas
+
+### Trezor One y Trezor Model T
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Soporta los tokens ERC-20.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**: Algunos modelos permiten soporte limitado.
+- **Tether (USDT)**: Soporta Tether en su versión ERC-20.
+- **ERC-20 Tokens**: Como USDT, DAI, entre otros.
+
+### Trezor Safe 3 y Safe 5
+- **Bitcoin (BTC)**
+- **Bitcoin Cash (BCH)**
+- **Ethereum (ETH)**: Soporta los tokens ERC-20.
+- **Ethereum Classic (ETC)**
+- **Litecoin (LTC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Soporta USDT en su versión ERC-20 y TRC-20.
+- **Polkadot (DOT)**
+- **Cardano (ADA)**: Soporte en algunos modelos más recientes.
+- **Solana (SOL)**
+- **Avalanche (AVAX)**
+- **Binance Coin (BNB)**
+
 
