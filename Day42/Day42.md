@@ -81,3 +81,45 @@ These are small devices that connect via USB and can manage up to 22 cryptocurre
 KeepKey is another USB device for storing cryptocurrencies. It offers high levels of security and generates a 12-word recovery seed. It supports more than 40 cryptocurrencies and requires the **KeepKey Chrome** app to operate.
 
 Hardware wallets are an excellent option for securely storing large amounts of cryptocurrencies. With their high level of security, ease of use, and resistance to attacks, these wallets offer a reliable solution to protect your digital assets. Don't hesitate to invest in a hardware wallet if you want to keep your funds safe and out of the reach of potential hackers.
+
+## **Support for Coins and Blockchains in Trezor Devices**
+
+## Trezor Model Comparison
+
+| **Feature**                        | **Trezor One**                          | **Trezor Model T**                      | **Trezor Safe 3**                      | **Trezor Safe 5**                      |
+|------------------------------------|-----------------------------------------|-----------------------------------------|---------------------------------------|---------------------------------------|
+| **Display**                        | OLED                                    | Full-color touchscreen                  | OLED                                  | Full-color touchscreen                |
+| **Screen Type**                    | Monochrome                              | Full-color touchscreen                  | Monochrome                            | Full-color touchscreen                |
+| **Buttons**                        | 2 physical buttons                      | Touchscreen for input                   | 2 physical buttons                    | Touchscreen and biometric scanner     |
+| **Operating System**               | Trezor Suite or MyEtherWallet           | Trezor Suite or MyEtherWallet           | Trezor Suite or MyEtherWallet         | Trezor Suite or MyEtherWallet         |
+| **Backup & Recovery**              | Recovery seed                           | Recovery seed, password manager         | Recovery seed, encrypted backup       | Recovery seed, encrypted backup, biometrics |
+| **Security**                        | Basic security with PIN and passphrase  | Advanced security with PIN, passphrase, and encryption | Standard security with PIN and passphrase | Maximum security with PIN, passphrase, encryption, and biometrics |
+| **Compatibility**                  | Bitcoin, Ethereum, and other coins      | Bitcoin, Ethereum, and other coins      | Bitcoin, Ethereum, and other coins    | Bitcoin, Ethereum, and other coins    |
+| **Price Range**                    | $60 - $70                               | $160 - $180                             | $100 - $120                           | $200 - $250                           |
+
+## Supported Coins and Blockchains
+
+### Trezor One and Trezor Model T
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Supports ERC-20 tokens.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**: Some models support limited compatibility.
+- **Tether (USDT)**: Supports USDT in its ERC-20 version.
+- **ERC-20 Tokens**: Such as USDT, DAI, among others.
+
+### Trezor Safe 3 and Safe 5
+- **Bitcoin (BTC)**
+- **Bitcoin Cash (BCH)**
+- **Ethereum (ETH)**: Supports ERC-20 tokens.
+- **Ethereum Classic (ETC)**
+- **Litecoin (LTC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Supports USDT in both ERC-20 and TRC-20 versions.
+- **Polkadot (DOT)**
+- **Cardano (ADA)**: Support on some newer models.
+- **Solana (SOL)**
+- **Avalanche (AVAX)**
+- **Binance Coin (BNB)**
+
