@@ -177,4 +177,36 @@ Hardware wallets are an excellent option for securely storing large amounts of c
 - **Solana (SOL)**
 - **Avalanche (AVAX)**
 
+## **Support for Coins and Blockchains in KeepKey Devices**
+
+## KeepKey Model Comparison
+
+| **Feature**                        | **KeepKey**                             |
+|------------------------------------|-----------------------------------------|
+| **Display**                        | OLED screen                             |
+| **Screen Type**                    | Full-color screen                       |
+| **Buttons**                        | 1 physical button                       |
+| **Operating System**               | KeepKey Client, compatible with wallets like Electrum |
+| **Backup & Recovery**              | Recovery seed                           |
+| **Security**                        | Secure Element (SE)                     |
+| **Compatibility**                  | Bitcoin, Ethereum, and other coins      |
+| **Price Range**                    | $79 - $129                              |
+
+## Supported Coins and Blockchains
+
+### KeepKey
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Supports ERC-20 tokens.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Tether (USDT)**: Supports USDT in its ERC-20 version.
+- **ERC-20 Tokens**: Such as USDT, DAI, among others.
+- **Dogecoin (DOGE)**
+- **Dash (DASH)**
+- **Zcash (ZEC)**
+- **Bitcoin SV (BSV)**
+- **ERC-20 Tokens & More**: Through compatibility with applications like Electrum or MyEtherWallet.
+
+
 
