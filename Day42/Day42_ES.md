@@ -125,4 +125,91 @@ Las hardware wallets son una excelente opción para almacenar grandes cantidades
 - **Avalanche (AVAX)**
 - **Binance Coin (BNB)**
 
+## **Soporte de Monedas y Blockchains en Dispositivos Ledger**
+
+## Comparativa de Modelos de Ledger
+
+| **Característica**               | **Ledger Nano S**                       | **Ledger Nano X**                       | **Ledger Stax**                       |
+|-----------------------------------|-----------------------------------------|-----------------------------------------|---------------------------------------|
+| **Display**                       | OLED monocromático                      | OLED a color                           | Pantalla táctil a color               |
+| **Tipo de Pantalla**              | Monocromática                           | OLED a color                            | Pantalla táctil a color               |
+| **Botones**                       | 2 botones físicos                       | 2 botones físicos                       | Pantalla táctil                       |
+| **Sistema Operativo**             | Ledger Live                             | Ledger Live                             | Ledger Live                           |
+| **Respaldo y Recuperación**       | Semilla de recuperación                 | Semilla de recuperación                 | Semilla de recuperación               |
+| **Seguridad**                     | Elemento seguro (SE)                    | Elemento seguro (SE)                    | Elemento seguro (SE)                  |
+| **Compatibilidad**                | Bitcoin, Ethereum y otras monedas       | Bitcoin, Ethereum y otras monedas       | Bitcoin, Ethereum y otras monedas     |
+| **Rango de Precio**               | $59 - $79                               | $119 - $159                             | $279 - $299                           |
+
+## Monedas y Blockchains Soportadas
+
+### Ledger Nano S y Ledger Nano X
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Soporta los tokens ERC-20.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Soporta USDT en su versión ERC-20.
+- **Tokens ERC-20**: Como USDT, DAI, entre otros.
+- **Tezos (XTZ)**
+- **Binance Coin (BNB)**
+- **Stellar (XLM)**
+- **Cardano (ADA)**
+- **Polkadot (DOT)**
+- **Chainlink (LINK)**
+- **Cosmos (ATOM)**
+- **Solana (SOL)**
+
+### Ledger Stax
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Soporta los tokens ERC-20.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Soporta USDT en su versión ERC-20.
+- **Tokens ERC-20**: Como USDT, DAI, entre otros.
+- **Tezos (XTZ)**
+- **Binance Coin (BNB)**
+- **Stellar (XLM)**
+- **Cardano (ADA)**
+- **Polkadot (DOT)**
+- **Chainlink (LINK)**
+- **Cosmos (ATOM)**
+- **Solana (SOL)**
+- **Avalanche (AVAX)**
+
+  ## **Soporte de Monedas y Blockchains en Dispositivos KeepKey**
+
+## Comparativa de Modelos de KeepKey
+
+| **Característica**               | **KeepKey**                             |
+|-----------------------------------|-----------------------------------------|
+| **Display**                       | Pantalla OLED                           |
+| **Tipo de Pantalla**              | Pantalla a color                        |
+| **Botones**                       | 1 botón físico                          |
+| **Sistema Operativo**             | KeepKey Client, compatible con Wallets como Electrum |
+| **Respaldo y Recuperación**       | Semilla de recuperación                 |
+| **Seguridad**                     | Elemento seguro (SE)                    |
+| **Compatibilidad**                | Bitcoin, Ethereum y otras monedas       |
+| **Rango de Precio**               | $79 - $129                              |
+
+## Monedas y Blockchains Soportadas
+
+### KeepKey
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Soporta los tokens ERC-20.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Tether (USDT)**: Soporta USDT en su versión ERC-20.
+- **ERC-20 Tokens**: Como USDT, DAI, entre otros.
+- **Dogecoin (DOGE)**
+- **Dash (DASH)**
+- **Zcash (ZEC)**
+- **Bitcoin SV (BSV)**
+- **Token ERC-20 y más**: A través de la compatibilidad con aplicaciones como Electrum o MyEtherWallet.
+
+
+
 
