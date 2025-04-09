@@ -123,3 +123,58 @@ Hardware wallets are an excellent option for securely storing large amounts of c
 - **Avalanche (AVAX)**
 - **Binance Coin (BNB)**
 
+## **Support for Coins and Blockchains in Ledger Devices**
+
+## Ledger Model Comparison
+
+| **Feature**                        | **Ledger Nano S**                       | **Ledger Nano X**                       | **Ledger Stax**                       |
+|------------------------------------|-----------------------------------------|-----------------------------------------|---------------------------------------|
+| **Display**                        | Monochrome OLED                         | Full-color OLED                         | Full-color touchscreen                |
+| **Screen Type**                    | Monochrome                              | Full-color OLED                         | Full-color touchscreen                |
+| **Buttons**                        | 2 physical buttons                      | 2 physical buttons                      | Touchscreen                           |
+| **Operating System**               | Ledger Live                              | Ledger Live                              | Ledger Live                           |
+| **Backup & Recovery**              | Recovery seed                           | Recovery seed                           | Recovery seed                         |
+| **Security**                        | Secure Element (SE)                     | Secure Element (SE)                     | Secure Element (SE)                   |
+| **Compatibility**                  | Bitcoin, Ethereum, and other coins      | Bitcoin, Ethereum, and other coins      | Bitcoin, Ethereum, and other coins    |
+| **Price Range**                    | $59 - $79                               | $119 - $159                             | $279 - $299                           |
+
+## Supported Coins and Blockchains
+
+### Ledger Nano S and Ledger Nano X
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Supports ERC-20 tokens.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Supports USDT in ERC-20 version.
+- **ERC-20 Tokens**: Such as USDT, DAI, among others.
+- **Tezos (XTZ)**
+- **Binance Coin (BNB)**
+- **Stellar (XLM)**
+- **Cardano (ADA)**
+- **Polkadot (DOT)**
+- **Chainlink (LINK)**
+- **Cosmos (ATOM)**
+- **Solana (SOL)**
+
+### Ledger Stax
+- **Bitcoin (BTC)**
+- **Ethereum (ETH)**: Supports ERC-20 tokens.
+- **Bitcoin Cash (BCH)**
+- **Litecoin (LTC)**
+- **Ethereum Classic (ETC)**
+- **Ripple (XRP)**
+- **Tether (USDT)**: Supports USDT in ERC-20 version.
+- **ERC-20 Tokens**: Such as USDT, DAI, among others.
+- **Tezos (XTZ)**
+- **Binance Coin (BNB)**
+- **Stellar (XLM)**
+- **Cardano (ADA)**
+- **Polkadot (DOT)**
+- **Chainlink (LINK)**
+- **Cosmos (ATOM)**
+- **Solana (SOL)**
+- **Avalanche (AVAX)**
+
+
