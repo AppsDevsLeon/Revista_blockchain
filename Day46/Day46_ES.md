@@ -1,5 +1,5 @@
 
-## ¿Qué es una Criptomoneda?
+## **¿Qué es una Criptomoneda?**
 
 Una **criptomoneda** o **criptodivisa** es un tipo de moneda digital que utiliza técnicas de criptografía para proporcionar un sistema de pagos seguro. Estas técnicas de cifrado permiten:
 
@@ -11,7 +11,7 @@ Las criptomonedas no existen de forma física, pero permiten transacciones insta
 
 ---
 
-## 🧠 Origen de las Criptomonedas
+## **Origen de las Criptomonedas**
 
 A lo largo de la historia, han existido distintos medios de intercambio: el trueque, los metales preciosos, el papel moneda. Sin embargo, en la era digital, se hace necesario un medio de intercambio más moderno y seguro.
 
@@ -48,7 +48,7 @@ Las **criptomonedas** son monedas virtuales utilizadas para realizar operaciones
 
 ---
 
-## 📊 Top 10 Criptomonedas por Capitalización de Mercado (Abril 2025)
+## **Top 10 Criptomonedas por Capitalización de Mercado (Abril 2025)**
 
 | Posición | Criptomoneda | Símbolo | Precio Aproximado (USD) | Capitalización de Mercado (USD) | Dominancia (%) |
 |----------|--------------|---------|-------------------------|----------------------------------|----------------|
@@ -65,9 +65,6 @@ Las **criptomonedas** son monedas virtuales utilizadas para realizar operaciones
 
 > **Fuente de datos:** [CoinMarketCap](https://coinmarketcap.com)
 
----
-
-## ✅ Resumen
 
 - Las criptomonedas son monedas digitales basadas en criptografía que permiten transacciones seguras sin intermediarios.
 - Nacieron del movimiento cypherpunk y se consolidaron con la creación de Bitcoin en 2009.
