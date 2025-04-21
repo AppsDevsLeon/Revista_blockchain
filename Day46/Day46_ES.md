@@ -8,7 +8,6 @@ Una **criptomoneda** o **criptodivisa** es un tipo de moneda digital que utiliza
 - Eliminar la necesidad de un banco central u otra institución financiera como intermediario.
 
 Las criptomonedas no existen de forma física, pero permiten transacciones instantáneas a través de Internet, sin importar fronteras.
-
 ---
 
 ## **Origen de las Criptomonedas**
