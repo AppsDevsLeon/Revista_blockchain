@@ -33,7 +33,7 @@ Desde entonces, han surgido muchas otras criptomonedas llamadas **altcoins**, co
 
 ---
 
-## ❓ ¿Para qué sirve una Criptomoneda?
+## ¿Para qué sirve una Criptomoneda?
 
 Las **criptomonedas** son monedas virtuales utilizadas para realizar operaciones de compra y venta digital. Funcionan como cualquier divisa convencional, pero con la ventaja de no depender de gobiernos, bancos ni entidades financieras.
 
@@ -75,4 +75,4 @@ Las **criptomonedas** son monedas virtuales utilizadas para realizar operaciones
 ---
 
 ¿Quieres seguir aprendiendo sobre blockchain, tokens, wallets y más?  
-🧠 Visita: [CoinMarketCap - Aprende](https://coinmarketcap.com/alexandria/)
+Visita: [CoinMarketCap - Aprende](https://coinmarketcap.com/alexandria/)
